@@ -59,8 +59,8 @@ heroButtons:
 aboutTitle: "Sobre o GDG DevFest"
 aboutBlock:
  - {title: "Conferência", image: "conference.jpg", text: "O maior evento da Comunidade Google!" }
- - {title: "Workshops", image: "workshop.jpg", text: "" }
- - {title: "Exposição", image: "hackathon.jpg", text: "Uma área com exposição de tecnologias e aplicativos!" }
+ - {title: "Palestras", image: "workshop.jpg", text: "" }
+ - {title: "Experimentos", image: "hackathon.jpg", text: "Uma área com exposição de tecnologias e experimentos!" }
 
 # Statistic Block
 statisticBlock:
