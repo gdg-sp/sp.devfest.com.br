@@ -6,7 +6,7 @@ exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
 
 # Site Settings
 title: "DevFest SP 2014"
-email: "devfest@devfest.com.br"
+email: "sp@devfest.com.br"
 description: "DevFest São Paulo"
 baseurl: ""
 url: "http://sp.devfest.com.br"
@@ -144,12 +144,17 @@ footerBlocks:
    - {link: "http://www.meetup.com/GDG-ABC/", text: "Meetups GDG-ABC"}
    
  -
-  title: "Contacts"
+  title: "Contatos"
   links:
    - {link: "mailto:sp@devfest.com.br", text: "sp@devfest.com.br"}
+#   - {link: "tel:+5511983370955", text: "+55 11 983-370-955"}
+
+
+
+
 
 # Blog
-blogTitle: "Latest news"
+blogTitle: "Últimas novidades"
 blogCommentsEnabled: true
 discusShortName: "devfestsp"
 
@@ -158,13 +163,13 @@ showSessions: true
 thumbnailsFolder: /img/speakers/
 
 # Team Block
-teamBlockTitle: "About us"
+teamBlockTitle: "Sobre nós"
 aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
 
 # Logistics Find Way Block
 findWayTitle: "Como chegar aqui"
-logisticsMapCenterCoordinates: "49.056728, 3.117289"
-logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
+logisticsMapCenterCoordinates: "-23.557622,-46.668294"
+logisticsMapMobileCenterCoordinates: "-23.557622,-46.668294"
 
 # # Logistics Direction Details Block
 # directionDetailsTitle: "Get around Lviv"
