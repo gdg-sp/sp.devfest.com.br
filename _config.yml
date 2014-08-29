@@ -5,9 +5,9 @@ exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest SP 2014"
+title: "DevFest SP 2014"
 email: "devfest@devfest.com.br"
-description: "GDG DevFest São Paulo"
+description: "DevFest São Paulo"
 baseurl: ""
 url: "http://sp.devfest.com.br"
 permalink: "/blog/:title"
@@ -15,16 +15,16 @@ googleAnalyticsTrackingId: "UA-54291559-1"
 googleAnalyticsSiteUrl: "sp.devfest.com.br"
 
 # Organizer Info
-organizerName: "GDG SP"
-organizerAlternateName: "Google Developer Group SP"
+organizerName: "GDG São Paulo"
+organizerAlternateName: "Google Developer Group São Paulo"
 organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
+organizerEmail: "sp@devfest.com.br"
 organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+organizerLink: "http://gdgsp.org/"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
+metaKeywords: "event, gdg, devfest, google, programming, android, mobile, web, chrome, developers, saopaulo"
+#twitterAccount: "@DevFest"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
@@ -70,7 +70,7 @@ statisticBlock:
  - {count: "3", specialCharacter: "", info: "Trilhas Paralelas", detail: "e muitas novidades"}
 
 # Latest News Block
-latestNewsTitle: "Latest news"
+latestNewsTitle: "Últimas Notícias"
 
 # Rockstar Speakers Block
 rockstarSpeakersCount: 4
@@ -79,9 +79,9 @@ rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Local"
-eventLocationName: "Centro de Convenções Rebouças"
+eventLocationName: "Centro de Conven&ccedil;ões Rebou&ccedil;as"
 eventLocationLink: "http://www.convencoesreboucas.com.br/"
-eventStreetAddress: "Av. Rebouças, 600"
+eventStreetAddress: "Av. Rebou&ccedil;as, 600"
 eventAddressLocality: "São Paulo"
 eventAddressLocalityRegion: "SP"
 eventPostalCode: "05402-000"
@@ -104,8 +104,8 @@ mapMobileCenterCoordinates: "-23.557622,-46.668294"
 # twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=900"
 
 # Partners Block
-partnersTitle: "Partners"
-partnersC4sponsorsButton: "Become a sponsor"
+partnersTitle: "Patrocinadores"
+partnersC4sponsorsButton: "Seja um patrocinador"
 
 # # Organizers Block
 # organizersTitle: "Organizers"
@@ -151,7 +151,7 @@ footerBlocks:
 # Blog
 blogTitle: "Latest news"
 blogCommentsEnabled: true
-discusShortName: "devfestua"
+discusShortName: "devfestsp"
 
 # Speakers List Block
 showSessions: true
@@ -162,7 +162,7 @@ teamBlockTitle: "About us"
 aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
 
 # Logistics Find Way Block
-findWayTitle: "Find your way here"
+findWayTitle: "Como chegar aqui"
 logisticsMapCenterCoordinates: "49.056728, 3.117289"
 logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
 
