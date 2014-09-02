@@ -142,6 +142,7 @@ footerBlocks:
   links:
    - {link: "http://www.meetup.com/GDG-SP/", text: "Meetups GDG-SP"}
    - {link: "http://www.meetup.com/GDG-ABC/", text: "Meetups GDG-ABC"}
+   - {link: "http://gdgvaledoparaiba.com.br/", text: "Meetups GDG-Vale do Paraíba"}
    
  -
   title: "Contatos"
