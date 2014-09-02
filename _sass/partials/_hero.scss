@@ -20,6 +20,150 @@
             margin: 0 3px;
         }
     }
+    .places {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        .estacao-da-luz, .catedral-da-se, .masp, .ponte-estaiada {
+            opacity: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transition: opacity .8s ease-in-out;
+            -webkit-transition: opacity .8s ease-in-out;
+            .imgs {
+                position: absolute;
+                width: 80%;
+                max-width: 600px;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                .main-img {
+                    position: relative;
+                    width: 100%;
+                }
+                .arvore {
+                    position: absolute;
+                    bottom: 0;
+                }
+            }
+        }
+        .current-place {
+            opacity: 1;
+        }
+        .estacao-da-luz {
+            opacity: 1;
+            background: #984e05;
+            .arvore1-left {
+                width: 10%;
+                min-width: 25px;
+                max-width: 50px;
+                left: -14%;
+                z-index: 5;
+            }
+            .arvore2-left {
+                width: 15%;
+                min-width: 35px;
+                max-width: 70px;
+                left: -10%;
+            }
+            .arvore1-right {
+                width: 15%;
+                min-width: 35px;
+                max-width: 70px;
+                right: -15%;
+            }
+            .arvore2-right {
+                width: 10%;
+                min-width: 25px;
+                max-width: 50px;
+                right: -8%;
+                z-index: 5;
+            }
+        }
+        .catedral-da-se {
+            background: #496f1a;
+            .imgs {
+                opacity: 0.8;
+                max-width: 400px;
+            }
+            .arvore1-left {
+                width: 10%;
+                min-width: 25px;
+                max-width: 50px;
+                left: -5%;
+            }
+            .arvore2-left {
+                width: 15%;
+                min-width: 35px;
+                max-width: 70px;
+                left: -14%;
+                z-index: 5;
+            }
+            .arvore1-right {
+                width: 15%;
+                min-width: 35px;
+                max-width: 70px;
+                right: -7.5%;
+                z-index: 5;
+            }
+            .arvore2-right {
+                width: 10%;
+                min-width: 25px;
+                max-width: 50px;
+                right: -12.5%;
+            }
+        }
+        .masp {
+            background: #8e1e12;
+            .arvore1-left {
+                width: 15%;
+                min-width: 35px;
+                max-width: 70px;
+                left: -12%;
+            }
+            .arvore2-left {
+                width: 10%;
+                min-width: 25px;
+                max-width: 50px;
+                left: -15%;
+                z-index: 5;
+            }
+            .arvore1-right {
+                width: 15%;
+                min-width: 35px;
+                max-width: 70px;
+                right: -12%;
+            }
+            .arvore2-right {
+                width: 10%;
+                min-width: 25px;
+                max-width: 50px;
+                right: -15%;
+                z-index: 5;
+            }
+        }
+        .ponte-estaiada {
+            background: #104a9c;
+            .imgs {
+                max-width: 800px;
+            }
+        }
+    }
+    .bounce {
+        animation: bounce 1s backwards 1s;
+        -webkit-animation: bounce 1s backwards 1s;
+    }
+    @keyframes bounce {
+        0%   { bottom:-100%; animation-timing-function:ease-in;  }
+        37%  { bottom:0000%; animation-timing-function:ease-out; }
+        55%  { bottom:-033%; animation-timing-function:ease-in;  }
+        73%  { bottom:0000%; animation-timing-function:ease-out; }
+        82%  { bottom:-007%; animation-timing-function:ease-in;  }
+        91%  { bottom:0000%; animation-timing-function:ease-out; }
+        96%  { bottom:-002%; animation-timing-function:ease-in;  }
+        100% { bottom:0000%; }
+    }
 }
 .typeout-fallback {
     display: none;
