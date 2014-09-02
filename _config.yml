@@ -137,13 +137,12 @@ footerBlocks:
   links:
    - {link: "https://developers.google.com/groups/chapter/102774871279745079139/", text: "GDG-SP"}
    - {link: "https://developers.google.com/groups/chapter/108193462895935017410/", text: "GDG-ABC"}
+   - {link: "http://gdgvaledoparaiba.com.br/", text: "GDG-Vale do Paraíba"}
  -
   title: "Meetups"
   links:
    - {link: "http://www.meetup.com/GDG-SP/", text: "Meetups GDG-SP"}
    - {link: "http://www.meetup.com/GDG-ABC/", text: "Meetups GDG-ABC"}
-   - {link: "http://gdgvaledoparaiba.com.br/", text: "Meetups GDG-Vale do Paraíba"}
-   
  -
   title: "Contatos"
   links:
