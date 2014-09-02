@@ -22,7 +22,8 @@ O site ficará disponível em http://127.0.0.1:4000/
 Dentro do branch master:
 
 1. Comite suas mudanças
-2. Execute o comando abaixo
+2. Dê o push
+3. Execute o comando abaixo
 
 ```bash
     ./deploy.sh
