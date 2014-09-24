@@ -45,6 +45,7 @@ navigationLinks:
  - {link: "https://developers.google.com", text: "Desenvolvedores"}
 # bottomNavigationLinks:
  - {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
+ - {link: "https://docs.google.com/forms/d/1dVn4WmqAFiQm-4KKHMoUH5UgX-SWaWdLSATexr1lMyQ/viewform", text: "Seja um voluntário"}
 # rightNavigationButtons:
 #- {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
 
