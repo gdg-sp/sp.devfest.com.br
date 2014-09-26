@@ -11,7 +11,7 @@ description: "DevFest São Paulo"
 baseurl: ""
 url: "http://sp.devfest.com.br"
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: "UA-41212608-1"
+googleAnalyticsTrackingId: "UA-54291559-1"
 googleAnalyticsSiteUrl: "sp.devfest.com.br"
 
 # Organizer Info
