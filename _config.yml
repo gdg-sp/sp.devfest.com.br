@@ -44,13 +44,13 @@ navigationLinks:
  # - {permalink: "/logistics/", text: "Logistica"}
  - {link: "https://developers.google.com", text: "Desenvolvedores"}
 # bottomNavigationLinks:
- - {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
+# - {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
  - {link: "https://docs.google.com/forms/d/1dVn4WmqAFiQm-4KKHMoUH5UgX-SWaWdLSATexr1lMyQ/viewform", text: "Seja um voluntário"}
 # rightNavigationButtons:
 #- {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
 
 # Hero Block
-heroTitle: "GDG DevFest <typeout> 2014"
+heroTitle: "GDG DevFest São Paulo 2014"
 eventDate: "22 de Novembro de 2014"
 typeoutTextValues: '"Sampa", "SP", "São Paulo"'
 heroButtons:
@@ -117,16 +117,36 @@ partnersC4sponsorsButton: "Seja um patrocinador"
 # subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
 
 # # Buy Tickets Block
-# buyTicketsTitle: "Pricetable"
-# ticketsOffers:
-#  -
-#   name: "1 day"
-#   price: "$100"
-#   buyButtonLink: "http://dfua.ticketforevent.com/"
-#   buyButtonText: "Buy Now"
-#   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-#   validFrom: "2014-08-20T10:00"
-#   validThrough: "2014-10-23T23:59"
+buyTicketsTitle: "Inscreva-se"
+ ticketsOffers:
+  -
+   name: "Believe in the Force"
+   price: "R$100 + taxas"
+   buyButtonLink: "http://devfestsp.eventbrite.com/?aff=site"
+   buyButtonText: "Comprar"
+   #ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+   validFrom: "2014-10-01T00:00"
+   validThrough: "2014-10-15T23:59"
+
+  -
+   name: "Become a Jedi"
+   price: "$120"
+   buyButtonLink: "http://devfestsp.eventbrite.com/?aff=site"
+   buyButtonText: "Comprar"
+   #ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+   validFrom: "2014-10-16T00:00"
+   validThrough: "2014-10-31T23:59"
+
+  -
+   name: "The dark side"
+   price: "R$200"
+   buyButtonLink: "http://devfestsp.eventbrite.com/?aff=site"
+   buyButtonText: "Comprar"
+   #ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+   validFrom: "2014-11-01T00:00"
+   validThrough: "2014-11-16T23:59"
+
+
 
 # Footer
 socialLinks:
