@@ -1,19 +1,3 @@
-<<<<<<< HEAD
----
-layout: default
-permalink: /
----
-
- {% include hero.html %}
-
- {% include about.html %}
-
- {% include statistic.html %}
-
- {% include location-map.html %}
-
- {% include tickets.html %}
-=======
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,18 +13,18 @@ permalink: /
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="">
-    <meta name="twitter:title" content="DevFest SP 2014">
+    <meta name="twitter:title" content="Team">
     <meta name="twitter:description" content="DevFest São Paulo">
     <meta name="twitter:image:src" content="http://sp.devfest.com.br/img/seo/sharing-twitter.png">
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:title" content="DevFest SP 2014" /> 
+    <meta property="og:title" content="Team" /> 
     <meta property="og:site_name" content="DevFest SP 2014" /> 
     <meta property="og:type" content="website" /> 
     <meta property="og:url" content="http://sp.devfest.com.br" />
     <meta property="og:image" content="http://sp.devfest.com.br/img/seo/sharing-facebook.png" />
     <meta property="og:description" content="DevFest São Paulo" /> 
     
-    <title>DevFest SP 2014</title>
+    <title>Team &bull; DevFest SP 2014</title>
     <link rel="shortcut icon" href="/img/favicons/favicon.ico">
     <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png">
@@ -79,10 +63,10 @@ permalink: /
         <div class="st-pusher">
             <div class="st-content">
 
-                 <script src="/js/places_transition.js"></script>
+                 <!-- Begin Top Section -->
+<section id="top-section" class="top-section image-section">
+    <div class="overlay gradient-overlay"></div>
 
-<!-- Begin Hero Section -->
-<section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('/img/hero.jpg');">
     <header id="top-header" class="top-header">
     <svg id="menu-trigger" class="menu-trigger icon icon-menu visible-xs" viewBox="0 0 32 32" data-effect="st-effect">
         <use xlink:href="/img/sprites/sprites.svg#icon-menu"></use>
@@ -95,7 +79,7 @@ permalink: /
         <ul>
             
             <li>
-                <a class="current"  href=" / ">Home</a>
+                <a class=""  href=" / ">Home</a>
             </li>
             
             <li>
@@ -117,221 +101,197 @@ permalink: /
         
     </nav>
 </header>
-    <div class="places">
-      <div class="place estacao-da-luz">
-        <div class="imgs">
-          <img src="/img/svg/EstacaoDaLuz.svg" title="Estação da Luz" alt="Estação da Luz" class="main-img">
-          <img src="/img/svg/arvore1.svg" class="arvore arvore1-left">
-          <img src="/img/svg/arvore2.svg" class="arvore arvore2-left">
-          <img src="/img/svg/arvore1.svg" class="arvore arvore1-right">
-          <img src="/img/svg/arvore2.svg" class="arvore arvore2-right">
-        </div>
-      </div>
 
-      <div class="place catedral-da-se">
-        <div class="imgs">
-          <img src="/img/svg/CatedraldaSe.svg" title="Catedral da Sé" alt="Catedral da Sé" class="main-img">
-          <img src="/img/svg/arvore1.svg" class="arvore arvore1-left">
-          <img src="/img/svg/arvore2.svg" class="arvore arvore2-left">
-          <img src="/img/svg/arvore1.svg" class="arvore arvore1-right">
-          <img src="/img/svg/arvore2.svg" class="arvore arvore2-right">
+    <div class="jumbotron text-left">
+        <div class="animated hiding" data-animation="fadeInLeft" data-delay="500">
+            <h1>Team</h1>
         </div>
-      </div>
-
-      <div class="place masp">
-        <div class="imgs">
-          <img src="/img/svg/Masp.svg" title="Masp" alt="Masp" class="main-img">
-          <img src="/img/svg/arvore1.svg" class="arvore arvore1-left">
-          <img src="/img/svg/arvore2.svg" class="arvore arvore2-left">
-          <img src="/img/svg/arvore1.svg" class="arvore arvore1-right">
-          <img src="/img/svg/arvore2.svg" class="arvore arvore2-right">
-        </div>
-      </div>
-
-      <div class="place ponte-estaiada">
-        <div class="imgs">
-          <img src="/img/svg/PonteEstaiada.svg" title="Ponte Estaiada" alt="Ponte Estaiada" class="main-img">
-        </div>
-      </div>
-    </div>
-
-    <div class="content-wrapper">
-    <div class="jumbotron">
-        <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
-            
-            <h1>GDG DevFest <span id="typeout-text" class="hidden-xs"></span><span class="typeout-fallback"></span> 2014</h1>
-            <p>22 de Novembro de 2014</p>
-            
-            <a href="https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform" class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">Seja um palestrante</a>
-            
-        </div>
-    </div>
-    <a href="#about" class="explore">
-        <svg class="icon icon-arrow-down" viewBox="0 0 32 32">
-            <use xlink:href="/img/sprites/sprites.svg#icon-arrow-down"></use>
-        </svg>
-    </a>
     </div>
 </section>
-<!-- End Hero Section -->
+<!-- End Top Section -->
 
-
- <!-- About Section -->
-<section id="about" class="about">
+ <!-- Begin Team List-->
+<section id="team" class="team">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <h3>Sobre o GDG DevFest</h3>
-            <div class="row about-details">
-                
-                
-                
-                <div class="col-md-4 col-xs-6">  
-                    <div class="animated hiding" data-animation="fadeInDown" data-delay="0">
-                        <h5>Conferência</h5>
-                        <img class="img-circle" src="/img/conference.jpg" height="128" width="128" alt="Conferência">
-                        <p>O maior evento da Comunidade Google!</p>
-                    </div>
+            <h3>Sobre nós</h3>
+            <p class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences.</p>
+        </div>
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Organizers</h4>
+             
+            <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
+                <div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-0">
+                    <figure class="waves-effect waves-block waves-light" style="background-image: url(/img/speakers/VitaliyZasadnyy.jpg)">
+                        <div class="overlay solid-overlay"></div>
+                        <figcaption>
+                            <div class="col-md-8 col-xs-8 text-left">
+                                <h2 class="name">Vitaliy <span>Zasadnyy</span></h2>
+                                <div class="clearfix"></div>
+                                <span class="position">Sponsors and Speakers Manager</span>
+                            </div>
+                            
+                            <a href="https://google.com/+VitalikZasadnyy" target="_blank">
+                                <svg class="icon icon-google-plus" viewBox="0 0 30 32">
+                                    <use xlink:href="/img/sprites/sprites.svg#icon-google-plus"></use>
+                                </svg>
+                            </a>
+                            
+                            <a href="https://twitter.com/zasadnyy" target="_blank">
+                                <svg class="icon icon-twitter" viewBox="0 0 30 32">
+                                    <use xlink:href="/img/sprites/sprites.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                            
+                            <a href="https://github.com/zasadnyy" target="_blank">
+                                <svg class="icon icon-github" viewBox="0 0 30 32">
+                                    <use xlink:href="/img/sprites/sprites.svg#icon-github"></use>
+                                </svg>
+                            </a>
+                            
+                            <a href="http://zasadnyy.com/" target="_blank">
+                                <svg class="icon icon-site" viewBox="0 0 30 32">
+                                    <use xlink:href="/img/sprites/sprites.svg#icon-site"></use>
+                                </svg>
+                            </a>
+                            
+                        </figcaption>
+                    </figure>
                 </div>
-                
-                
-                
-                
-                
-                <div class="col-md-4 col-xs-6">  
-                    <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
-                        <h5>Palestras</h5>
-                        <img class="img-circle" src="/img/workshop.jpg" height="128" width="128" alt="Palestras">
-                        <p></p>
-                    </div>
-                </div>
-                
-                
-                 <div class="clearfix visible-xs"></div> 
-                
-                
-                <div class="col-md-4 col-xs-6">  
-                    <div class="animated hiding" data-animation="fadeInDown" data-delay="1000">
-                        <h5>Experimentos</h5>
-                        <img class="img-circle" src="/img/hackathon.jpg" height="128" width="128" alt="Experimentos">
-                        <p>Uma área com exposição de tecnologias e experimentos!</p>
-                    </div>
-                </div>
-                
-                
-                
-                
             </div>
+              
+            <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
+                <div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-1">
+                    <figure class="waves-effect waves-block waves-light" style="background-image: url(/img/speakers/OlehZasadnyy.jpg)">
+                        <div class="overlay solid-overlay"></div>
+                        <figcaption>
+                            <div class="col-md-8 col-xs-8 text-left">
+                                <h2 class="name">Oleh <span>Zasadnyy</span></h2>
+                                <div class="clearfix"></div>
+                                <span class="position">Designer</span>
+                            </div>
+                            
+                            <a href="https://google.com/+OlehZasadnyy" target="_blank">
+                                <svg class="icon icon-google-plus" viewBox="0 0 30 32">
+                                    <use xlink:href="/img/sprites/sprites.svg#icon-google-plus"></use>
+                                </svg>
+                            </a>
+                            
+                            <a href="https://github.com/ozasadnyy" target="_blank">
+                                <svg class="icon icon-github" viewBox="0 0 30 32">
+                                    <use xlink:href="/img/sprites/sprites.svg#icon-github"></use>
+                                </svg>
+                            </a>
+                            
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+              
+            <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
+                <div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-2">
+                    <figure class="waves-effect waves-block waves-light" style="background-image: url(/img/speakers/OstapAndrusiv.jpg)">
+                        <div class="overlay solid-overlay"></div>
+                        <figcaption>
+                            <div class="col-md-8 col-xs-8 text-left">
+                                <h2 class="name">Ostap <span>Andrusiv</span></h2>
+                                <div class="clearfix"></div>
+                                <span class="position">Sponsors and Speakers Manager</span>
+                            </div>
+                            
+                            <a href="https://google.com/+OstapAndrusiv" target="_blank">
+                                <svg class="icon icon-google-plus" viewBox="0 0 30 32">
+                                    <use xlink:href="/img/sprites/sprites.svg#icon-google-plus"></use>
+                                </svg>
+                            </a>
+                            
+                            <a href="https://twitter.com/p1f" target="_blank">
+                                <svg class="icon icon-twitter" viewBox="0 0 30 32">
+                                    <use xlink:href="/img/sprites/sprites.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                            
+                            <a href="http://andrusiv.com/" target="_blank">
+                                <svg class="icon icon-site" viewBox="0 0 30 32">
+                                    <use xlink:href="/img/sprites/sprites.svg#icon-site"></use>
+                                </svg>
+                            </a>
+                            
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+                 
+        </div>
+        <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Program committee</h4>
+                   
+            <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
+                <div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-4">
+                    <figure class="waves-effect waves-block waves-light" style="background-image: url(/img/speakers/DmytroDanylyk.jpg)">
+                        <div class="overlay solid-overlay"></div>
+                        <figcaption>
+                            <div class="col-md-8 col-xs-8 text-left">
+                                <h2 class="name">Dmytro <span>Danylyk</span></h2>
+                                <div class="clearfix"></div>
+                                <span class="position">Android Program Committee</span>
+                            </div>
+                            
+                            <a href="https://plus.google.com/+DmytroDanylyk" target="_blank">
+                                <svg class="icon icon-google-plus" viewBox="0 0 30 32">
+                                    <use xlink:href="/img/sprites/sprites.svg#icon-google-plus"></use>
+                                </svg>
+                            </a>
+                            
+                            <a href="https://twitter.com/dmytrodanylyk" target="_blank">
+                                <svg class="icon icon-twitter" viewBox="0 0 30 32">
+                                    <use xlink:href="/img/sprites/sprites.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                            
+                            <a href="https://github.com/dmytrodanylyk" target="_blank">
+                                <svg class="icon icon-github" viewBox="0 0 30 32">
+                                    <use xlink:href="/img/sprites/sprites.svg#icon-github"></use>
+                                </svg>
+                            </a>
+                            
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+              
+            <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
+                <div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-7">
+                    <figure class="waves-effect waves-block waves-light" style="background-image: url(/img/speakers/ValentynShybanov.jpg)">
+                        <div class="overlay solid-overlay"></div>
+                        <figcaption>
+                            <div class="col-md-8 col-xs-8 text-left">
+                                <h2 class="name">Valentyn <span>Shybanov</span></h2>
+                                <div class="clearfix"></div>
+                                <span class="position">Web and Cloud Program Committee</span>
+                            </div>
+                            
+                            <a href="https://google.com/+ValentynShybanov" target="_blank">
+                                <svg class="icon icon-google-plus" viewBox="0 0 30 32">
+                                    <use xlink:href="/img/sprites/sprites.svg#icon-google-plus"></use>
+                                </svg>
+                            </a>
+                            
+                            <a href="http://olostan.name/" target="_blank">
+                                <svg class="icon icon-site" viewBox="0 0 30 32">
+                                    <use xlink:href="/img/sprites/sprites.svg#icon-site"></use>
+                                </svg>
+                            </a>
+                            
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+             
         </div>
     </div>
 </section>
-<!-- End About Section -->
-
-
- <!-- Begin Statistic Section -->
-<section id="statistic" class="statistic image-section parallax" style="background-image: url(/img/statistic.jpg);">
-	<div class="overlay solid-overlay"></div>
-	<div class="content-wrapper">
-		<div class="col-lg-10 col-lg-offset-1">
-			
-            
-            
-            <div class="col-md-4 col-xs-6">  
-                <div class="counter animated hiding" data-animation="fadeInDown" data-delay="0">
-                    <div class="stat"><span class="timer" data-from="0" data-to="450">450</span>+</div>
-					<div class="stat-info">participantes</div>
-					<hr>
-					<p class="small">de todo lugar</p>
-                </div>
-            </div>
-            
-            
-            
-            
-            
-            <div class="col-md-4 col-xs-6">  
-                <div class="counter animated hiding" data-animation="fadeInDown" data-delay="500">
-                    <div class="stat"><span class="timer" data-from="0" data-to="20">20</span>+</div>
-					<div class="stat-info">horas</div>
-					<hr>
-					<p class="small">de pura tecnologia Google</p>
-                </div>
-            </div>
-            
-            
-             <div class="clearfix visible-xs"></div> 
-            
-            
-            <div class="col-md-4 col-xs-6">  
-                <div class="counter animated hiding" data-animation="fadeInDown" data-delay="1000">
-                    <div class="stat"><span class="timer" data-from="0" data-to="3">3</span></div>
-					<div class="stat-info">Trilhas Paralelas</div>
-					<hr>
-					<p class="small">e muitas novidades</p>
-                </div>
-            </div>
-            
-            
-            
-            
-		</div>
-	</div>
-</section>
-<!-- End Statistic Section -->
-
- <!-- Begin Location Section -->
-<section id="location-map" class="location-map">
-    <div id="canvas-map" class="canvas-map"></div>
-    <div class="content-wrapper">
-        <div class="col-lg-3 col-md-4 col-sm-6 col-md-offset-1 animated hiding location-description text-left" data-animation="fadeInLeft" data-delay="0">
-            <div class="row">
-                <div class="pull-left">
-                    <h3>Local</h3>
-                    <ul>
-                        <li>Centro de Conven&ccedil;ões Rebou&ccedil;as</li>
-                        <li>Av. Rebou&ccedil;as, 600, São Paulo</li>
-                        <li><a href="mailto:sp@devfest.com.br">sp@devfest.com.br</a></li>
-                        <li>
-                            
-                            <time>8:00</time> -
-                            
-                            <time>18:00</time>
-                        </li>
-                    </ul>
-                </div>
-                <a href="/logistics/#find-way" class="pull-right">
-                    <svg class="icon icon-direction" viewBox="0 0 32 32">
-                        <use xlink:href="img/sprites/sprites.svg#icon-direction"></use>
-                    </svg>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- End Location Section -->
->>>>>>> 54c1e1908af35324e565cd0611d19585f8f86753
-
- 
-<!-- 
- { include latest-news.html %}
-
- { include rockstar-speakers.html %}
-
- 
-
- { include venue.html %}
- 
- { include twitter-feed.html %}
-
- { include partners.html %}
-
- { include subscribe.html %}
-
- { include tickets.html %}
-
- { include tickets-2.html %} -->
-
-<<<<<<< HEAD
-=======
+<!-- End Team List -->
  
 
                 <!-- Begin Footer -->
@@ -412,6 +372,23 @@ permalink: /
     </div>
 
      
+    	<!-- Begin Speakers Modals -->
+<div class="modals" class="modals">
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+</div>
+<!-- End Speakers Modals -->
+ 
+     
 
      
 
@@ -437,63 +414,9 @@ permalink: /
     }
     </script>
     <script src="/js/default.js"></script>
-    
-        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
      
     <script>
         Waves.displayEffect();
-        
-            var googleMaps = 'index',
-                eventPlace = new google.maps.LatLng(-23.557622,-46.668294),
-                centerMap = new google.maps.LatLng(-23.557622,-46.668294),
-                mobileCenterMap = new google.maps.LatLng(-23.557622,-46.668294),
-                icon = '/img/svg/map-marker.svg';
-            var twitterFeedUrl = '';
-            $(document).ready(function () {
-                $(function () {
-                    if ($(window).width() > 767) {
-                        $("#typeout-text").typed({
-                            strings: ["Sampa", "SP", "São Paulo"],
-                            typeSpeed: 150,
-                            backDelay: 900,
-                            loop: true
-                        });
-                    }
-                });
-                var rockstarSpeakers = [
-                    
-                        
-                        {name: "Dawid Ostrowski", company: "Google Poland", image: "/img/speakers/DawidOstrowski.jpg"},
-                        
-                    
-                        
-                        {name: "Dmytro Danylyk", company: "Lemberg Solutions Limited", image: "/img/speakers/DmytroDanylyk.jpg"},
-                        
-                    
-                        
-                        {name: "Mateusz Herych", company: "Base CRM, GDG Krakow", image: "/img/speakers/MateuszHerych.jpg"},
-                        
-                    
-                        
-                        {name: "Roman Mazur", company: "Stanfy, GDG Kyiv", image: "/img/speakers/RomanMazur.jpg"},
-                        
-                    
-                        
-                        {name: "Valentyn Shybanov", company: "Twinfield, GDG Kyiv", image: "/img/speakers/ValentynShybanov.jpg"}
-                        
-                    
-                ];
-                rockstarSpeakers.sort(function() {return 0.5 - Math.random()});
-                if(rockstarSpeakers.length > 0) {
-                    var animationDelay = 1500,
-                        count = 4,
-                        colWidth = 12/count;
-                    for(i=0; i<count; i++) {
-                        $('#rockstar-speaker-title').after('<div class="col-md-'+ colWidth +' col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + '</div></div></div>');
-                        animationDelay -= 500;
-                    }
-                }
-            });
          
     </script>
     <script src="/js/scripts.min.js"></script>
@@ -612,4 +535,3 @@ permalink: /
 </body>
 
 </html>
->>>>>>> 54c1e1908af35324e565cd0611d19585f8f86753

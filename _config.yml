@@ -61,8 +61,6 @@ heroButtons:
 
 
 
-
-
 # About Block
 aboutTitle: "Sobre o GDG DevFest"
 aboutBlock:
@@ -84,6 +82,8 @@ latestNewsTitle: "Últimas Notícias"
 rockstarSpeakersCount: 4
 rockstarSpeakersTitle: "Rockstar speakers"
 rockstarSpeakersButtonText: "See all speakers"
+
+
 
 
 
@@ -155,8 +155,6 @@ ticketsOffers:
 #  #ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
 #  validFrom: "2014-11-01T00:00"
 #  validThrough: "2014-11-16T23:59"
-
-
 
 # Footer
 socialLinks:
