@@ -1,0 +1,225 @@
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
+
+
+# Site Settings
+title: "DevFest SP 2014"
+email: "sp@devfest.com.br"
+description: "DevFest São Paulo"
+baseurl: ""
+url: "http://sp.devfest.com.br"
+permalink: "/blog/:title"
+googleAnalyticsTrackingId: "UA-54291559-1"
+googleAnalyticsSiteUrl: "sp.devfest.com.br"
+
+# Organizer Info
+organizerName: "GDG São Paulo"
+organizerAlternateName: "Google Developer Group São Paulo"
+organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
+organizerEmail: "sp@devfest.com.br"
+organizerLogo: "/img/seo/organizer-logo.png"
+organizerLink: "http://gdgsp.org/"
+
+# Head
+metaKeywords: "event, gdg, devfest, google, programming, android, mobile, web, chrome, developers, saopaulo"
+#twitterAccount: "@DevFest"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Documents
+c4pUrl: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform"
+c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ # - {permalink: "/blog/", text: "Blog"}
+ # - {permalink: "/schedule/", text: "Agenda"}
+ # - {permalink: "/speakers/", text: "Palestrantes"}
+ # - {permalink: "/team/", text: "Time"}
+ # - {permalink: "/logistics/", text: "Logistica"}
+ - {link: "https://developers.google.com", text: "Desenvolvedores"}
+# bottomNavigationLinks:
+ - {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
+ - {link: "https://docs.google.com/forms/d/1dVn4WmqAFiQm-4KKHMoUH5UgX-SWaWdLSATexr1lMyQ/viewform", text: "Seja um voluntário"}
+# rightNavigationButtons:
+#- {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
+
+# Hero Block
+heroTitle: "GDG DevFest <typeout> 2014"
+eventDate: "22 de Novembro de 2014"
+typeoutTextValues: '"Sampa", "SP", "São Paulo"'
+heroButtons:
+ - {url: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
+
+# About Block
+aboutTitle: "Sobre o GDG DevFest"
+aboutBlock:
+ - {title: "Conferência", image: "conference.jpg", text: "O maior evento da Comunidade Google!" }
+ - {title: "Palestras", image: "workshop.jpg", text: "" }
+ - {title: "Experimentos", image: "hackathon.jpg", text: "Uma área com exposição de tecnologias e experimentos!" }
+
+# Statistic Block
+statisticBlock:
+ - {count: "450", specialCharacter: "+", info: "participantes", detail: "de todo lugar"}
+ - {count: "20", specialCharacter: "+", info: "horas", detail: "de pura tecnologia Google"}
+ #- {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
+ - {count: "3", specialCharacter: "", info: "Trilhas Paralelas", detail: "e muitas novidades"}
+
+# Latest News Block
+latestNewsTitle: "Últimas Notícias"
+
+# Rockstar Speakers Block
+rockstarSpeakersCount: 4
+rockstarSpeakersTitle: "Rockstar speakers"
+rockstarSpeakersButtonText: "See all speakers"
+
+# Location Block
+locationBlockTitle: "Local"
+eventLocationName: "Centro de Conven&ccedil;ões Rebou&ccedil;as"
+eventLocationLink: "http://www.convencoesreboucas.com.br/"
+eventStreetAddress: "Av. Rebou&ccedil;as, 600"
+eventAddressLocality: "São Paulo"
+eventAddressLocalityRegion: "SP"
+eventPostalCode: "05402-000"
+eventAddressCountry: "Brasil"
+eventStartTime: "2014-11-22T8:00"
+eventDoorTime: "09:00"
+eventEndTime: "2014-10-24T18:00"
+eventPlaceCoordinates: "-23.557622,-46.668294"
+mapCenterCoordinates: "-23.557622,-46.668294"
+mapMobileCenterCoordinates: "-23.557622,-46.668294"
+
+# # Venue Block
+# venueBlockTitle: "Venue"
+# venueTitle: "Kinopalace Cinema"
+# venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+
+# # Tweets Feed Block
+# tweetsFeedTitle: "What's Up?"
+# twitterHashTag: "devfest"
+# twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=900"
+
+# Partners Block
+partnersTitle: "Patrocinadores"
+partnersC4sponsorsButton: "Seja um patrocinador"
+
+# # Organizers Block
+# organizersTitle: "Organizers"
+
+# # Subscribe Block
+# subscribeTitle: "Subscribe for updates"
+# subscribeAction: "http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
+# subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+
+# # Buy Tickets Block
+buyTicketsTitle: "Inscreva-se"
+ ticketsOffers:
+  -
+   name: "Believe in the Force"
+   price: "R$100 + taxas"
+   buyButtonLink: "http://devfestsp.eventbrite.com/?aff=site"
+   buyButtonText: "Comprar"
+   #ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+   validFrom: "2014-10-01T00:00"
+   validThrough: "2014-10-15T23:59"
+
+  -
+   name: "Become a Jedi"
+   price: "$120"
+   buyButtonLink: "http://devfestsp.eventbrite.com/?aff=site"
+   buyButtonText: "Comprar"
+   #ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+   validFrom: "2014-10-16T00:00"
+   validThrough: "2014-10-31T23:59"
+
+  -
+   name: "The dark side"
+   price: "R$200"
+   buyButtonLink: "http://devfestsp.eventbrite.com/?aff=site"
+   buyButtonText: "Comprar"
+   #ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+   validFrom: "2014-11-01T00:00"
+   validThrough: "2014-11-16T23:59"
+
+
+
+# Footer
+socialLinks:
+ - {link: "https://plus.google.com/+GdgspOrg", icon: "google-plus"}
+ 
+footerBlocks:
+ -
+  title: "Grupos"
+  links:
+   - {link: "https://developers.google.com/groups/chapter/102774871279745079139/", text: "GDG-SP"}
+   - {link: "https://developers.google.com/groups/chapter/108193462895935017410/", text: "GDG-ABC"}
+   - {link: "http://gdgvaledoparaiba.com.br/", text: "GDG-Vale do Paraíba"}
+ -
+  title: "Meetups"
+  links:
+   - {link: "http://www.meetup.com/GDG-SP/", text: "Meetups GDG-SP"}
+   - {link: "http://www.meetup.com/GDG-ABC/", text: "Meetups GDG-ABC"}
+ -
+  title: "Contatos"
+  links:
+   - {link: "mailto:sp@devfest.com.br", text: "sp@devfest.com.br"}
+#   - {link: "tel:+5511983370955", text: "+55 11 983-370-955"}
+
+
+
+
+
+# Blog
+blogTitle: "Últimas novidades"
+blogCommentsEnabled: true
+discusShortName: "devfestsp"
+
+# Speakers List Block
+showSessions: true
+thumbnailsFolder: /img/speakers/
+
+# Team Block
+teamBlockTitle: "Sobre nós"
+aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
+
+# Logistics Find Way Block
+findWayTitle: "Como chegar aqui"
+logisticsMapCenterCoordinates: "-23.557622,-46.668294"
+logisticsMapMobileCenterCoordinates: "-23.557622,-46.668294"
+
+# # Logistics Direction Details Block
+# directionDetailsTitle: "Get around Lviv"
+# directionDetailsCards:
+#  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
+#  - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
+#  - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
+# directionDetailsWideCards: 
+#  -
+#   title: "Questions?"
+#   subCards:
+#    -
+#     title: "Hotels"
+#     links:
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+#    - 
+#     title: "Registration"
+#     links:
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+#    -
+#     title: "Attendance Details"
+#     links:
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
