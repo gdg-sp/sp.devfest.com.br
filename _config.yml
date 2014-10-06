@@ -44,17 +44,18 @@ navigationLinks:
  # - {permalink: "/logistics/", text: "Logistica"}
  - {link: "https://developers.google.com", text: "Desenvolvedores"}
 # bottomNavigationLinks:
- - {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
+# - {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
  - {link: "https://docs.google.com/forms/d/1dVn4WmqAFiQm-4KKHMoUH5UgX-SWaWdLSATexr1lMyQ/viewform", text: "Seja um voluntário"}
 # rightNavigationButtons:
 #- {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
 
 # Hero Block
-heroTitle: "GDG DevFest <typeout> 2014"
+heroTitle: "GDG DevFest São Paulo 2014"
 eventDate: "22 de Novembro de 2014"
 typeoutTextValues: '"Sampa", "SP", "São Paulo"'
 heroButtons:
- - {url: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
+# - {url: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
+ - {url: "http://devfestsp.eventbrite.com/?aff=site", text: "Inscreva-se"}
 
 # About Block
 aboutTitle: "Sobre o GDG DevFest"
