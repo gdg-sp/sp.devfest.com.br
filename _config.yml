@@ -197,7 +197,7 @@ blogCommentsEnabled: true
 discusShortName: "devfestsp"
 
 # Speakers List Block
-showSessions: true
+showSessions: false
 thumbnailsFolder: /img/speakers/
 
 # Team Block
