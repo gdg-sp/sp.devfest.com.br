@@ -97,3 +97,63 @@
   rockstar: false
   social: 
     - {name: "google-plus", link: "https://plus.google.com/107984865640989254612" }
+-
+  id: 9
+  name: "Luiz F."
+  surname: "Corte Real"
+  company: "Caelum"
+  title: "Desenvolvedor e instrutor"
+  bio: "Trabalho como desenvolvedor e instrutor na Caelum, focado nos cursos de front-end. Também sou um dos responsáveis pelos cursos de front-end do Alura e um dos autores do livro 'Coletânea Front-end'. Mas minha formação é de back-end: sou mestre em Ciência da Computação pela USP. Por isso, gosto muito de opensource, novidades do mercado, paradigmas e boas práticas de programação."
+  thumbnailUrl: luiz_corte.jpg
+  rockstar: false
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/117413901265229708491" }
+-
+  id: 10
+  name: "Luiz Gustavo"
+  surname: "Martins"
+  company: "Tripket"
+  title: "Mobile Application Developer"
+  bio: "Luiz Gustavo Martins é Mestre e Bacharel em Ciência da Computação pela Universidade de São Paulo, trabalha a 14 anos com desenvolvimento de software de risco de Mercado e de Crédito. Criador do Guia Tv Br e do Farejador do Planalto. "
+  thumbnailUrl: luiz_gustavo.jpg
+  rockstar: false
+  social: 
+    - { name: "google-plus", link: "https://plus.google.com/+LuizGustavoMartins"}
+-
+  id: 11
+  name: "Shankar"
+  surname: "Cabus"
+  company: "JusBrasil"
+  title: "Frontender"
+  bio: "Entrou no mundo web em 2001, mas só em 2009 deixou de ser 'sobrinho' e passou a trabalhar profissionalmente como frontender e web designer do JusBrasil, onde desenvolveu paixão pelo HTML, CSS, JavaScript, Web Design, SEO, performance e tudo que atinge o coração do usuário. É graduado em Sistema de Informação pela UNEB e fundador do grupo Frontend Bahia. Nas horas vagas, gosta de surfar e tomar uma cervejinha com os amigos!"
+  thumbnailUrl: shankar_cabus.jpg
+  rockstar: false
+  social: 
+    - { name: "google-plus", link: "http://plus.google.com/115150277069386889606"}
+-
+  id: 12
+  name: "Ubiratan"
+  surname: "Soares"
+  company: "Eicon"
+  title: "Engenheiro de Software"
+  bio: "Ubiratan Soares é Engenheiro de Software especializado em Android, e antes de tudo, um curioso. Formado em Ciências da Computação pela Universidade de São Paulo, é também Instrutor na Globalcode, Intel Software Innovator para Android, palestrante, membro ativo da comunidade de desenvolvimento de Sampa e região, freelancer, pai de um lindo menino e outros - em qualquer ordem!"
+  thumbnailUrl: ubiratan_soares.jpg
+  rockstar: false
+  social: 
+    - { name: "google-plus", link: "https://plus.google.com/+UbiratanSoares"}
+-
+  id: 13
+  name: "Luis"
+  surname: "Cipriani"
+  company: "Twitter"
+  title: "Developer Advocate"
+  bio: "Started my career as a software engineering consultant in financial companies, supporting the planning and execution of tests in a quality assurance department. Also get involved with Software Development Process tailoring for several areas. I'm still learning computer science and want to focus even more on Artificial Intelligence, Machine Learning, Big Data solutions and NLP."
+  thumbnailUrl: luis_cipriani.jpg
+  rockstar: false
+  social: 
+    - { name: "twitter", link: "https://twitter.com/lfcipriani"}
+
+
+
+
+
