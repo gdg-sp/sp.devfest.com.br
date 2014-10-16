@@ -5,7 +5,7 @@
   company: "Google Developer Group São Paulo"
   title: "Community Manager Consultant"
   bio: "Desenvolvedor web desde 2000, fui criador do sms2blog, primeiro gateway sms para Twitter no Brasil e trabalhei em agências digitais para marcas como Google, Coca-Cola, Nestlé, Itaucard, Fiat, GE, Globo Minas, Iveco, Usiminas, Vivo e Yamaha."
-  thumbnailUrl: luis_leao.jpg
+  thumbnailUrl: luisleao.jpg
   rockstar: true
   ribbon:
     - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/102774871279745079139/"}
@@ -43,7 +43,7 @@
   surname: "Nunes"
   company: "Questrade"
   title: "Senior Front-end Engineer"
-  bio: "Me interesso por arquiteturas Front-end de larga escala, testes automatizados, boas práticas, design patterns, performance, controle de versão e ferramentas."
+  bio: "Ciro é Senior Front-end Engineer na Questrade e o único Google Developer Expert em AngularJS da América Latina. É contribuidor do core do Angular e um mantenedor do Karma. Ele também revisa livros, organiza meetups e ministra cursos sobre o framework mais badalado do momento, além de palestrar em eventos pelo Brasil."
   thumbnailUrl: ciro_nunes.jpg
   rockstar: true
   ribbon:
@@ -56,11 +56,21 @@
   surname: "Viveiros"
   company: "CI&T"
   title: "Gerente de Tecnologia"
-  bio: "Adoro tecnologia! Sempre gostei e fui viciado em tecnologia. Meu objetivo é criar coisas incríveis e disruptivas para nossos clientes (em geral, grandes empresas) usando as melhores e mais modernas tecnologias para isso. Serviços em nuvem, integração com redes sociais, aprendizado de máquina, dispositivos móveis e todo o espectro de ferramentas de analytics são exemplos de áreas de interesse."
+  bio: "Daniel Vieira Viveiros é um GDE (Google Developer Expert) de Google Cloud Platform e atua também como Head of Technology da CI&T. Há mais de 13 anos trabalhando com arquitetura de software e de sistemas, já projetou e liderou projetos de desenvolvimento de software distribuídos e complexos para grandes empresas como TV Globo, Natura e Ambev. Hoje é responsável pela área de inovação e desenvolvimento de competências tecnológicas de ponta na CI&T na plataforma Google, incluindo social integration e machine learning."
   thumbnailUrl: daniel_viveiros.jpg
   rockstar: true
   ribbon:
     - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+DanielViveiros"}
-
+-
+  id: 6
+  name: "Alexandre"
+  surname: "Tarifa"
+  company: "Minha Vida"
+  title: "CTO and Partner"
+  bio: "Bacharel em Ciência da Computação pela Universidade Metodista de São Paulo e pós-graduado em Ciência da Computação pela Universidade Federal de São Carlos, atua há 16 anos no mercado de tecnologia da informação."
+  thumbnailUrl: alexandre_tarifa.jpg
+  rockstar: true
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/102773477132685590587" }
