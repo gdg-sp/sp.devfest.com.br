@@ -1,49 +1,66 @@
-- 
-  id: 3
-  name: "Luiz Henrique"
-  surname: "Mineo"
-  company: "RedFox Sistemas e Tecnologia"
-  title: "Director"
-  bio: "Bacharel em Ciência da Computação pela Universidade Federal de Uberlândia, possui 7 anos de experiência na área de desenvolvimento de software. Há 1 ano, participa ativamente da comunidade de desenvolvedores da plataforma Dart. É criador e mantenedor do projeto Redstone.dart, que tem como finalidade facilitar a criação de aplicações web."
-  thumbnailUrl: luiz_henrique.png
+-
+  id: 1
+  name: "Luís"
+  surname: "Leao"
+  company: "Google Developer Group São Paulo"
+  title: "Community Manager Consultant"
+  bio: "Desenvolvedor web desde 2000, fui criador do sms2blog, primeiro gateway sms para Twitter no Brasil e trabalhei em agências digitais para marcas como Google, Coca-Cola, Nestlé, Itaucard, Fiat, GE, Globo Minas, Iveco, Usiminas, Vivo e Yamaha."
+  thumbnailUrl: luis_leao.jpg
   rockstar: true
+  ribbon:
+    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/102774871279745079139/"}
   social: 
-    - {name: "google-plus", link: "https://plus.google.com/112869608698337579825"}
+    - {name: "google-plus", link: "https://plus.google.com/+Lu%C3%ADsLe%C3%A3o"}
+-
+  id: 2
+  name: "Alê"
+  surname: "Borba"
+  company: "Google"
+  title: "Community Manager Consultant"
+  bio: "Community Manager focus on Developers and Technical communities. Working hard to grow the communities that we are envolved in."
+  thumbnailUrl: ale_borba.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "Googler", title: "Googler", url: "http://google.com"}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+AlêBorba"}
+-
+  id: 3
+  name: "Neto"
+  surname: "Marin"
+  company: "Google"
+  title: "Developer Advocate"
+  bio: "Working with software development since 2001, and with mobile applications since 2006, I've developed expertise in mobile development and all particularities related to mobile platforms on different scenarios, OS and technologies. I've participated on startup developments, corporate applications and also, on architecture specifications and implementations. I also have expertise with developing to cloud environment, mainly with Google Cloud Platform and Amazon Web Services."
+  thumbnailUrl: neto_marin.png
+  rockstar: true
+  ribbon:
+    - {abbr: "Googler", title: "Googler", url: "http://google.com"}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+NetoMarin"}
 -
   id: 4
-  name: "Paulo"
-  surname: "Pires"
-  company: "HE:Labs"
-  title: "Web Developer"
-  bio: 'Oi, sou o Paulo Pires, programador, palestrante, tomador de café e jogador de FIFA. Apaixonado por hardware, open source e escrever código. Hoje tenho foco em Node.js, Go e C++, mas também gosto muito de Front-End, AngularJS e sorvete de limão.'
-  thumbnailUrl: paulo_pires.jpg
+  name: "Ciro"
+  surname: "Nunes"
+  company: "Questrade"
+  title: "Senior Front-end Engineer"
+  bio: "Me interesso por arquiteturas Front-end de larga escala, testes automatizados, boas práticas, design patterns, performance, controle de versão e ferramentas."
+  thumbnailUrl: ciro_nunes.jpg
   rockstar: true
+  ribbon:
+    - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
   social: 
-    - {name: "google-plus", link: "https://plus.google.com/+PauloPires22"}
-    - {name: "twitter", link: "https://twitter.com/paulohp"}
-    - {name: "github", link: "https://github.com/paulo_hp"}
-- 
+    - {name: "google-plus", link: "https://plus.google.com/+CiroNunesDev"}
+-
   id: 5
-  name: "Hussani"
-  surname: "Oliveira"
-  company: "ClickBus"
-  title: "PHP Developer"
-  bio: "Desenvolvedor PHP desde 2010. Graduado em Análise e Desenvolvimento de Sistemas em 2011 pela Faculdade Impacta de Tecnologia, trabalha na A2 Comunicação como desenvolvedor e auditor de tecnologia. Entusiasta da comunidade PHPSP que gosta de Linux, Open Source e Android."
-  thumbnailUrl: hussani_oliveira.jpg
+  name: "Daniel"
+  surname: "Viveiros"
+  company: "CI&T"
+  title: "Gerente de Tecnologia"
+  bio: "Adoro tecnologia! Sempre gostei e fui viciado em tecnologia. Meu objetivo é criar coisas incríveis e disruptivas para nossos clientes (em geral, grandes empresas) usando as melhores e mais modernas tecnologias para isso. Serviços em nuvem, integração com redes sociais, aprendizado de máquina, dispositivos móveis e todo o espectro de ferramentas de analytics são exemplos de áreas de interesse."
+  thumbnailUrl: daniel_viveiros.jpg
   rockstar: true
+  ribbon:
+    - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
   social: 
-    - {name: "google-plus", link: "https://plus.google.com/+HussaniOliveira"}
-    - {name: "twitter", link: "https://twitter.com/hussanii"}
-    - {name: "github", link: "https://github.com/hussani"}
-- 
-  id: 6
-  name: "Níckolas"
-  surname: "da Silva"
-  company: ""
-  title: "Analista de Sistemas"
-  bio: "Desenvolvedor há aproximadamente 3 anos, e desde os 8 anos (não faz muito tempo...) rato de computadores :D Sempre tive muito interesse sobre computação em geral, já trabalhei com servidores IPBX utilizando Asterisk, organizando redes linux, programando sites e hoje desenvolvendo sistemas PHP e JS 'de verdade'. Ultimamente tenho visto maior interesse em repassar conhecimento, saber é sempre legal. Ver os outros descobrindo coisas novas por você é melhor ainda."
-  thumbnailUrl: nickolas_silva.jpg
-  rockstar: true
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+nawarian/"}
-    - {name: "github", link: "http://github.com/nawrian"}
+    - {name: "google-plus", link: "https://plus.google.com/+DanielViveiros"}
+
