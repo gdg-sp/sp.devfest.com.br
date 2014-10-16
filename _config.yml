@@ -39,7 +39,7 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  # - {permalink: "/blog/", text: "Blog"}
  # - {permalink: "/schedule/", text: "Agenda"}
- # - {permalink: "/speakers/", text: "Palestrantes"}
+ - {permalink: "/speakers/", text: "Palestrantes"}
  # - {permalink: "/team/", text: "Time"}
  # - {permalink: "/logistics/", text: "Logistica"}
  - {link: "https://developers.google.com", text: "Desenvolvedores"}
@@ -128,33 +128,41 @@ partnersC4sponsorsButton: "Seja um patrocinador"
 
 
 # Buy Tickets Block
-buyTicketsTitle: "Inscreva-se"
+ticketsTitle: "Inscreva-se"
+
 ticketsOffers:
  -
   name: "Believe in the Force"
-  price: "R$105"
+  price: "105"
+  priceCurrency: "R$"
   buyButtonLink: "http://devfestsp.eventbrite.com/?aff=site"
   buyButtonText: "Comprar"
-  ticketContentList: ["Preço válido até 15/10/2014"]
+  # additionalInfo: "Preço válido até 15/10/2014"
   validFrom: "2014-10-01T00:00"
   validThrough: "2014-10-15T23:59"
-
-# -
-#  name: "Become a Jedi"
-#  price: "$125"
-#  buyButtonLink: "http://devfestsp.eventbrite.com/?aff=site"
-#  buyButtonText: "Comprar"
-#  #ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-#  validFrom: "2014-10-16T00:00"
-#  validThrough: "2014-10-31T23:59"
-# -
-#  name: "The dark side"
-#  price: "R$207"
-#  buyButtonLink: "http://devfestsp.eventbrite.com/?aff=site"
-#  buyButtonText: "Comprar"
-#  #ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-#  validFrom: "2014-11-01T00:00"
-#  validThrough: "2014-11-16T23:59"
+  soldOut: true
+  soldOutText: "Esgotado"
+ -
+  name: "Become a Jedi"
+  price: "120"
+  priceCurrency: "R$"
+  buyButtonLink: "http://devfestsp.eventbrite.com/?aff=site"
+  buyButtonText: "Comprar"
+  ticketContentList: ["Preço válido até 31/10/2014"]
+  validFrom: "2014-10-16T00:00"
+  validThrough: "2014-10-31T23:59"
+  soldOut: false
+  soldOutText: "Esgotado"
+ # -
+ #  name: "The dark side"
+ #  price: "207"
+ #  priceCurrency: "R$"
+ #  buyButtonLink: "http://devfestsp.eventbrite.com/?aff=site"
+ #  buyButtonText: "Comprar"
+ #  validFrom: "2014-11-01T00:00"
+ #  validThrough: "2014-11-16T23:59"
+ #  soldOut: false
+ #  soldOutText: "Esgotado"
 
 # Footer
 socialLinks:
@@ -167,6 +175,7 @@ footerBlocks:
    - {link: "https://developers.google.com/groups/chapter/102774871279745079139/", text: "GDG-SP"}
    - {link: "https://developers.google.com/groups/chapter/108193462895935017410/", text: "GDG-ABC"}
    - {link: "http://gdgvaledoparaiba.com.br/", text: "GDG-Vale do Paraíba"}
+   - {link: "http://www.gdgsorocaba.org", text: "GDG-Sorocaba"}
  -
   title: "Meetups"
   links:
