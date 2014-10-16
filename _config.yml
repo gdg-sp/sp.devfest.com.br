@@ -31,7 +31,8 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
 c4pUrl: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+c4sponsorsUrl: "/assets/devfest-midiakit-final.pdf"
+c4sponsorsUrlEn: "/assets/devfest-midiakit-final-en.pdf"
 
 
 # Navigation
@@ -117,6 +118,7 @@ mapMobileCenterCoordinates: "-23.557622,-46.668294"
 # Partners Block
 partnersTitle: "Patrocinadores"
 partnersC4sponsorsButton: "Seja um patrocinador"
+partnersC4sponsorsButtonEn: "Become a sponsor"
 
 # # Organizers Block
 # organizersTitle: "Organizers"
