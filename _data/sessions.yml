@@ -1,50 +1,99 @@
 -
-  id: 307
-  title: "Coffee Break"
+  id: 101
+  title: "Credenciamento"
   place: "Hall"
   service: true
 -
-  id: 503
-  title: "Lunch Break"
-  place: "Dining room"
+  id: 102
+  title: "Almoço"
+  place: ""
   service: true
 -
+  id: 103
+  title: "Encerramento"
+  place: ""
+  service: true
+-
+  id: 000
+  title: 
+  description: 
+  speakers: []
+  language: 
+-
   id: 001
-  title: "Material design: Visual style and imagery"
-  description: "This session will reveal the invisible structures behind the material design system. Designers will show how to use the new color systems, typographic strategies, and the underlying grids that hold it together. They will show how imagery and the new framework material rendering can make apps more interesting and communicate more quickly."
-  subtype: workshop
-  speakers: [3]
-  language: en
-  complexity: "Intermediate"
+  title: "Google Developer Group "
+  description: ""
+  speakers: [1,2]
+  language: pt-br
 -
   id: 002
-  title: "Building Cloud-powered wearable Apps"
-  description: "Android wear extends the Android platform to a new generation of wearable devices. The user experience is designed specifically for wearables. In this session you’ll see how to use the Android Wear SDK to build a connected cloud-powered application. Using Android Studio and it’s cloud extensions, you’ll see how to build an app that ‘listens’ for changes in stock prices, and notifies a wearable device. You’ll also see how to use voice controls on the device to trigger interactions with the app, such as buying or selling the stock after a notification. Call to action: Get the SDK and start building apps today!"
-  subtype: presentation
-  speakers: [4, 5]
-  language: en
-  complexity: "Beginner"
+  title: "Overview Google I/O 2014"
+  description: ""
+  speakers: [3]
+  language: pt-br
 -
   id: 003
-  title: "The world is your playground - go global with Google"
-  description: "More than ever before, developing for global audience is a necessity than a luxury in today's world. Are you ready ... where to start? what does it entail? how do I do it? how to promote in local markets? This talk will address above questions for android, chrome and web developers. In our journey of the where, what and how, we will take an in-depth look at various internationalization and localization tools & strategies available to you."
-  subtype: presentation
-  speakers: [4]
-  language: en
-  complexity: "Expert"
+  title: "Performance na Web"
+  description: ""
+  speakers: [6]
+  language: pt-br
 -
   id: 004
-  title: "Polymer: Interacting with Google Services using nothing but HTML"
-  description: "Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms."
-  subtype: keynote
-  speakers: [6]
-  language: uk
-  complexity: "Beginner"
+  title: "Android Wear, comece agora"
+  description: ""
+  speakers: [3]
+  language: pt-br
 -
   id: 005
-  title: "Test: Interacting with Google Services using nothing but HTML"
-  description: "Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms."
-  subtype: keynote
+  title: "JavaScript e o HTTP2"
+  description: ""
+  speakers: [9]
+  language: pt-br
+-
+  id: 006
+  title: "Experimentos com Beacons Bluetooth"
+  description: ""
+  speakers: [8]
+  language: pt-br
+-
+  id: 007
+  title: "CSS para Gente Grande"
+  description: ""
+  speakers: [11]
+  language: pt-br
+-
+  id: 008
+  title: "Migrando sua aplicação para Material Design"
+  description: ""
+  speakers: [10]
+  language: pt-br
+-
+  id: 009
+  title: " Então você quer aprender AngularJS?"
+  description: ""
+  speakers: [4]
+  language: pt-br
+-
+  id: 010
+  title: "Polymer: o framework do futuro"
+  description: ""
   speakers: [7]
-  language: en
-  complexity: "Expert"
+  language: pt-br
+-
+  id: 011
+  title: "Entendendo RecyclerView"
+  description: ""
+  speakers: [12]
+  language: pt-br
+-
+  id: 012
+  title: "Construindo apps móveis com a Plataforma Mobile do Twitter"
+  description: ""
+  speakers: [13]
+  language: pt-br
+-
+  id: 013
+  title: "Usando Google Cloud Platform para integração social em nível global"
+  description: ""
+  speakers: [5]
+  language: pt-br

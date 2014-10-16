@@ -67,7 +67,7 @@ $small-label-width: 80px;
 .track-header-label {
     position: absolute;
     padding: 10px 15px 20px;
-    width: $label-width;
+    width: $label-width * 1.5;
     text-align: left;
     margin: 0;
     font-size: $title-font-size;

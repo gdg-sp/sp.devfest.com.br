@@ -1,75 +1,44 @@
-/*
-Error: Invalid CSS after "": expected selector, was "0%"
-        on line 96 of /home/michel/Projects/sp.devfest.com.br/_sass/partials/_helper.scss
-        from line 12 of /home/michel/Projects/sp.devfest.com.br/_sass/./main.scss
+// Modules and Variables
+@import "partials/base";
 
-Backtrace:
-/home/michel/Projects/sp.devfest.com.br/_sass/partials/_helper.scss:96
-/home/michel/Projects/sp.devfest.com.br/_sass/./main.scss:12
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/scss/parser.rb:1163:in `expected'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/scss/parser.rb:1099:in `expected'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/scss/parser.rb:1079:in `expr!'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/scss/static_parser.rb:20:in `parse_selector'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:408:in `visit_rule'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/stack.rb:79:in `block in with_base'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/stack.rb:115:in `with_frame'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/stack.rb:79:in `with_base'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:152:in `visit'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:485:in `block (2 levels) in visit_directive'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:485:in `map'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:485:in `block in visit_directive'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:484:in `visit_directive'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/stack.rb:79:in `block in with_base'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/stack.rb:115:in `with_frame'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/stack.rb:79:in `with_base'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:152:in `visit'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:309:in `block (2 levels) in visit_import'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:309:in `map'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:309:in `block in visit_import'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/stack.rb:88:in `block in with_import'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/stack.rb:115:in `with_frame'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/stack.rb:88:in `with_import'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:306:in `visit_import'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/stack.rb:79:in `block in with_base'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/stack.rb:115:in `with_frame'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/stack.rb:79:in `with_base'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:152:in `visit'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:52:in `map'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:151:in `visit'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/root_node.rb:36:in `css_tree'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/tree/root_node.rb:20:in `render'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/engine.rb:268:in `render'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-media_query_combiner-0.0.6/lib/sass-media_query_combiner.rb:7:in `render_with_combine'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:209:in `each'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/sass-3.4.1/lib/sass/plugin/compiler.rb:329:in `block in watch'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/listen-2.7.8/lib/listen/listener.rb:275:in `call'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/listen-2.7.8/lib/listen/listener.rb:275:in `_process_changes'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/listen-2.7.8/lib/listen/listener.rb:233:in `block in _wait_for_changes'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/listen-2.7.8/lib/listen/listener.rb:216:in `loop'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/listen-2.7.8/lib/listen/listener.rb:216:in `_wait_for_changes'
-/home/michel/.rvm/gems/ruby-2.1.1/gems/listen-2.7.8/lib/listen/listener.rb:310:in `block in _start_wait_thread'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"\": expected selector, was \"0%\"\A         on line 96 of /home/michel/Projects/sp.devfest.com.br/_sass/partials/_helper.scss\A         from line 12 of /home/michel/Projects/sp.devfest.com.br/_sass/./main.scss"; }
+
+// Third-party
+@import "vendor/bootstrap-custom";
+@import "vendor/animate";
+@import "vendor/waves";
+
+// Partialsas
+@import "partials/global";
+@import "partials/buttons";
+@import "partials/helper";
+@import "partials/sprites";
+@import "partials/navigation";
+
+// Sections
+@import "partials/hero";
+@import "partials/top-section";
+@import "partials/about";
+@import "partials/statistic";
+@import "partials/latest-news";
+@import "partials/rockstar-speakers";
+@import "partials/tickets";
+@import "partials/tickets-2";
+@import "partials/location-map";
+@import "partials/venue";
+@import "partials/twitter-feed";
+@import "partials/partners";
+@import "partials/subscribe";
+@import "partials/footer";
+@import "partials/blog";
+@import "partials/find-way";
+@import "partials/direction-details";
+@import "partials/team";
+@import "partials/zoe-effect";
+@import "partials/lily-effect";
+@import "partials/ribbon";
+@import "partials/modal";
+@import "partials/schedule";
+@import "partials/about-hackathon";
+@import "partials/judges";
+@import "partials/prizes";
+@import "partials/hackathon-location";
