@@ -13,19 +13,21 @@
                 width: 40%;
                 min-width: 120px;
                 max-width: 160px;
+
+
             }
 
-        li.big {
-            width: 50%
-            min-width: 300px;
-            max-width: 450px;
-            @media (max-width: 767px) {
-                min-width: 40%;
-                width: 40%;
-                min-width: 180px;
-                max-width: 200px;
+            &.big {
+                width: 50%;
+                min-width: 300px;
+                max-width: 450px;
+                @media (max-width: 767px) {
+                    min-width: 40%;
+                    width: 40%;
+                    min-width: 180px;
+                    max-width: 200px;
+                }
             }
-        }
 
         }
     }
