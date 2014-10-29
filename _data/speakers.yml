@@ -6,7 +6,7 @@
   title: "Community Manager Consultant"
   bio: "Desenvolvedor web desde 2000, fui criador do sms2blog, primeiro gateway sms para Twitter no Brasil e trabalhei em agências digitais para marcas como Google, Coca-Cola, Nestlé, Itaucard, Fiat, GE, Globo Minas, Iveco, Usiminas, Vivo e Yamaha."
   thumbnailUrl: luisleao.jpg
-  rockstar: true
+  rockstar: false
   ribbon:
     - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/102774871279745079139/"}
   social: 
@@ -138,7 +138,7 @@
   title: "Engenheiro de Software"
   bio: "Ubiratan Soares é Engenheiro de Software especializado em Android, e antes de tudo, um curioso. Formado em Ciências da Computação pela Universidade de São Paulo, é também Instrutor na Globalcode, Intel Software Innovator para Android, palestrante, membro ativo da comunidade de desenvolvimento de Sampa e região, freelancer, pai de um lindo menino e outros - em qualquer ordem!"
   thumbnailUrl: ubiratan_soares.jpg
-  rockstar: false
+  rockstar: true
   social: 
     - { name: "google-plus", link: "https://plus.google.com/+UbiratanSoares"}
 -
@@ -149,7 +149,7 @@
   title: "Developer Advocate"
   bio: "Started my career as a software engineering consultant in financial companies, supporting the planning and execution of tests in a quality assurance department. Also get involved with Software Development Process tailoring for several areas. I'm still learning computer science and want to focus even more on Artificial Intelligence, Machine Learning, Big Data solutions and NLP."
   thumbnailUrl: luis_cipriani.jpg
-  rockstar: false
+  rockstar: true
   social: 
     - { name: "twitter", link: "https://twitter.com/lfcipriani"}
 

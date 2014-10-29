@@ -1,8 +1,19 @@
 - 
   group: "The Force"
   elements: 
-    - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
+    - {name: "Google", description: "Google Developers", link: "https://developers.google.com", imageUrl: "google_developers.svg", class: "big"}
 - 
   group: "Jedi Master"
   elements: 
-    - {name: "Paypal", description: "Paypal", link: "https://www.paypal.com", imageUrl: "paypal.svg"}
+    - {name: "Paypal", description: "Paypal", link: "https://www.paypal.com", imageUrl: "paypal.svg", class: "big"}
+
+- 
+  group: "Jedi Knight"
+  elements: 
+    - {name: "Intel", description: "Intel Software", link: "http://software.intel.com/pt-br/", imageUrl: "intel.svg"}
+#    - {name: "Samsung", description: "Samsung", link: "https://www.samsung.com", imageUrl: "samsung.svg"}
+
+- 
+  group: "Padawan"
+  elements: 
+    - {name: "DigiPronto", description: "DigiPronto", link: "https://www.digipronto.com.br", imageUrl: "digipronto.svg"}

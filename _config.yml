@@ -43,13 +43,13 @@ navigationLinks:
  - {permalink: "/speakers/", text: "Palestrantes"}
  # - {permalink: "/team/", text: "Time"}
  # - {permalink: "/logistics/", text: "Logistica"}
- - {link: "https://developers.google.com", text: "Desenvolvedores"}
-# bottomNavigationLinks:
-# - {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
- - {link: "https://docs.google.com/forms/d/1dVn4WmqAFiQm-4KKHMoUH5UgX-SWaWdLSATexr1lMyQ/viewform", text: "Seja um voluntário"}
+ # - {link: "https://developers.google.com", text: "Desenvolvedores"}
+ # bottomNavigationLinks:
+ # - {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
+ # - {link: "https://docs.google.com/forms/d/1dVn4WmqAFiQm-4KKHMoUH5UgX-SWaWdLSATexr1lMyQ/viewform", text: "Seja um voluntário"}
  - {link: "http://devfestsp.eventbrite.com/?aff=site", text: "Inscreva-se"}
-# rightNavigationButtons:
-#- {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
+ # rightNavigationButtons:
+ #- {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
 
 # Hero Block
 heroTitle: "GDG DevFest <typeout> 2014"
@@ -155,16 +155,16 @@ ticketsOffers:
   validThrough: "2014-10-31T23:59"
   soldOut: false
   soldOutText: "Esgotado"
- # -
- #  name: "The dark side"
- #  price: "207"
- #  priceCurrency: "R$"
- #  buyButtonLink: "http://devfestsp.eventbrite.com/?aff=site"
- #  buyButtonText: "Comprar"
- #  validFrom: "2014-11-01T00:00"
- #  validThrough: "2014-11-16T23:59"
- #  soldOut: false
- #  soldOutText: "Esgotado"
+ -
+  name: "The dark side"
+  price: "200"
+  priceCurrency: "R$"
+  buyButtonLink: "http://devfestsp.eventbrite.com/?aff=site"
+  buyButtonText: "Comprar"
+  validFrom: "2014-11-01T00:00"
+  validThrough: "2014-11-16T23:59"
+  soldOut: false
+  soldOutText: "Esgotado"
 
 # Footer
 socialLinks:

@@ -6,8 +6,8 @@
         margin-bottom: 65px;
         li {
             width: 16%;
-            min-width: 160px;
-            max-width: 180px;
+            min-width: 210px;
+            max-width: 250px;
             margin: 13px 7px;
             @media (max-width: 767px) {
                 width: 40%;
@@ -24,4 +24,19 @@
             filter: grayscale(0);
         }
     }
+
+    img.big {
+        width: 50%
+        min-width: 300px;
+        max-width: 450px;
+        @media (max-width: 767px) {
+            min-width: 40%;
+            width: 40%;
+            min-width: 180px;
+            max-width: 200px;
+        }
+    }
+
+
+
 }
