@@ -11,7 +11,7 @@
   group: "Jedi Knight"
   elements: 
     - {name: "Intel", description: "Intel Software", link: "http://software.intel.com/pt-br/", imageUrl: "intel.svg"}
-    - {name: "Samsung", description: "Samsung", link: "https://www.samsung.com", imageUrl: "samsung.svg"}
+    - {name: "Samsung", description: "Samsung", link: "https://www.samsung.com.br/ocean", imageUrl: "samsung.svg"}
 
 - 
   group: "Padawan"
