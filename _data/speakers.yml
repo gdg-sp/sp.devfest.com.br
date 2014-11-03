@@ -147,12 +147,23 @@
   surname: "Cipriani"
   company: "Twitter"
   title: "Developer Advocate"
-  bio: "Started my career as a software engineering consultant in financial companies, supporting the planning and execution of tests in a quality assurance department. Also get involved with Software Development Process tailoring for several areas. I'm still learning computer science and want to focus even more on Artificial Intelligence, Machine Learning, Big Data solutions and NLP."
+  bio: ""
   thumbnailUrl: luis_cipriani.jpg
   rockstar: true
   social: 
     - { name: "twitter", link: "https://twitter.com/lfcipriani"}
 
+-
+  id: 14
+  name: "José"
+  surname: "Papo"
+  company: "Google"
+  title: "Program Manager"
+  bio: "José Papo é Gerente de relações com startups e desenvolvedores do Google Brasil. É mestre em Engenharia da Computação pelo IPT e também atua como professor de pós-graduação na PUC-SP. É co-autor do livro \"Métodos Ágeis para Desenvolvimento de Software\". Em seus últimos desafios liderou diversas iniciativas para desenvolvedores e startups na Amazon Web Services e na Microsoft. Fala sobre inovação disruptiva, tendências tecnológicas, computação em nuvem(SaaS, PaaS e IaaS), agilidade e desenvolvimento de produtos em seu twitter @josepapo"
+  thumbnailUrl: jose_papo.jpg
+  rockstar: true
+  social: 
+    - { name: "twitter", link: "https://twitter.com/josepapo"}
 
 
 

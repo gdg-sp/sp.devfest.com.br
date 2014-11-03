@@ -21,9 +21,9 @@
   language: 
 -
   id: 001
-  title: "Google Developer Group "
-  description: ""
-  speakers: [1,2]
+  title: "Keynote: Mobile, Web e além"
+  description: "Luís Leão e Alê Borba falam dos resultados da comunidade GDG no Brasil enquanto Neto Marin apresenta as últimas novidades anunciadas no Google I/O"
+  speakers: [1,2,14,3]
   language: pt-br
 -
   id: 002

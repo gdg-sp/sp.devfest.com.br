@@ -148,23 +148,25 @@ ticketsOffers:
   name: "Become a Jedi"
   price: "120"
   priceCurrency: "R$"
-  buyButtonLink: "http://devfestsp.eventbrite.com/?aff=site"
+  buyButtonLink: "https://devfestsp.eventbrite.com/?discount=ibelieveintheforce"
   buyButtonText: "Comprar"
-  ticketContentList: ["Preço válido até 31/10/2014"]
+  ticketContentList: ["Desconto válido até 15/11/2014"]
   validFrom: "2014-10-16T00:00"
   validThrough: "2014-10-31T23:59"
-  soldOut: false
+  soldOut: true
   soldOutText: "Esgotado"
  -
   name: "The dark side"
   price: "200"
   priceCurrency: "R$"
-  buyButtonLink: "http://devfestsp.eventbrite.com/?aff=site"
-  buyButtonText: "Comprar"
+  buyButtonLink: "http://devfestsp.eventbrite.com/?discount=ibelieveintheforce&aff=site"
+  buyButtonText: "Compre com desconto!"
   validFrom: "2014-11-01T00:00"
-  validThrough: "2014-11-16T23:59"
+  validThrough: "2014-11-15T23:59"
   soldOut: false
   soldOutText: "Esgotado"
+
+
 
 # Footer
 socialLinks:
