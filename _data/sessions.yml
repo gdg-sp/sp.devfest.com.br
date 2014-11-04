@@ -1,99 +1,213 @@
 -
-  id: 101
+  id: 000
   title: "Credenciamento"
   place: "Hall"
   service: true
--
-  id: 102
-  title: "Almoço"
-  place: ""
-  service: true
--
-  id: 103
-  title: "Encerramento"
-  place: ""
-  service: true
--
-  id: 000
-  title: 
-  description: 
-  speakers: []
-  language: 
+
 -
   id: 001
-  title: "Keynote: Mobile, Web e além"
-  description: "Luís Leão e Alê Borba falam dos resultados da comunidade GDG no Brasil enquanto Neto Marin apresenta as últimas novidades anunciadas no Google I/O"
-  speakers: [1,2,14,3]
-  language: pt-br
+  title: "Keynote imersivo: Mobile, Web e além"
+  description: "Luís Leão, Alê Borba, José Papo e Neto Marin falam dos resultados da comunidade de desenvolvedores Google no Brasil, containers na nuvem utiliando a plataforma de cloud do Google e as últimas novidades anunciadas no Google I/O de 2014."
+  speakers: [1,2,3,4]
+  #language: pt-br
+
+
+-
+  id: 555
+  title: "Almoço livre"
+  place: ""
+  service: true
+
 -
   id: 002
-  title: "Overview Google I/O 2014"
+  title: "Android Wear, comece agora!"
   description: ""
-  speakers: [3]
-  language: pt-br
+  speakers: [4]
+  #language: pt-br
+
+
 -
   id: 003
   title: "Performance na Web"
   description: ""
-  speakers: [6]
-  language: pt-br
+  speakers: [5]
+  #language: pt-br
+
 -
   id: 004
-  title: "Android Wear, comece agora"
+  title: "Desenvolvendo serviços web com Redstone.dard"
   description: ""
-  speakers: [3]
-  language: pt-br
+  speakers: [17]
+  #language: pt-br
+
 -
   id: 005
-  title: "JavaScript e o HTTP2"
+  title: "Node.js e Google AppEngine"
   description: ""
-  speakers: [9]
-  language: pt-br
+  speakers: [18]
+  #language: pt-br
+
+
+
+
 -
   id: 006
+  title: "Migrando sua aplicação para Material Design"
+  description: ""
+  speakers: [7,71]
+  #language: pt-br
+
+-
+  id: 007
+  title: "Usando Google Cloud Platform para integração social em nível global"
+  description: ""
+  speakers: [6]
+  #language: pt-br
+
+
+
+-
+  id: 008
+  title: "PHP e Google AppEngine"
+  description: ""
+  speakers: [19]
+  #language: pt-br
+
+
+
+-
+  id: 009
   title: "Experimentos com Beacons Bluetooth"
   description: ""
   speakers: [8]
-  language: pt-br
--
-  id: 007
-  title: "CSS para Gente Grande"
-  description: ""
-  speakers: [11]
-  language: pt-br
--
-  id: 008
-  title: "Migrando sua aplicação para Material Design"
-  description: ""
-  speakers: [10]
-  language: pt-br
--
-  id: 009
-  title: " Então você quer aprender AngularJS?"
-  description: ""
-  speakers: [4]
-  language: pt-br
+  #language: pt-br
+
+
+
 -
   id: 010
-  title: "Desmistificando o Polymer"
+  title: "Então você quer aprender Angular.JS?"
   description: ""
-  speakers: [7]
-  language: pt-br
+  speakers: [9]
+  #language: pt-br
+
+
 -
   id: 011
-  title: "Entendendo RecyclerView"
-  description: ""
-  speakers: [12]
-  language: pt-br
+  title: "TBD"
+  description: "TBD"
+  speakers: []
+  #language: pt-br
+
+
+-
+  id: 888
+  title: "Retire o seu lanche"
+  place: ""
+  service: true
+
+
+
+
+
 -
   id: 012
-  title: "Construindo apps móveis com a Plataforma Mobile do Twitter"
+  title: "Entendendo o RecyclerView"
   description: ""
-  speakers: [13]
-  language: pt-br
+  speakers: [10]
+  #language: pt-br
+
+
+
+
 -
   id: 013
-  title: "Usando Google Cloud Platform para integração social em nível global"
+  title: "Polymer: o framework do futuro"
   description: ""
-  speakers: [5]
-  language: pt-br
+  speakers: [11]
+  #language: pt-br
+
+
+-
+  id: 014
+  title: "CSS para gente grande"
+  description: ""
+  speakers: [20]
+  #language: pt-br
+
+
+
+-
+  id: 015
+  title: "Construindo apps móveis com a Plataforma Mobile do Twitter"
+  description: ""
+  speakers: [12]
+  #language: pt-br
+
+-
+  id: 016
+  title: "Anatomia do Design Responsivo"
+  description: ""
+  speakers: [13]
+  #language: pt-br
+
+
+
+-
+  id: 017
+  title: "TBD"
+  description: "TBD"
+  speakers: []
+  #language: pt-br
+
+
+
+
+-
+  id: 018
+  title: "Teste unitário no Angular.JS"
+  description: ""
+  speakers: [21]
+  #language: pt-br
+
+
+
+
+-
+  id: 019
+  title: "Interfaces de games para diferentes telas"
+  description: "Mesmo utilizando engines multi-plataforma que auxiliam o layout de nossos jogos, deve-se ter uma preocupação com as interfaces de telas. Saiba como preparar o seu jogo e seus layouts."
+  speakers: [14]
+  #language: pt-br
+
+
+
+-
+  id: 020
+  title: "Offline Web do jeito certo com ServiceWorkers"
+  description: ""
+  speakers: [15]
+  #language: pt-br
+
+
+
+-
+  id: 021
+  title: "JavaScript e o HTTP2"
+  description: ""
+  speakers: [22]
+  #language: pt-br
+
+
+
+-
+  id: 999
+  title: "Encerramento, sorteios e até 2015!"
+  place: "Expo"
+  service: true
+
+
+
+
+
+

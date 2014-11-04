@@ -47,7 +47,7 @@ navigationLinks:
  # bottomNavigationLinks:
  # - {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
  # - {link: "https://docs.google.com/forms/d/1dVn4WmqAFiQm-4KKHMoUH5UgX-SWaWdLSATexr1lMyQ/viewform", text: "Seja um voluntário"}
- - {link: "http://devfestsp.eventbrite.com/?aff=site", text: "Inscreva-se"}
+ - {link: "http://devfestsp.eventbrite.com/?discount=ibelieveintheforce&aff=site", text: "Inscreva-se"}
  # rightNavigationButtons:
  #- {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
 
@@ -57,7 +57,7 @@ eventDate: "22 de Novembro de 2014"
 typeoutTextValues: '"Sampa", "SP", "São Paulo"'
 heroButtons:
 # - {url: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
- - {url: "http://devfestsp.eventbrite.com/?aff=site", text: "Faça sua inscrição!"}
+ - {url: "http://devfestsp.eventbrite.com/?discount=ibelieveintheforce&aff=site", text: "Faça sua inscrição. Ainda tem desconto!"}
 
 
 
@@ -201,7 +201,7 @@ blogCommentsEnabled: true
 discusShortName: "devfestsp"
 
 # Speakers List Block
-showSessions: false
+showSessions: true
 thumbnailsFolder: /img/speakers/
 
 # Team Block

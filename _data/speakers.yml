@@ -4,7 +4,7 @@
   surname: "Leao"
   company: "Google Developer Group São Paulo"
   title: "Community Manager Consultant"
-  bio: "Desenvolvedor web desde 2000, fui criador do sms2blog, primeiro gateway sms para Twitter no Brasil e trabalhei em agências digitais para marcas como Google, Coca-Cola, Nestlé, Itaucard, Fiat, GE, Globo Minas, Iveco, Usiminas, Vivo e Yamaha."
+  bio: "Desenvolvedor web desde 2000, criador do sms2blog, primeiro gateway sms para Twitter no Brasil e trabalhei em agências digitais para marcas como Google, Coca-Cola, Nestlé, Itaucard, Fiat, GE, Globo Minas, Iveco, Usiminas, Vivo e Yamaha."
   thumbnailUrl: luisleao.jpg
   rockstar: false
   ribbon:
@@ -26,6 +26,20 @@
     - {name: "google-plus", link: "https://plus.google.com/+AlêBorba"}
 -
   id: 3
+  name: "José"
+  surname: "Papo"
+  company: "Google"
+  title: "Program Manager"
+  bio: "José Papo é Gerente de relações com startups e desenvolvedores do Google Brasil. É mestre em Engenharia da Computação pelo IPT e também atua como professor de pós-graduação na PUC-SP. É co-autor do livro \"Métodos Ágeis para Desenvolvimento de Software\". Em seus últimos desafios liderou diversas iniciativas para desenvolvedores e startups na Amazon Web Services e na Microsoft. Fala sobre inovação disruptiva, tendências tecnológicas, computação em nuvem(SaaS, PaaS e IaaS), agilidade e desenvolvimento de produtos em seu twitter @josepapo"
+  thumbnailUrl: jose_papo.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "Googler", title: "Googler", url: "http://google.com"}
+  social: 
+    - { name: "twitter", link: "https://twitter.com/josepapo"}
+
+-
+  id: 4
   name: "Neto"
   surname: "Marin"
   company: "Google"
@@ -37,8 +51,73 @@
     - {abbr: "Googler", title: "Googler", url: "http://google.com"}
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+NetoMarin"}
+
 -
-  id: 4
+  id: 5
+  name: "Alexandre"
+  surname: "Tarifa"
+  company: "Minha Vida"
+  title: "CTO and Partner"
+  bio: "Bacharel em Ciência da Computação pela Universidade Metodista de São Paulo e pós-graduado em Ciência da Computação pela Universidade Federal de São Carlos, atua há 16 anos no mercado de tecnologia da informação."
+  thumbnailUrl: alexandre_tarifa.jpg
+  rockstar: false
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/102773477132685590587" }
+
+-
+  id: 6
+  name: "Daniel"
+  surname: "Viveiros"
+  company: "CI&T"
+  title: "Gerente de Tecnologia"
+  bio: "Daniel Vieira Viveiros é um GDE (Google Developer Expert) de Google Cloud Platform e atua também como Head of Technology da CI&T. Há mais de 13 anos trabalhando com arquitetura de software e de sistemas, já projetou e liderou projetos de desenvolvimento de software distribuídos e complexos para grandes empresas como TV Globo, Natura e Ambev. Hoje é responsável pela área de inovação e desenvolvimento de competências tecnológicas de ponta na CI&T na plataforma Google, incluindo social integration e machine learning."
+  thumbnailUrl: daniel_viveiros.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+DanielViveiros"}
+
+-
+  id: 7
+  name: "Luiz Gustavo"
+  surname: "Martins"
+  company: "Tripket"
+  title: "Mobile Application Developer"
+  bio: "Luiz Gustavo Martins é Mestre e Bacharel em Ciência da Computação pela Universidade de São Paulo, trabalha a 14 anos com desenvolvimento de software de risco de Mercado e de Crédito. Criador do Guia Tv Br e do Farejador do Planalto. "
+  thumbnailUrl: luiz_gustavo.jpg
+  rockstar: false
+  social: 
+    - { name: "google-plus", link: "https://plus.google.com/+LuizGustavoMartins"}
+
+-
+  id: 71
+  name: "Gabriel"
+  surname: "Bettini Vicente"
+  #company: ""
+  title: "Mobile Application Developer"
+  bio: "Gabriel Bettini Vicente formado em Desenho Industrial, trabalha a 5 anos como designer gráfico e a 3 anos com desenvolvimento de software de risco"
+  thumbnailUrl: gabriel_bettini.jpg
+  rockstar: false
+  social: 
+    - { name: "facebook", link: "https://www.facebook.com/gabriel.bettinivicente"}
+
+-
+  id: 8
+  name: "Jeff"
+  surname: "Prestes"
+  company: "PayPal"
+  title: "Developer Evangelist"
+  bio: "Software Architect/Developer in a wide variety of business applications. Particularly interested in web, mobile and client/server software development design using Java EE and PHP. I also have experience with Oracle PL/SQL. "
+  thumbnailUrl: jeff_prestes.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "PayPal", title: "PayPal Community Manager", url: "http://paypal.com"}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/107984865640989254612" }
+
+-
+  id: 9
   name: "Ciro"
   surname: "Nunes"
   company: "Questrade"
@@ -51,87 +130,7 @@
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+CiroNunesDev"}
 -
-  id: 5
-  name: "Daniel"
-  surname: "Viveiros"
-  company: "CI&T"
-  title: "Gerente de Tecnologia"
-  bio: "Daniel Vieira Viveiros é um GDE (Google Developer Expert) de Google Cloud Platform e atua também como Head of Technology da CI&T. Há mais de 13 anos trabalhando com arquitetura de software e de sistemas, já projetou e liderou projetos de desenvolvimento de software distribuídos e complexos para grandes empresas como TV Globo, Natura e Ambev. Hoje é responsável pela área de inovação e desenvolvimento de competências tecnológicas de ponta na CI&T na plataforma Google, incluindo social integration e machine learning."
-  thumbnailUrl: daniel_viveiros.jpg
-  rockstar: true
-  ribbon:
-    - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+DanielViveiros"}
--
-  id: 6
-  name: "Alexandre"
-  surname: "Tarifa"
-  company: "Minha Vida"
-  title: "CTO and Partner"
-  bio: "Bacharel em Ciência da Computação pela Universidade Metodista de São Paulo e pós-graduado em Ciência da Computação pela Universidade Federal de São Carlos, atua há 16 anos no mercado de tecnologia da informação."
-  thumbnailUrl: alexandre_tarifa.jpg
-  rockstar: false
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/102773477132685590587" }
-
--
-  id: 7
-  name: "Beto"
-  surname: "Muniz"
-  company: "HE:Labs"
-  title: "Developer"
-  bio: "Beto Muniz é um Mineiro-Capixaba apaixonado por Front End, inspirado pelo estudo de novas tecnologias e pela comunidade, Beto está sempre antenado no que esta acontecendo no mundo do desenvolvimento e disposto a contribuir com a comunidade, prova disso é sua participação em Projetos Open-Source, Eventos e Organizações como  CustomElements.io, LearnLayout.com, Google I/O Extended, TDC, FrontInterior, FrontEnd Carioca, NodeJS Meetup, NodeBr, GoLangBr, MinasDev, WebComponents.org etc."
-  thumbnailUrl: beto_muniz.jpg
-  rockstar: false
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+betomuniz" }
--
-  id: 8
-  name: "Jeff"
-  surname: "Prestes"
-  company: "PayPal"
-  title: "Developer Evangelist"
-  bio: "Software Architect/Developer in a wide variety of business applications. Particularly interested in web, mobile and client/server software development design using Java EE and PHP. I also have experience with Oracle PL/SQL. "
-  thumbnailUrl: jeff_prestes.jpg
-  rockstar: false
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/107984865640989254612" }
--
-  id: 9
-  name: "Luiz F."
-  surname: "Corte Real"
-  company: "Caelum"
-  title: "Desenvolvedor e instrutor"
-  bio: "Trabalho como desenvolvedor e instrutor na Caelum, focado nos cursos de front-end. Também sou um dos responsáveis pelos cursos de front-end do Alura e um dos autores do livro 'Coletânea Front-end'. Mas minha formação é de back-end: sou mestre em Ciência da Computação pela USP. Por isso, gosto muito de opensource, novidades do mercado, paradigmas e boas práticas de programação."
-  thumbnailUrl: luiz_corte.jpg
-  rockstar: false
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/117413901265229708491" }
--
   id: 10
-  name: "Luiz Gustavo"
-  surname: "Martins"
-  company: "Tripket"
-  title: "Mobile Application Developer"
-  bio: "Luiz Gustavo Martins é Mestre e Bacharel em Ciência da Computação pela Universidade de São Paulo, trabalha a 14 anos com desenvolvimento de software de risco de Mercado e de Crédito. Criador do Guia Tv Br e do Farejador do Planalto. "
-  thumbnailUrl: luiz_gustavo.jpg
-  rockstar: false
-  social: 
-    - { name: "google-plus", link: "https://plus.google.com/+LuizGustavoMartins"}
--
-  id: 11
-  name: "Shankar"
-  surname: "Cabus"
-  company: "JusBrasil"
-  title: "Frontender"
-  bio: "Entrou no mundo web em 2001, mas só em 2009 deixou de ser 'sobrinho' e passou a trabalhar profissionalmente como frontender e web designer do JusBrasil, onde desenvolveu paixão pelo HTML, CSS, JavaScript, Web Design, SEO, performance e tudo que atinge o coração do usuário. É graduado em Sistema de Informação pela UNEB e fundador do grupo Frontend Bahia. Nas horas vagas, gosta de surfar e tomar uma cervejinha com os amigos!"
-  thumbnailUrl: shankar_cabus.jpg
-  rockstar: false
-  social: 
-    - { name: "google-plus", link: "http://plus.google.com/115150277069386889606"}
--
-  id: 12
   name: "Ubiratan"
   surname: "Soares"
   company: "Eicon"
@@ -141,8 +140,21 @@
   rockstar: true
   social: 
     - { name: "google-plus", link: "https://plus.google.com/+UbiratanSoares"}
+
 -
-  id: 13
+  id: 11
+  name: "Beto"
+  surname: "Muniz"
+  company: "HE:Labs"
+  title: "Developer"
+  bio: "Beto Muniz é um Mineiro-Capixaba apaixonado por Front End, inspirado pelo estudo de novas tecnologias e pela comunidade, Beto está sempre antenado no que esta acontecendo no mundo do desenvolvimento e disposto a contribuir com a comunidade, prova disso é sua participação em Projetos Open-Source, Eventos e Organizações como  CustomElements.io, LearnLayout.com, Google I/O Extended, TDC, FrontInterior, FrontEnd Carioca, NodeJS Meetup, NodeBr, GoLangBr, MinasDev, WebComponents.org etc."
+  thumbnailUrl: beto_muniz.jpg
+  rockstar: false
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+betomuniz" }
+
+-
+  id: 12
   name: "Luis"
   surname: "Cipriani"
   company: "Twitter"
@@ -153,18 +165,158 @@
   social: 
     - { name: "twitter", link: "https://twitter.com/lfcipriani"}
 
+
 -
-  id: 14
-  name: "José"
-  surname: "Papo"
-  company: "Google"
-  title: "Program Manager"
-  bio: "José Papo é Gerente de relações com startups e desenvolvedores do Google Brasil. É mestre em Engenharia da Computação pelo IPT e também atua como professor de pós-graduação na PUC-SP. É co-autor do livro \"Métodos Ágeis para Desenvolvimento de Software\". Em seus últimos desafios liderou diversas iniciativas para desenvolvedores e startups na Amazon Web Services e na Microsoft. Fala sobre inovação disruptiva, tendências tecnológicas, computação em nuvem(SaaS, PaaS e IaaS), agilidade e desenvolvimento de produtos em seu twitter @josepapo"
-  thumbnailUrl: jose_papo.jpg
+  id: 13
+  name: "Alda"
+  surname: "Rocha"
+  company: "Shot Coffee Art"
+  title: "Web designer , front-end, UX e UI designer"
+  bio: "36 anos, mais de 10 anos trabalhando em agências, startups e com redes sociais, criando e desenvolvendo soluções tecnológicas para projetos e empresas."
+  thumbnailUrl: alda_rocha.jpg
   rockstar: true
   social: 
-    - { name: "twitter", link: "https://twitter.com/josepapo"}
+    - { name: "twitter", link: "https://twitter.com/mjcoffeeholick"}
+    - {name: "google-plus", link: "https://plus.google.com/+AldaRocha" }
 
+
+
+-
+  id: 14
+  name: "Pedro"
+  surname: "Kayatt"
+  company: "Naked Monkeys"
+  title: "Desenvolvedor e instrutor"
+  bio: "Engenheiro de Computação formado na Escola Politécnica de São Paulo com Diploma Duplo com o Politecnico di Milano. Experiência de 8 anos no mercado de jogos digitais com projetos juntos do MIT e participação em desafios internacionais, trabalhou em empresas na Itália e Brasil, sendo desenvolvedor oficial de: Xbox 360, Playstation 3, Wii, Android, iOS, Windows 8 e Windows Phone. Atualmente é empreendedor, fundador da Naked Monkey Games, empresa incubada no Cietec – Centro de Inovação e Empreendedorismo e Tecnologia, cujo foco principal são jogos casuais bi-dimensionais e multiplataforma, aliando-se ainda a uma inovação tecnológica que permite desenvolvimento de jogos colaborativos locais."
+  thumbnailUrl: pedro_kayatt.jpg
+  rockstar: false
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+PedroKayatt" }
+
+
+
+-
+  id: 15
+  name: "Sérgio"
+  surname: "Lopes"
+  company: "Caelum"
+  title: "Desenvolvedor e instrutor"
+  bio: "Sérgio Lopes é instrutor e desenvolvedor na Caelum. Foca atualmente em front-end, mobile e performance Web. É palestrante em diversos eventos, autor do livro \"A Web Mobile\" e editor da \"Coletânea Front-end\"."
+  thumbnailUrl: sergio_lopes.jpg
+  rockstar: false
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+SérgioLopesSLLJ/" }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-
+  id: 17
+  name: "Luiz Henrique"
+  surname: "Farcic Mineo"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: luiz_henrique.jpg
+  rockstar: false
+  social: 
+    - { name: "google-plus", link: "http://plus.google.com/"}
+
+
+-
+  id: 18
+  name: "Paulo"
+  surname: "Pires"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: paulo_pires.jpg
+  rockstar: false
+  social: 
+    - { name: "google-plus", link: "http://plus.google.com/"}
+
+
+
+-
+  id: 19
+  name: "Hussani"
+  surname: "Oliveira"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl: hussani_oliveira.jpg
+  rockstar: false
+  social: 
+    - { name: "google-plus", link: "http://plus.google.com/"}
+
+
+
+-
+  id: 20
+  name: "Shankar"
+  surname: "Cabus"
+  company: "JusBrasil"
+  title: "Frontender"
+  bio: "Entrou no mundo web em 2001, mas só em 2009 deixou de ser 'sobrinho' e passou a trabalhar profissionalmente como frontender e web designer do JusBrasil, onde desenvolveu paixão pelo HTML, CSS, JavaScript, Web Design, SEO, performance e tudo que atinge o coração do usuário. É graduado em Sistema de Informação pela UNEB e fundador do grupo Frontend Bahia. Nas horas vagas, gosta de surfar e tomar uma cervejinha com os amigos!"
+  thumbnailUrl: shankar_cabus.jpg
+  rockstar: false
+  social: 
+    - { name: "google-plus", link: "http://plus.google.com/115150277069386889606"}
+
+
+
+-
+  id: 21
+  name: "Níckolas Daniel"
+  surname: "da Silva"
+  company: ""
+  title: ""
+  bio: "Desenvolvedor há aproximadamente 3 anos, e desde os 8 anos (não faz muito tempo...) rato de computadores :D. Sempre tive muito interesse sobre computação em geral, já trabalhei com servidores IPBX utilizando Asterisk, organizando redes linux, programando sites e hoje desenvolvendo sistemas PHP e JS \"de verdade\". Ultimamente tenho visto maior interesse em repassar conhecimento, saber é sempre legal. Ver os outros descobrindo coisas novas por você é melhor ainda."
+  thumbnailUrl: nickolas_daniel.jpg
+  rockstar: false
+  social: 
+    - { name: "google-plus", link: "https://plus.google.com/115651088452541229431"}
+
+
+-
+  id: 22
+  name: "Luiz F."
+  surname: "Corte Real"
+  company: "Caelum"
+  title: "Desenvolvedor e instrutor"
+  bio: "Trabalho como desenvolvedor e instrutor na Caelum, focado nos cursos de front-end. Também sou um dos responsáveis pelos cursos de front-end do Alura e um dos autores do livro 'Coletânea Front-end'. Mas minha formação é de back-end: sou mestre em Ciência da Computação pela USP. Por isso, gosto muito de opensource, novidades do mercado, paradigmas e boas práticas de programação."
+  thumbnailUrl: luiz_corte.jpg
+  rockstar: false
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/117413901265229708491" }
+
+
+
+
+-
+  id: 16
+  name: "Paulo"
+  surname: "Fernandes"
+  company: "Liferay"
+  title: ""
+  bio: ""
+  thumbnailUrl: paulo_fernandes.jpg
+  rockstar: false
+  ribbon:
+    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/102774871279745079139/"}
+  social: 
+    - { name: "google-plus", link: "http://plus.google.com/104268131142942797935"}
 
 
 
