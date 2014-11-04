@@ -17,3 +17,13 @@
   group: "Padawan"
   elements: 
     - {name: "DigiPronto", description: "DigiPronto", link: "https://www.digipronto.com.br", imageUrl: "digipronto.svg"}
+
+
+
+- 
+  group: "Apoiadores"
+  elements: 
+    - {name: "iMasters", description: "iMasters", link: "http://imasters.com.br/", imageUrl: "apoio_imasters.svg", class: "small"}
+    - {name: "Globalcode", description: "Globalcode", link: "http://www.globalcode.com.br/", imageUrl: "apoio_globalcode.svg", class: "small"}
+    - {name: "Festagram", description: "Festagram", link: "http://www.festagram.com.br/", imageUrl: "apoio_festagram.svg", class: "small"}
+
