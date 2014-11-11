@@ -36,6 +36,7 @@
   ribbon:
     - {abbr: "Googler", title: "Googler", url: "http://google.com"}
   social: 
+    - {name: "google-plus", link: "https://plus.google.com/+JosePapo"}
     - { name: "twitter", link: "https://twitter.com/josepapo"}
 
 -
@@ -244,7 +245,7 @@
   thumbnailUrl: paulo_pires.jpg
   rockstar: false
   social: 
-    - { name: "google-plus", link: "http://plus.google.com/"}
+    - { name: "google-plus", link: "https://plus.google.com/+PauloHenrique22"}
 
 
 
@@ -258,7 +259,7 @@
   thumbnailUrl: hussani_oliveira.jpg
   rockstar: false
   social: 
-    - { name: "google-plus", link: "http://plus.google.com/"}
+    - { name: "google-plus", link: "https://plus.google.com/+HussaniOliveira"}
 
 
 
