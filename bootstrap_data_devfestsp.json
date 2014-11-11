@@ -5,9 +5,9 @@
 	"speakers": [
 
 		{
-			"bio": "Desenvolvedor web desde 2000, criador do sms2blog, primeiro gateway sms para Twitter no Brasil e trabalhei em ag√™ncias digitais para marcas como Google, Coca-Cola, Nestl√©, Itaucard, Fiat, GE, Globo Minas, Iveco, Usiminas, Vivo e Yamaha.",
-			"name": "Lu√≠s Leao",
-			"company": "Google Developer Group S√£o Paulo",
+			"bio": "Desenvolvedor web desde 2000, criador do sms2blog, primeiro gateway sms para Twitter no Brasil e trabalhei em agÍncias digitais para marcas como Google, Coca-Cola, NestlÈ, Itaucard, Fiat, GE, Globo Minas, Iveco, Usiminas, Vivo e Yamaha.",
+			"name": "LuÌs Leao",
+			"company": "Google Developer Group S„o Paulo",
 			"plusoneUrl": "https://plus.google.com/+Lu%C3%ADsLe%C3%A3o",
 			"thumbnailUrl": "http://sp.devfest.com.br/img/speakers/luisleao.jpg",
 			"id": "1"
@@ -15,16 +15,16 @@
 
 		{
 			"bio": "Community Manager focus on Developers and Technical communities. Working hard to grow the communities that we are envolved in.",
-			"name": "Al√™ Borba",
+			"name": "AlÍ Borba",
 			"company": "Google",
-			"plusoneUrl": "https://plus.google.com/+Al√™Borba",
+			"plusoneUrl": "https://plus.google.com/+AlÍBorba",
 			"thumbnailUrl": "http://sp.devfest.com.br/img/speakers/ale_borba.jpg",
 			"id": ""
 		},
 
 		{
-			"bio": "Jos√© Papo √© Gerente de rela√ß√µes com startups e desenvolvedores do Google Brasil. √â mestre em Engenharia da Computa√ß√£o pelo IPT e tamb√©m atua como professor de p√≥s-gradua√ß√£o na PUC-SP. √â co-autor do livro \"M√©todos √Ågeis para Desenvolvimento de Software\". Em seus √∫ltimos desafios liderou diversas iniciativas para desenvolvedores e startups na Amazon Web Services e na Microsoft. Fala sobre inova√ß√£o disruptiva, tend√™ncias tecnol√≥gicas, computa√ß√£o em nuvem(SaaS, PaaS e IaaS), agilidade e desenvolvimento de produtos em seu twitter @josepapo",
-			"name": "Jos√© Papo",
+			"bio": "JosÈ Papo È Gerente de relaÁıes com startups e desenvolvedores do Google Brasil. … mestre em Engenharia da ComputaÁ„o pelo IPT e tambÈm atua como professor de pÛs-graduaÁ„o na PUC-SP. … co-autor do livro \"MÈtodos ¡geis para Desenvolvimento de Software\". Em seus ˙ltimos desafios liderou diversas iniciativas para desenvolvedores e startups na Amazon Web Services e na Microsoft. Fala sobre inovaÁ„o disruptiva, tendÍncias tecnolÛgicas, computaÁ„o em nuvem(SaaS, PaaS e IaaS), agilidade e desenvolvimento de produtos em seu twitter @josepapo",
+			"name": "JosÈ Papo",
 			"company": "Google",
 			"plusoneUrl": "https://plus.google.com/+JosePapo",
 			"thumbnailUrl": "http://sp.devfest.com.br/img/speakers/jose_papo.jpg",
@@ -41,7 +41,7 @@
 		},
 
 		{
-			"bio": "Bacharel em Ci√™ncia da Computa√ß√£o pela Universidade Metodista de S√£o Paulo e p√≥s-graduado em Ci√™ncia da Computa√ß√£o pela Universidade Federal de S√£o Carlos, atua h√° 16 anos no mercado de tecnologia da informa√ß√£o.",
+			"bio": "Bacharel em CiÍncia da ComputaÁ„o pela Universidade Metodista de S„o Paulo e pÛs-graduado em CiÍncia da ComputaÁ„o pela Universidade Federal de S„o Carlos, atua h· 16 anos no mercado de tecnologia da informaÁ„o.",
 			"name": "Alexandre Tarifa",
 			"company": "Minha Vida",
 			"plusoneUrl": "https://plus.google.com/102773477132685590587",
@@ -51,7 +51,7 @@
 
 
 		{
-			"bio": "Daniel Vieira Viveiros √© um GDE (Google Developer Expert) de Google Cloud Platform e atua tamb√©m como Head of Technology da CI&T. H√° mais de 13 anos trabalhando com arquitetura de software e de sistemas, j√° projetou e liderou projetos de desenvolvimento de software distribu√≠dos e complexos para grandes empresas como TV Globo, Natura e Ambev. Hoje √© respons√°vel pela √°rea de inova√ß√£o e desenvolvimento de compet√™ncias tecnol√≥gicas de ponta na CI&T na plataforma Google, incluindo social integration e machine learning.",
+			"bio": "Daniel Vieira Viveiros È um GDE (Google Developer Expert) de Google Cloud Platform e atua tambÈm como Head of Technology da CI&T. H· mais de 13 anos trabalhando com arquitetura de software e de sistemas, j· projetou e liderou projetos de desenvolvimento de software distribuÌdos e complexos para grandes empresas como TV Globo, Natura e Ambev. Hoje È respons·vel pela ·rea de inovaÁ„o e desenvolvimento de competÍncias tecnolÛgicas de ponta na CI&T na plataforma Google, incluindo social integration e machine learning.",
 			"name": "Daniel Viveiros",
 			"company": "CI&T",
 			"plusoneUrl": "https://plus.google.com/+DanielViveiros",
@@ -61,7 +61,7 @@
 
 
 		{
-			"bio": "Luiz Gustavo Martins √© Mestre e Bacharel em Ci√™ncia da Computa√ß√£o pela Universidade de S√£o Paulo, trabalha a 14 anos com desenvolvimento de software de risco de Mercado e de Cr√©dito. Criador do Guia Tv Br e do Farejador do Planalto.",
+			"bio": "Luiz Gustavo Martins È Mestre e Bacharel em CiÍncia da ComputaÁ„o pela Universidade de S„o Paulo, trabalha a 14 anos com desenvolvimento de software de risco de Mercado e de CrÈdito. Criador do Guia Tv Br e do Farejador do Planalto.",
 			"name": "Luiz Gustavo Martins",
 			"company": "Tripket",
 			"plusoneUrl": "https://plus.google.com/+LuizGustavoMartins",
@@ -70,7 +70,7 @@
 		},
 
 		{
-			"bio": "Gabriel Bettini Vicente formado em Desenho Industrial, trabalha a 5 anos como designer gr√°fico e a 3 anos com desenvolvimento de software de risco",
+			"bio": "Gabriel Bettini Vicente formado em Desenho Industrial, trabalha a 5 anos como designer gr·fico e a 3 anos com desenvolvimento de software de risco",
 			"name": "Gabriel Bettini Vicente",
 			"company": "",
 			"plusoneUrl": "",
@@ -89,7 +89,7 @@
 
 
 		{
-			"bio": "Ciro √© Senior Front-end Engineer na Questrade e o √∫nico Google Developer Expert em AngularJS da Am√©rica Latina. √â contribuidor do core do Angular e um mantenedor do Karma. Ele tamb√©m revisa livros, organiza meetups e ministra cursos sobre o framework mais badalado do momento, al√©m de palestrar em eventos pelo Brasil.",
+			"bio": "Ciro È Senior Front-end Engineer na Questrade e o ˙nico Google Developer Expert em AngularJS da AmÈrica Latina. … contribuidor do core do Angular e um mantenedor do Karma. Ele tambÈm revisa livros, organiza meetups e ministra cursos sobre o framework mais badalado do momento, alÈm de palestrar em eventos pelo Brasil.",
 			"name": "Ciro Nunes",
 			"company": "Questrade",
 			"plusoneUrl": "https://plus.google.com/+CiroNunesDev",
@@ -98,7 +98,7 @@
 		},
 
 		{
-			"bio": "Ubiratan Soares √© Engenheiro de Software especializado em Android, e antes de tudo, um curioso. Formado em Ci√™ncias da Computa√ß√£o pela Universidade de S√£o Paulo, √© tamb√©m Instrutor na Globalcode, Intel Software Innovator para Android, palestrante, membro ativo da comunidade de desenvolvimento de Sampa e regi√£o, freelancer, pai de um lindo menino e outros - em qualquer ordem!",
+			"bio": "Ubiratan Soares È Engenheiro de Software especializado em Android, e antes de tudo, um curioso. Formado em CiÍncias da ComputaÁ„o pela Universidade de S„o Paulo, È tambÈm Instrutor na Globalcode, Intel Software Innovator para Android, palestrante, membro ativo da comunidade de desenvolvimento de Sampa e regi„o, freelancer, pai de um lindo menino e outros - em qualquer ordem!",
 			"name": "Ubiratan Soares",
 			"company": "Eicon",
 			"plusoneUrl": "https://plus.google.com/+UbiratanSoares",
@@ -107,7 +107,7 @@
 		},
 
 		{
-			"bio": "Beto Muniz √© um Mineiro-Capixaba apaixonado por Front End, inspirado pelo estudo de novas tecnologias e pela comunidade, Beto est√° sempre antenado no que esta acontecendo no mundo do desenvolvimento e disposto a contribuir com a comunidade, prova disso √© sua participa√ß√£o em Projetos Open-Source, Eventos e Organiza√ß√µes como  CustomElements.io, LearnLayout.com, Google I/O Extended, TDC, FrontInterior, FrontEnd Carioca, NodeJS Meetup, NodeBr, GoLangBr, MinasDev, WebComponents.org etc.",
+			"bio": "Beto Muniz È um Mineiro-Capixaba apaixonado por Front End, inspirado pelo estudo de novas tecnologias e pela comunidade, Beto est· sempre antenado no que esta acontecendo no mundo do desenvolvimento e disposto a contribuir com a comunidade, prova disso È sua participaÁ„o em Projetos Open-Source, Eventos e OrganizaÁıes como  CustomElements.io, LearnLayout.com, Google I/O Extended, TDC, FrontInterior, FrontEnd Carioca, NodeJS Meetup, NodeBr, GoLangBr, MinasDev, WebComponents.org etc.",
 			"name": "Beto Muniz",
 			"company": "HE:Labs",
 			"plusoneUrl": "https://plus.google.com/+betomuniz",
@@ -125,7 +125,7 @@
 		},
 
 		{
-			"bio": "36 anos, mais de 10 anos trabalhando em ag√™ncias, startups e com redes sociais, criando e desenvolvendo solu√ß√µes tecnol√≥gicas para projetos e empresas.",
+			"bio": "36 anos, mais de 10 anos trabalhando em agÍncias, startups e com redes sociais, criando e desenvolvendo soluÁıes tecnolÛgicas para projetos e empresas.",
 			"name": "Alda Rocha",
 			"company": "Shot Coffee Art",
 			"plusoneUrl": "https://plus.google.com/+AldaRocha",
@@ -135,7 +135,7 @@
 
 
 		{
-			"bio": "Engenheiro de Computa√ß√£o formado na Escola Polit√©cnica de S√£o Paulo com Diploma Duplo com o Politecnico di Milano. Experi√™ncia de 8 anos no mercado de jogos digitais com projetos juntos do MIT e participa√ß√£o em desafios internacionais, trabalhou em empresas na It√°lia e Brasil, sendo desenvolvedor oficial de: Xbox 360, Playstation 3, Wii, Android, iOS, Windows 8 e Windows Phone. Atualmente √© empreendedor, fundador da Naked Monkey Games, empresa incubada no Cietec ‚Äì Centro de Inova√ß√£o e Empreendedorismo e Tecnologia, cujo foco principal s√£o jogos casuais bi-dimensionais e multiplataforma, aliando-se ainda a uma inova√ß√£o tecnol√≥gica que permite desenvolvimento de jogos colaborativos locais.",
+			"bio": "Engenheiro de ComputaÁ„o formado na Escola PolitÈcnica de S„o Paulo com Diploma Duplo com o Politecnico di Milano. ExperiÍncia de 8 anos no mercado de jogos digitais com projetos juntos do MIT e participaÁ„o em desafios internacionais, trabalhou em empresas na It·lia e Brasil, sendo desenvolvedor oficial de: Xbox 360, Playstation 3, Wii, Android, iOS, Windows 8 e Windows Phone. Atualmente È empreendedor, fundador da Naked Monkey Games, empresa incubada no Cietec ñ Centro de InovaÁ„o e Empreendedorismo e Tecnologia, cujo foco principal s„o jogos casuais bi-dimensionais e multiplataforma, aliando-se ainda a uma inovaÁ„o tecnolÛgica que permite desenvolvimento de jogos colaborativos locais.",
 			"name": "Pedro Kayatt",
 			"company": "Naked Monkey",
 			"plusoneUrl": "https://plus.google.com/+PedroKayatt",
@@ -144,10 +144,10 @@
 		},
 
 		{
-			"bio": "S√©rgio Lopes √© instrutor e desenvolvedor na Caelum. Foca atualmente em front-end, mobile e performance Web. √â palestrante em diversos eventos, autor do livro \"A Web Mobile\" e editor da \"Colet√¢nea Front-end\".",
-			"name": "S√©rgio Lopes",
+			"bio": "SÈrgio Lopes È instrutor e desenvolvedor na Caelum. Foca atualmente em front-end, mobile e performance Web. … palestrante em diversos eventos, autor do livro \"A Web Mobile\" e editor da \"Colet‚nea Front-end\".",
+			"name": "SÈrgio Lopes",
 			"company": "Caelum",
-			"plusoneUrl": "https://plus.google.com/+S√©rgioLopesSLLJ/",
+			"plusoneUrl": "https://plus.google.com/+SÈrgioLopesSLLJ/",
 			"thumbnailUrl": "http://sp.devfest.com.br/img/speakers/sergio_lopes.jpg",
 			"id": "15"
 		},
@@ -185,7 +185,7 @@
 
 
 		{
-			"bio": "Entrou no mundo web em 2001, mas s√≥ em 2009 deixou de ser 'sobrinho' e passou a trabalhar profissionalmente como frontender e web designer do JusBrasil, onde desenvolveu paix√£o pelo HTML, CSS, JavaScript, Web Design, SEO, performance e tudo que atinge o cora√ß√£o do usu√°rio. √â graduado em Sistema de Informa√ß√£o pela UNEB e fundador do grupo Frontend Bahia. Nas horas vagas, gosta de surfar e tomar uma cervejinha com os amigos!",
+			"bio": "Entrou no mundo web em 2001, mas sÛ em 2009 deixou de ser 'sobrinho' e passou a trabalhar profissionalmente como frontender e web designer do JusBrasil, onde desenvolveu paix„o pelo HTML, CSS, JavaScript, Web Design, SEO, performance e tudo que atinge o coraÁ„o do usu·rio. … graduado em Sistema de InformaÁ„o pela UNEB e fundador do grupo Frontend Bahia. Nas horas vagas, gosta de surfar e tomar uma cervejinha com os amigos!",
 			"name": "Shankar Cabus",
 			"company": "JusBrasil",
 			"plusoneUrl": "http://plus.google.com/115150277069386889606",
@@ -194,8 +194,8 @@
 		},
 
 		{
-			"bio": "Desenvolvedor h√° aproximadamente 3 anos, e desde os 8 anos (n√£o faz muito tempo...) rato de computadores :D. Sempre tive muito interesse sobre computa√ß√£o em geral, j√° trabalhei com servidores IPBX utilizando Asterisk, organizando redes linux, programando sites e hoje desenvolvendo sistemas PHP e JS \"de verdade\". Ultimamente tenho visto maior interesse em repassar conhecimento, saber √© sempre legal. Ver os outros descobrindo coisas novas por voc√™ √© melhor ainda.",
-			"name": "N√≠ckolas Daniel da Silva",
+			"bio": "Desenvolvedor h· aproximadamente 3 anos, e desde os 8 anos (n„o faz muito tempo...) rato de computadores :D. Sempre tive muito interesse sobre computaÁ„o em geral, j· trabalhei com servidores IPBX utilizando Asterisk, organizando redes linux, programando sites e hoje desenvolvendo sistemas PHP e JS \"de verdade\". Ultimamente tenho visto maior interesse em repassar conhecimento, saber È sempre legal. Ver os outros descobrindo coisas novas por vocÍ È melhor ainda.",
+			"name": "NÌckolas Daniel da Silva",
 			"company": "",
 			"plusoneUrl": "https://plus.google.com/115651088452541229431",
 			"thumbnailUrl": "http://sp.devfest.com.br/img/speakers/nickolas_daniel.jpg",
@@ -203,7 +203,7 @@
 		},
 
 		{
-			"bio": "Trabalho como desenvolvedor e instrutor na Caelum, focado nos cursos de front-end. Tamb√©m sou um dos respons√°veis pelos cursos de front-end do Alura e um dos autores do livro 'Colet√¢nea Front-end'. Mas minha forma√ß√£o √© de back-end: sou mestre em Ci√™ncia da Computa√ß√£o pela USP. Por isso, gosto muito de opensource, novidades do mercado, paradigmas e boas pr√°ticas de programa√ß√£o.",
+			"bio": "Trabalho como desenvolvedor e instrutor na Caelum, focado nos cursos de front-end. TambÈm sou um dos respons·veis pelos cursos de front-end do Alura e um dos autores do livro 'Colet‚nea Front-end'. Mas minha formaÁ„o È de back-end: sou mestre em CiÍncia da ComputaÁ„o pela USP. Por isso, gosto muito de opensource, novidades do mercado, paradigmas e boas pr·ticas de programaÁ„o.",
 			"name": "Luiz Fernando Corte Real",
 			"company": "Caelum",
 			"plusoneUrl": "https://plus.google.com/117413901265229708491luiz_corte.jpg",
@@ -237,7 +237,7 @@
 			},
 			{
 				"end": "2014-11-01T20:00:00.000Z",
-				"title": "Almo√ßo",
+				"title": "AlmoÁo",
 				"type": "session",
 				"subtitle": "Cafe, Level 1",
 				"start": "2014-06-25T18:00:00.000Z"
@@ -375,12 +375,12 @@
 
 		{
 			"speakers": ["755d9e72-cad0-e311-b297-00155d5066d7"],
-			"description": "Como CTO & Founder da Easy Taxi, Vinicius Gracia falar√° em sua palestra a respeito dos desafios do desenvolvimento de um aplicativo, que tem como principal objetivo ajudar a mobilidade urbana nos 33 pa√≠ses em que est√° presente. Um dos principais pontos ser√° falar sobre a adapta√ß√£o que o aplicativo precisa ter para atender as necessidades de cada regi√£o em que est√° presente ao redor do globo.",
+			"description": "Como CTO & Founder da Easy Taxi, Vinicius Gracia falar· em sua palestra a respeito dos desafios do desenvolvimento de um aplicativo, que tem como principal objetivo ajudar a mobilidade urbana nos 33 paÌses em que est· presente. Um dos principais pontos ser· falar sobre a adaptaÁ„o que o aplicativo precisa ter para atender as necessidades de cada regi„o em que est· presente ao redor do globo.",
 			"photoUrl": "http://norte.devfest.com.br/img/speakers/Vini.jpg",
 			"url": "https://plus.google.com/104454903082510408559",
 			"startTimestamp": "2014-11-01T09:00:00-03:00",
 			"endTimestamp": "2014-11-01T10:00:00-03:00",
-			"title": "Os desafios do desenvolvimento do app nos 33 pa√≠ses",
+			"title": "Os desafios do desenvolvimento do app nos 33 paÌses",
 			"youtubeUrl": "",
 			"mainTag": "FLAG_KEYNOTE",
 			"color": "#3f51b5",
@@ -395,8 +395,8 @@
 		},
 		{
 			"speakers": ["8767x112-xds1-e311-b297-00155d5066d7"],
-			"description": "Essa palestra visa demonstrar aspectos pr√°ticos da constru√ß√£o de aplicativos com AngularJS no que tange o uso de Controllers eficientes, Servi√ßos descomplicados, Separa√ß√£o de responsabilidade entre entidades e a substitui√ß√£o do uso de $watch por Observers.",
-			"title": "AngularJS: aspectos pr√°ticos visando a rapidez",
+			"description": "Essa palestra visa demonstrar aspectos pr·ticos da construÁ„o de aplicativos com AngularJS no que tange o uso de Controllers eficientes, ServiÁos descomplicados, SeparaÁ„o de responsabilidade entre entidades e a substituiÁ„o do uso de $watch por Observers.",
+			"title": "AngularJS: aspectos pr·ticos visando a rapidez",
 			"photoUrl": "http://norte.devfest.com.br/img/speakers/evaldo.jpg",
 			"url": "http://norte.devfest.com.br",
 			"startTimestamp": "2014-11-01T10:30:00-03:00",
@@ -412,7 +412,7 @@
 		},
 		{
 			"speakers": ["978d3s44-gbd4-e311-b297-00155d5066d7"],
-			"description": "Nesta apresenta√ß√£o irei mostrar minha trajet√≥ria como desenvolvedor Android, relatando os desafios enfrentados, falhas e li√ß√µes aprendidas durante esses 7 anos de experi√™ncia. Explicarei os passos que considero essenciais e boas pr√°ticas que todo desenvolvedor Android precisa seguir para obter sucesso com suas apps.",
+			"description": "Nesta apresentaÁ„o irei mostrar minha trajetÛria como desenvolvedor Android, relatando os desafios enfrentados, falhas e liÁıes aprendidas durante esses 7 anos de experiÍncia. Explicarei os passos que considero essenciais e boas pr·ticas que todo desenvolvedor Android precisa seguir para obter sucesso com suas apps.",
 			"title": "O caminho de um desenvolvedor Android",
 			"photoUrl": "http://norte.devfest.com.br/img/speakers/ramon.jpeg",
 			"url": "http://norte.devfest.com.br",
@@ -431,7 +431,7 @@
 		},
 		{
 			"speakers": ["f184af29-46d2-e311-b297-00155d5066d7"],
-			"description": "Aprenda sobre a origem e motiva√ß√µes da cria√ß√£o da linguagem Go. Al√©m disso, ser√£o mostrados v√°rios exemplos pra mostrar do que a linguagem √© capaz! Essa palestra √© pra voc√™.",
+			"description": "Aprenda sobre a origem e motivaÁıes da criaÁ„o da linguagem Go. AlÈm disso, ser„o mostrados v·rios exemplos pra mostrar do que a linguagem È capaz! Essa palestra È pra vocÍ.",
 			"title": "Conhecendo Go",
 			"photoUrl": "http://norte.devfest.com.br/img/speakers/gigante.png",
 			"url": "http://norte.devfest.com.br/",
@@ -450,7 +450,7 @@
 		},
 		{
 			"speakers": ["bc11152b-c4cf-e311-b297-00155d5066d7"],
-			"description": "Aprenda sobre as etapas do processo de produ√ß√£o e a utiliza√ß√£o da ferramenta open-source LibGDX junto ao SDK do sistema operacional Android para cria√ß√£o de jogos 2D para smartphones.",
+			"description": "Aprenda sobre as etapas do processo de produÁ„o e a utilizaÁ„o da ferramenta open-source LibGDX junto ao SDK do sistema operacional Android para criaÁ„o de jogos 2D para smartphones.",
 			"title": "Desenvolvimento de Jogos para Android",
 			"photoUrl": "http://norte.devfest.com.br/img/speakers/lucas.png",
 			"url": "http://norte.devfest.com.br",
@@ -469,7 +469,7 @@
 		},
 		{
 			"speakers": ["554g1r23-sdf5-e311-b297-00155d5066d7"],
-			"description": "Criar software √© f√°cil... dif√≠cil √© mante-lo! √â por isso que a pr√°tica de Test Driven Development (TDD) vem sendo muito explorada pelas maiores empresas de desenvolvimento de software do mundo. Nesta palestra vou mostrar como criar testes automatizados para o seu c√≥digo Javascript e Angular.js para aumentar a produtividade e confian√ßa dos desenvolvedores do seu projeto.",
+			"description": "Criar software È f·cil... difÌcil È mante-lo! … por isso que a pr·tica de Test Driven Development (TDD) vem sendo muito explorada pelas maiores empresas de desenvolvimento de software do mundo. Nesta palestra vou mostrar como criar testes automatizados para o seu cÛdigo Javascript e Angular.js para aumentar a produtividade e confianÁa dos desenvolvedores do seu projeto.",
 			"title": "Desenvolvimento Orientado a Testes com AngularJS",
 			"photoUrl": "http://norte.devfest.com.br/img/speakers/ike.jpg",
 			"url": "http://norte.devfest.com.br",
@@ -488,8 +488,8 @@
 		},
 		{
 			"speakers": ["69058c1e-a6c6-e311-b297-00155d5066d7"],
-			"description": "Saiba como tornar sua aplica√ß√£o mais atraente e eficiente atrav√©s de transi√ß√µes animadas (sem deixar seu usu√°rio entediado!).",
-			"title": "Animando a UI: entregue uma experi√™ncia, n√£o apenas um aplicativo",
+			"description": "Saiba como tornar sua aplicaÁ„o mais atraente e eficiente atravÈs de transiÁıes animadas (sem deixar seu usu·rio entediado!).",
+			"title": "Animando a UI: entregue uma experiÍncia, n„o apenas um aplicativo",
 			"photoUrl": "http://norte.devfest.com.br/img/speakers/santiago.jpg",
 			"url": "http://norte.devfest.com.br",
 			"startTimestamp": "2014-11-01T13:30:00-03:00",
@@ -508,8 +508,8 @@
 		},
 		{
 			"speakers": ["14408a18-a6c6-e311-b297-00155d5066d7"],
-			"description": "Iremos falar de Go, hospedagem, integra√ß√£o cont√≠nua e deployment.",
-			"title": "Go para Microservi√ßos",
+			"description": "Iremos falar de Go, hospedagem, integraÁ„o contÌnua e deployment.",
+			"title": "Go para MicroserviÁos",
 			"photoUrl": "http://norte.devfest.com.br/img/speakers/aldrin.jpg",
 			"url": "http://norte.devfest.com.br",
 			"startTimestamp": "2014-11-01T14:30:00-03:00",
@@ -527,8 +527,8 @@
 		},
 		{
 			"speakers": ["215c1b32-vga0-e311-b297-00155d5066d7"],
-			"description": "Conhe√ßa este espetacular framework front-end para o desenvolvimento de aplicativos m√≥veis, que entrega um conjunto rico de elementos de mobile UI, unindo excelentes tecnologias como Apache Cordova, Angular JS e Sass.",
-			"title": "Ionic Framework: aplica√ß√µes m√≥veis h√≠bridas com HTML5 e Angular JS",
+			"description": "ConheÁa este espetacular framework front-end para o desenvolvimento de aplicativos mÛveis, que entrega um conjunto rico de elementos de mobile UI, unindo excelentes tecnologias como Apache Cordova, Angular JS e Sass.",
+			"title": "Ionic Framework: aplicaÁıes mÛveis hÌbridas com HTML5 e Angular JS",
 			"photoUrl": "http://norte.devfest.com.br/img/speakers/gabrielcastro.png",
 			"url": "http://norte.devfest.com.br",
 			"startTimestamp": "2014-11-01T14:30:00-03:00",
@@ -546,8 +546,8 @@
 		},
 		{
 			"speakers": ["623yta65-fbc2-e311-b297-00155d5066d7"],
-			"description": "Esta apresenta√ß√£o ser√° um overview sobre a tecnologia WebRTC dispon√≠vel hoje. E como construir um aplicativo WebRTC utilizando sua api javascript e HTML5.",
-			"title": "WebRTC, transmiss√£o de audio e v√≠deo Real-time com HTML5",
+			"description": "Esta apresentaÁ„o ser· um overview sobre a tecnologia WebRTC disponÌvel hoje. E como construir um aplicativo WebRTC utilizando sua api javascript e HTML5.",
+			"title": "WebRTC, transmiss„o de audio e vÌdeo Real-time com HTML5",
 			"photoUrl": "http://norte.devfest.com.br/img/speakers/paulomoura.jpg",
 			"url": "http://norte.devfest.com.br",
 			"startTimestamp": "2014-11-01T16:00:00-03:00",
@@ -565,8 +565,8 @@
 		},
 		{
 			"speakers": ["873a3d32-adc9-e311-b297-00155d5066d7"],
-			"description": "Nesta apresenta√ß√£o irei demostrar a evolu√ß√£o da plataforma Android at√© o Android L, que trouxe in√∫meras novidades, como a nova maquina virtual ART, o projeto VOLTA, Material; e como tudo isso trouxe uma experiencia unificada entre v√°rios tipos de dispositivos, desde smartphones at√© a Android TV. Al√©m disso irei falar sobre as principais tend√™ncias do mercado mobile.",
-			"title": "Android L: Conhe√ßa as novidades e tend√™ncias.",
+			"description": "Nesta apresentaÁ„o irei demostrar a evoluÁ„o da plataforma Android atÈ o Android L, que trouxe in˙meras novidades, como a nova maquina virtual ART, o projeto VOLTA, Material; e como tudo isso trouxe uma experiencia unificada entre v·rios tipos de dispositivos, desde smartphones atÈ a Android TV. AlÈm disso irei falar sobre as principais tendÍncias do mercado mobile.",
+			"title": "Android L: ConheÁa as novidades e tendÍncias.",
 			"photoUrl": "http://norte.devfest.com.br/img/speakers/bryan.jpg",
 			"url": "http://norte.devfest.com.br",
 			"startTimestamp": "2014-11-01T16:00:00-03:00",
@@ -616,13 +616,13 @@
 			"color": "#303f9f",
 			"order": 1,
 			"name": "#devfestsp",
-			"description": "Veja o que acontece no Google+ sobre o GDG DevFest S√£o Paulo 2014."
+			"description": "Veja o que acontece no Google+ sobre o GDG DevFest S„o Paulo 2014."
 		},
 		{
 			"color": "#9fa8da",
 			"order": 10,
 			"name": "#keynote",
-			"description": "Confira os coment√°rios no Google+ sobre o Keynote do DevFest S√£o Paulo 2014."
+			"description": "Confira os coment·rios no Google+ sobre o Keynote do DevFest S„o Paulo 2014."
 		},
 		{
 			"color": "#80cbc4",
@@ -676,17 +676,17 @@
 		{
 			"original_id": "1be884ab-5cd5-e311-b297-00155d5066d7",
 			"id": "solarium1",
-			"name": "Sal√£o Solarium 1"
+			"name": "Sal„o Solarium 1"
 		},
 		{
 			"original_id": "297c3886-5cd5-e311-b297-00155d5066d7",
 			"id": "solarium2",
-			"name": "Sal√£o Solarium 2"
+			"name": "Sal„o Solarium 2"
 		},
 		{
 			"original_id": "597c3886-5cd5-e311-b297-00155d5066d7",
 			"id": "auditorio",
-			"name": "Audit√≥rio"
+			"name": "AuditÛrio"
 		}
 	],
 
@@ -718,7 +718,7 @@
 
 		{
 			"category": "TYPE",
-			"name": "Sess√µes",
+			"name": "Sessıes",
 			"abstract": "",
 			"tag": "TYPE_SESSIONS",
 			"original_id": "08e12eae-a487-e311-84db-00155d5066d7",
