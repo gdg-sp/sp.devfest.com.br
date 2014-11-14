@@ -47,7 +47,7 @@ navigationLinks:
  # bottomNavigationLinks:
  # - {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
  # - {link: "https://docs.google.com/forms/d/1dVn4WmqAFiQm-4KKHMoUH5UgX-SWaWdLSATexr1lMyQ/viewform", text: "Seja um voluntário"}
- - {link: "http://devfestsp.eventbrite.com/?discount=ibelieveintheforce&aff=site", text: "Inscreva-se"}
+ - {link: "http://devfestsp.eventbrite.com/?aff=site", text: "Inscreva-se"}
  # rightNavigationButtons:
  #- {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
 
@@ -57,7 +57,7 @@ eventDate: "22 de Novembro de 2014"
 typeoutTextValues: '"Sampa", "SP", "São Paulo"'
 heroButtons:
 # - {url: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
- - {url: "http://devfestsp.eventbrite.com/?discount=ibelieveintheforce&aff=site", text: "Faça sua inscrição. Ainda tem desconto!"}
+ - {url: "http://devfestsp.eventbrite.com/?aff=site", text: "Faça sua inscrição!"}
 
 
 
@@ -148,7 +148,7 @@ ticketsOffers:
   name: "Become a Jedi"
   price: "120"
   priceCurrency: "R$"
-  buyButtonLink: "https://devfestsp.eventbrite.com/?discount=ibelieveintheforce"
+  buyButtonLink: "https://devfestsp.eventbrite.com/"
   buyButtonText: "Comprar"
   ticketContentList: ["Desconto válido até 15/11/2014"]
   validFrom: "2014-10-16T00:00"
@@ -159,8 +159,8 @@ ticketsOffers:
   name: "The dark side"
   price: "200"
   priceCurrency: "R$"
-  buyButtonLink: "http://devfestsp.eventbrite.com/?discount=ibelieveintheforce&aff=site"
-  buyButtonText: "Compre com desconto!"
+  buyButtonLink: "http://devfestsp.eventbrite.com/?aff=site"
+  buyButtonText: "Compre agora!"
   validFrom: "2014-11-01T00:00"
   validThrough: "2014-11-15T23:59"
   soldOut: false
