@@ -61,7 +61,7 @@
   title: "CTO and Partner"
   bio: "Bacharel em Ciência da Computação pela Universidade Metodista de São Paulo e pós-graduado em Ciência da Computação pela Universidade Federal de São Carlos, atua há 16 anos no mercado de tecnologia da informação."
   thumbnailUrl: alexandre_tarifa.jpg
-  rockstar: false
+  rockstar: true
   social: 
     - {name: "google-plus", link: "https://plus.google.com/102773477132685590587" }
 
@@ -204,7 +204,7 @@
   title: "Desenvolvedor e instrutor"
   bio: "Sérgio Lopes é instrutor e desenvolvedor na Caelum. Foca atualmente em front-end, mobile e performance Web. É palestrante em diversos eventos, autor do livro \"A Web Mobile\" e editor da \"Coletânea Front-end\"."
   thumbnailUrl: sergio_lopes.jpg
-  rockstar: false
+  rockstar: true
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+SérgioLopesSLLJ/" }
 
