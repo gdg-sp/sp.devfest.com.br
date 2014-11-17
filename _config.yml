@@ -23,7 +23,7 @@ organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://gdgsp.org/"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, mobile, web, chrome, developers, saopaulo"
+metaKeywords: "event, gdg, devfest, google, programming, android, mobile, web, chrome, developers, saopaulo, brasil, brazil, gdgsp"
 #twitterAccount: "@DevFest"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
@@ -44,12 +44,18 @@ navigationLinks:
  # - {permalink: "/team/", text: "Time"}
  # - {permalink: "/logistics/", text: "Logistica"}
  # - {link: "https://developers.google.com", text: "Desenvolvedores"}
+
  # bottomNavigationLinks:
  # - {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
  # - {link: "https://docs.google.com/forms/d/1dVn4WmqAFiQm-4KKHMoUH5UgX-SWaWdLSATexr1lMyQ/viewform", text: "Seja um voluntário"}
  - {link: "http://devfestsp.eventbrite.com/?aff=site", text: "Inscreva-se"}
  # rightNavigationButtons:
  #- {link: "https://docs.google.com/forms/d/1egw-Kjo86PivWiu6yUwUW0tyY9jkNTiwU3nFzWK24Fk/viewform", text: "Seja um palestrante"}
+
+
+
+
+
 
 # Hero Block
 heroTitle: "GDG DevFest <typeout> 2014"
@@ -66,15 +72,22 @@ heroButtons:
 aboutTitle: "Sobre o GDG DevFest"
 aboutBlock:
  - {title: "Conferência", image: "conference.jpg", text: "O maior evento da Comunidade Google!" }
- - {title: "Palestras", image: "workshop.jpg", text: "" }
+ - {title: "Palestras", image: "workshop.jpg", text: "Googlers e membros da comunidade falando sobre tecnologias mobile e web!" }
  - {title: "Experimentos", image: "hackathon.jpg", text: "Uma área com exposição de tecnologias e experimentos!" }
+
+
+
 
 # Statistic Block
 statisticBlock:
  - {count: "450", specialCharacter: "+", info: "participantes", detail: "de todo lugar"}
- - {count: "20", specialCharacter: "+", info: "horas", detail: "de pura tecnologia Google"}
- #- {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "Trilhas Paralelas", detail: "e muitas novidades"}
+ - {count: "25", specialCharacter: "+", info: "palestrantes", detail: "e especialistas de tecnologia"}
+ - {count: "20", specialCharacter: "", info: "horas", detail: "de pura tecnologia Google"}
+ - {count: "3", specialCharacter: "", info: "trilhas paralelas", detail: "e muitas novidades"}
+
+
+
+
 
 # Latest News Block
 latestNewsTitle: "Últimas Notícias"
@@ -87,7 +100,7 @@ rockstarSpeakersButtonText: "conheça todos os palestrantes"
 
 
 
-
+#https://goo.gl/maps/v9WZy (restaurantes próximos)
 
 # Location Block
 locationBlockTitle: "Local"
@@ -105,10 +118,18 @@ eventPlaceCoordinates: "-23.557622,-46.668294"
 mapCenterCoordinates: "-23.557622,-46.668294"
 mapMobileCenterCoordinates: "-23.557622,-46.668294"
 
-# # Venue Block
-# venueBlockTitle: "Venue"
-# venueTitle: "Kinopalace Cinema"
-# venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+
+
+
+# Venue Block
+venueBlockTitle: "Venue"
+venueTitle: "Kinopalace Cinema"
+venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+
+
+
+
+
 
 # # Tweets Feed Block
 # tweetsFeedTitle: "What's Up?"
@@ -162,7 +183,7 @@ ticketsOffers:
   buyButtonLink: "http://devfestsp.eventbrite.com/?aff=site"
   buyButtonText: "Compre agora!"
   validFrom: "2014-11-01T00:00"
-  validThrough: "2014-11-15T23:59"
+  validThrough: "2014-11-18T23:59"
   soldOut: false
   soldOutText: "Esgotado"
 
@@ -213,34 +234,40 @@ findWayTitle: "Como chegar aqui"
 logisticsMapCenterCoordinates: "-23.557622,-46.668294"
 logisticsMapMobileCenterCoordinates: "-23.557622,-46.668294"
 
-# # Logistics Direction Details Block
-# directionDetailsTitle: "Get around Lviv"
-# directionDetailsCards:
-#  - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
-#  - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
-#  - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
-# directionDetailsWideCards: 
-#  -
-#   title: "Questions?"
-#   subCards:
-#    -
-#     title: "Hotels"
-#     links:
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-#    - 
-#     title: "Registration"
-#     links:
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-#    -
-#     title: "Attendance Details"
-#     links:
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-#      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+
+
+
+
+
+
+# Logistics Direction Details Block
+directionDetailsTitle: "Get around Lviv"
+directionDetailsCards:
+ - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
+ - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
+ - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
+directionDetailsWideCards: 
+ -
+  title: "Questions?"
+  subCards:
+   -
+    title: "Hotels"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+   - 
+    title: "Registration"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+   -
+    title: "Attendance Details"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
