@@ -3,8 +3,8 @@
   dateReadable: "22 de Novembro"
 
   tracks: 
-    - {title: "Web", color: "#03a9f4"}
     - {title: "Mobile", color: "#90be4e"}
+    - {title: "Web", color: "#03a9f4"}
     - {title: "Expo", color: "#e91e63"}
 
   timeslots:
