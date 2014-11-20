@@ -184,7 +184,7 @@ ticketsOffers:
   buyButtonText: "Compre agora!"
   validFrom: "2014-11-01T00:00"
   validThrough: "2014-11-18T23:59"
-  soldOut: false
+  soldOut: true
   soldOutText: "Esgotado"
 
 
