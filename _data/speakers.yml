@@ -130,6 +130,26 @@
     - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+CiroNunesDev"}
+
+
+
+
+
+-
+  id: 29
+  name: "George"
+  surname: "Silva"
+  company: "Intel"
+  title: ""
+  bio: "Formado em Ciência da Computação e Engenharia Elétrica, é o Comunity Manager de Android pela Intel do Brasil. Com experiência profissional na Coréia do Sul, participou do projeto LiMo Foundation desde 2008 pela LG Electronics. Em 2010, passou a desenvoler a plataforma Android para smartphones. Atualmente trabalha com o ecossistema de desenvolvimento de software brasileiro pela Intel Software. Áreas de interesse: software embarcado; programação distribuida e paralela."
+  thumbnailUrl: george_silva.jpg
+  rockstar: true
+  social: 
+    - { name: "google-plus", link: "https://plus.google.com/u/0/+GeorgeHenriqueSilva"}
+
+
+
+
 -
   id: 10
   name: "Ubiratan"
@@ -318,6 +338,8 @@
     - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/102774871279745079139/"}
   social: 
     - { name: "google-plus", link: "http://plus.google.com/104268131142942797935"}
+
+
 
 
 

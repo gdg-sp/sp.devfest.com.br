@@ -94,15 +94,15 @@
 
 -
   id: 011
-  title: "TBD"
-  description: "TBD"
-  speakers: []
+  title: "Otimização de Apps Android com Lollipop"
+  description: ""
+  speakers: [29]
   #language: pt-br
 
 
 -
   id: 888
-  title: "Retire o seu lanche"
+  title: "Hora do networking! <br/>E do lanche também :D"
   place: ""
   service: true
 
@@ -112,8 +112,8 @@
 
 -
   id: 012
-  title: "Entendendo o RecyclerView"
-  description: ""
+  title: "Android e Gradle na Prática"
+  description: "Nessa palestra, nós veremos alguns exemplos básicos, mas práticos, de como o Gradle Build System pode facilitar a sua vida no desenvolvimento do seu app Android! Aprenda o básico para customizar sua build, entenda os conceitos, perca o medo de mudar do Eclipse para o Android Studio e veja os benefícios de utilizar o Gradle para construir sua aplicação."
   speakers: [10]
   #language: pt-br
 
