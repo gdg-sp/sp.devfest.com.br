@@ -1,0 +1,57 @@
+[{
+    "id": 1,
+    "name": "Said Tahsin Dane",
+    "title": "Mobile Coder",
+    "company": "Startup Digest",
+    "country": "Turkey",
+    "photoUrl": "../../images/people/said_tahsine_dane.jpg",
+    "bio": "GDE (Google Developer Expert) for Android. Experience with Android (since Cupcake), Google Glass, Android Wear, and (even on!) iOS. Very passionate developer who tries to live on the bleeding edge of technology. Also very interested in mobile UX. <br/><br/>Active member and organizer at GDG Istanbul enjoying organizing various conferences and hackathons. Also a part of GDG[X] - a GDG related open-source organization.",
+    "tags": ["Android"],
+    "badges": [{
+        "name": "GDE",
+        "description": "Android Google Developer Expert",
+        "link": "https://developers.google.com/experts/people/said-tahsin-dane"
+    }, {
+        "name": "GDG",
+        "description": "Google Developers Group Istanbul",
+        "link": "https://developers.google.com/groups/chapter/100514812580249787371/"
+    }],
+    "socials": [{
+        "name": "Website",
+        "link": "http://www.tasomaniac.com/"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/tasomaniac"
+    }, {
+        "name": "GitHub",
+        "link": "https://github.com/tasomaniac"
+    }]
+}, {
+    "id": 17,
+    "name": "Anna Kurylo",
+    "title": "Project manager",
+    "company": "Hackraft",
+    "country": "Ukraine",
+    "photoUrl": "../../images/people/anna_kurylo.png",
+    "bio": "Anna drives several IT communities in Kyiv. She has organized more than 30 events during last the 2 years including the biggest hackathon in Ukraine and several conferences for developers and startups. This year Anna became a Google Anita Borg Scholar in EMEA Region, being selected from more than a thousand candidates.",
+    "tags": ["Community"],
+    "badges": [{
+        "name": "WTM",
+        "description": "Women Techmakers Kyiv",
+        "link": "http://www.wtm-ukraine.com/"
+    }],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/+AnnaKurilo/"
+    }, {
+        "name": "LinkedIn",
+        "link": "https://ua.linkedin.com/in/bluebirrrrd"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/bluebirrrrd"
+    }, {
+        "name": "Facebook",
+        "link": "https://www.facebook.com/annakurylo21"
+    }]
+}
+]
