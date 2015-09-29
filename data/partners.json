@@ -1,10 +1,39 @@
 [
+
+
     {
-        "title": "",
+        "title": "Programa GDG",
         "logos": [{
             "name": "Google Developers",
             "url": "https://developers.google.com/",
-            "logoUrl": "../images/partners/google.svg"
+            "logoUrl": "../images/partners/googledev.svg"
         }]
+    },
+
+    {
+        "title": "Patrocinadores",
+        "logos": [{
+            "name": "Eventick",
+            "url": "https://www.eventick.com.br/",
+            "logoUrl": "../images/partners/eventick.svg"
+        }]
+    },
+
+    {
+        "title": "Apoiadores",
+        "logos": [
+          {
+            "name": "FrontInSampa",
+            "url": "http://www.frontinsampa.com.br/",
+            "logoUrl": "../images/partners/frontinsampa.svg"
+          },
+
+          {
+            "name": "iMasters",
+            "url": "http://www.imasters.com.br/",
+            "logoUrl": "../images/partners/imasters.svg"
+          }
+
+        ]
     }
 ]
