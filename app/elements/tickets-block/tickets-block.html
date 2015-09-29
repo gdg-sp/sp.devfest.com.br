@@ -3,8 +3,8 @@
         <style>
             :host {
                 display: block;
-                background: var(--default-primary-color);
-                color: #fff;
+                background: #fff;
+                color: var(--default-color);
             }
 
             .container {
@@ -36,7 +36,13 @@
 
             .details {
                 margin-top: 10px;
+                margin-bottom: 30px;
                 font-size: 14px;
+
+            }
+
+            .details a {
+                color: inherit;
             }
 
             .additional-info {
@@ -75,21 +81,21 @@
                     <span class="ticket-name block">Traga sua toalha</span>
                     <span class="currency">R$</span>
                     <span class="price">340</span>
-                    <span class="additional-info block">*Entre 11 de outubro e 23 de outubro ou 600 ingressos.</span>
+                    <span class="additional-info block">*Entre 11 e 23 de outubro ou 600 ingressos.</span>
                 </div>
                 <div class="price-block flex text-center">
                     <span class="ticket-name block">Não seja um Vógon</span>
                     <span class="currency">R$</span>
                     <span class="price">440</span>
-                    <span class="additional-info block">*Após 10 de Outubro</span>
+                    <span class="additional-info block">*Após 23 de Outubro</span>
                 </div>
             </div>
             <span class="details">O ingresso garante o acesso a todas as áreas do evento incluindo experimentos e alimentação (welcome coffee e break da tarde).<br/>
               Os primeiros 450 inscritos tem garantido acesso a confraternização realizada em conjunto com o FrontinSampa, no Inferno!<br/>
-              Hospedagem e almoço NÃO estão inclusos no valor da inscrição.</span>
+              Hospedagem e almoço NÃO estão inclusos no valor da inscrição.<br/>&nbsp;<br/>Desconto especial para mulheres através do cupom "<a href="http://even.tc/devfest-sao-paulo-2015/?code=WTM" target="_blank">WTM</a>".</span>
             <div class="flex">
               <a href="http://even.tc/devfest-sao-paulo-2015" target="_blank">
-                <paper-button class="white border-button open-dialog-button" on-tap="openTicketsDialog">Compre seu ingresso pelo Eventick</paper-button>
+                <paper-button class="colorful" raised on-tap="openTicketsDialog">Compre seu ingresso pelo Eventick</paper-button>
               </a>
             </div>
         </div>
