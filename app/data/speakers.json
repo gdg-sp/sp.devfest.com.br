@@ -32,7 +32,7 @@
         "name": "Twitter",
         "link": "https://twitter.com/diogofbotelho"
     }]
-}{
+}, {
     "id": 3,
     "name": "Camila Matsubara",
     "title": "Software Engineer",
@@ -49,6 +49,23 @@
     "socials": [{
         "name": "Google+",
         "link": "https://plus.google.com/u/0/111069935041022076212/"
+    }]
+}, {
+    "id": 4,
+    "name": "Daniel Cukier",
+    "title": "CTO",
+    "company": "Playax",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/danicuki.jpg",
+    "bio": "CTO @ Playax. Startups researcher at USP & Geek Software Developer. Love Technology, Arts and Human Consciousness (meditation), poetry, theater and music",
+    "tags": ["Cloud"],
+    "badges": [],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/u/0/104200463293521594749/"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/danicuki"
     }]
 }
 ]
