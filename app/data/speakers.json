@@ -104,5 +104,22 @@ Atualmente é empreendedor, fundador da VRMonkey empresa incubada no Cietec – 
         "name": "Twitter",
         "link": "https://twitter.com/ladoleste"
     }]
+}, {
+    "id": 7,
+    "name": "Rafael Toledo",
+    "title": "Software Enginner",
+    "company": "Concrete Solutions",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/rafael_toledo.png",
+    "bio": "Desenvolvedor Android desde 2011, tem experiência em diversos projetos para empresas e startups no Brasil e no exterior. É formado em Sistemas de Informação e pós-graduado em Desenvolvimento Ágil para Web e Mobile. Entre 2013 e 2014 foi instrutor de diversos treinamentos ligados a tecnologias móveis. Escreve esporadicamente em seu blog com mais de 15.000 visitas mensais.",
+    "tags": ["Android"],
+    "badges": [],
+    "socials": [{
+        "name": "Google+",
+        "link": "http://plus.google.com/+RafaelToledoDev"
+    }, {
+        "name": "Twitter",
+        "link": "http://twitter.com/_rafaeltoledo"
+    }]
 }
 ]
