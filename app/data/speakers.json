@@ -13,34 +13,24 @@
         "link": "https://twitter.com/gusthema"
     }, {
         "name": "Google+",
-        "link": "https://google.com/+LuizGustavoMartins"
+        "link": "https://plus.google.com/+LuizGustavoMartins"
     }]
 }, {
     "id": 2,
-    "name": "Anna Kurylo",
-    "title": "Project manager",
-    "company": "Hackraft",
-    "country": "Ukraine",
-    "photoUrl": "../../images/people/anna_kurylo.png",
-    "bio": "Anna drives several IT communities in Kyiv. She has organized more than 30 events during last the 2 years including the biggest hackathon in Ukraine and several conferences for developers and startups. This year Anna became a Google Anita Borg Scholar in EMEA Region, being selected from more than a thousand candidates.",
-    "tags": ["Community"],
-    "badges": [{
-        "name": "WTM",
-        "description": "Women Techmakers Kyiv",
-        "link": "http://www.wtm-ukraine.com/"
-    }],
+    "name": "Diogo Botelho",
+    "title": "Search Quality Analyst",
+    "company": "Google",
+    "country": "Dublin",
+    "photoUrl": "../../images/people/diogo_botelho.jpeg",
+    "bio": "Currently taking on the task of improving Google organic search results and ensuring a high-quality experience for Google users, by enforcing Google's policies and quality guidelines and by sharing best practices about website management, online visibility and SEO.",
+    "tags": ["Search"],
+    "badges": [],
     "socials": [{
         "name": "Google+",
-        "link": "https://plus.google.com/+AnnaKurilo/"
-    }, {
-        "name": "LinkedIn",
-        "link": "https://ua.linkedin.com/in/bluebirrrrd"
+        "link": "https://plus.google.com/+DiogoBotelhoGoogle/"
     }, {
         "name": "Twitter",
         "link": "https://twitter.com/bluebirrrrd"
-    }, {
-        "name": "Facebook",
-        "link": "https://www.facebook.com/annakurylo21"
     }]
 }
 ]
