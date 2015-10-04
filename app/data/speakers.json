@@ -73,7 +73,7 @@
     "title": "Game Developer",
     "company": "Naked VR",
     "country": "Brasil",
-    "photoUrl": "../../images/people/kayatt.jpg",
+    "photoUrl": "../../images/people/kayatt.jpeg",
     "bio": "Engenheiro de Computação formado na Escola Politécnica de São Paulo com Diploma Duplo com o Politecnico di Milano.
 Experiência de 10 anos no mercado de jogos digitais com projetos juntos do MIT e participação em desafios internacionais, trabalhou em empresas na Itália e Brasil, sendo desenvolvedor oficial de: Xbox 360, Playstation 3, Wii, Android, iOS, Windows 8 e Windows Phone.
 Atualmente é empreendedor, fundador da VRMonkey empresa incubada no Cietec – Centro de Inovação e Empreendedorismo e Tecnologia, cujo foco principal são jexperiências em realidade virtual, misturando interfaces naturais de usuário e trazendo ao mundo uma nova realidade.",
@@ -85,6 +85,24 @@ Atualmente é empreendedor, fundador da VRMonkey empresa incubada no Cietec – 
     }, {
         "name": "Twitter",
         "link": "https://twitter.com/pekayatt"
+    }]
+}, {
+    "id": 6,
+    "name": "Anderson Silva",
+    "title": "Software Enginner",
+    "company": "ZAP SA Internet",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/anderson_silva.jpeg",
+    "bio": "Especialista Mobile no Zap Imóveis.
+10 anos de experiência em análise e desenvolvimento de softwares para desktop e web na plataforma .NET (full stack) e 3 anos com foco exclusivo em desenvolvimento de aplicativos para Android.",
+    "tags": ["Android"],
+    "badges": [],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/+AndersonSilva10"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/ladoleste"
     }]
 }
 ]
