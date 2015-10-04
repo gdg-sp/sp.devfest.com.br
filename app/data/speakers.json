@@ -104,7 +104,7 @@ Atualmente é empreendedor, fundador da VRMonkey empresa incubada no Cietec – 
         "name": "Twitter",
         "link": "https://twitter.com/ladoleste"
     }]
-}, {
+},{
     "id": 7,
     "name": "Rafael Toledo",
     "title": "Software Enginner",
@@ -121,5 +121,39 @@ Atualmente é empreendedor, fundador da VRMonkey empresa incubada no Cietec – 
         "name": "Twitter",
         "link": "http://twitter.com/_rafaeltoledo"
     }]
-}
+}, {
+    "id": 8,
+    "name": "Juliana Chahoud",
+    "title": "Software Enginner, Tech Lead",
+    "company": "Moville",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/juchahoud.jpeg",
+    "bio": "Mestre em Inteligência Artificial (USP), atua há mais de dezesseis anos na área de TI em Desenvolvimento de Sistemas. Possui vivência internacional de um ano e meio nos EUA e India, trabalhando com desenvolvimento de aplicativos móveis. Atualmente é Líder Técnica de iOS na Movile trabalhando com o aplicativo PlayKids e professora no MBA em Desenvolvimento de Aplicações e Games para Dispositivos Móveis na FIAP.",
+    "tags": ["Google APIs"],
+    "badges": [],
+    "socials": [{
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/julianachahoud"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/jchahoud"
+    }]
+}, {
+    "id": 9,
+    "name": "Flávia Fortes",
+    "title": "Software Enginner",
+    "company": "Plataformatec",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/flafortes.jpg",
+    "bio": "Flavia Fortes works as a developer for the past 5 years. Experienced the dark times with ASP and also developed many apps with PHP and Ruby on Rails. Today works at Plataformatec and is very interested about the learning process of new programmers, good practices and woman in technology.",
+    "tags": ["WTM"],
+    "badges": [],
+    "socials": [{
+        "name": "Github",
+        "link": "https://github.com/flaviafortes"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/FlaFortes"
+    }]
+},
 ]
