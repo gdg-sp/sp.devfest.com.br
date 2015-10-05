@@ -12,11 +12,18 @@
 
     {
         "title": "Patrocinadores",
-        "logos": [{
+        "logos": [
+          {
+            "name": "Fecomércio SP",
+            "url": "http://www.fecomercio.com.br/",
+            "logoUrl": "../images/partners/fecomercio.svg"
+          },
+          {
             "name": "Eventick",
             "url": "https://www.eventick.com.br/",
             "logoUrl": "../images/partners/eventick.svg"
-        }]
+          }
+      ]
     },
 
     {

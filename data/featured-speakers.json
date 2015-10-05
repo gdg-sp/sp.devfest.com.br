@@ -1,31 +1,27 @@
 [{
     "id": 1,
-    "name": "Said Tahsin Dane",
-    "company": "Startup Digest, Turkey",
-    "photoUrl": "../../images/people/said_tahsine_dane.jpg"
+    "name": "Luiz Gustavo Martins",
+    "company": "Google",
+    "photoUrl": "../../images/people/gus.jpg"
 }, {
     "id": 2,
-    "name": "Mateusz Herych",
-    "company": "Base CRM, Poland",
-    "photoUrl": "../../images/people/mateus_herych.jpg"
+    "name": "Diogo Botelho",
+    "company": "Google",
+    "photoUrl": "../../images/people/diogo_botelho.jpeg"
 }, {
     "id": 3,
-    "name": "Michał Tajchert",
-    "company": "12Hours.io, Poland",
-    "photoUrl": "../../images/people/michal_tajchert.jpg"
+    "name": "Camila Matsubara",
+    "company": "Google",
+    "photoUrl": "../../images/people/camila_matsubara.jpg"
+},
+{
+    "id": 8,
+    "name": "Juliana Chahoud",
+    "company": "Moville",
+    "photoUrl": "../../images/people/juchahoud.jpeg"
 }, {
-    "id": 4,
-    "name": "Yehor Lvivski",
-    "company": "Spatialkey, Ukraine",
-    "photoUrl": "../../images/people/yehor_lvivski.jpg"
-}, {
-    "id": 5,
-    "name": "Valentyn Shybanov",
-    "company": "Twinfield, Ukraine",
-    "photoUrl": "../../images/people/valentyn_shybanov.jpg"
-}, {
-    "id": 6,
-    "name": "Mandy Waite",
-    "company": "Google, UK",
-    "photoUrl": "../../images/people/mandy_waite.jpg"
+    "id": 9,
+    "name": "Flávia Fortes",
+    "company": "Plataformatec",
+    "photoUrl": "../../images/people/flafortes.jpg"
 }]
