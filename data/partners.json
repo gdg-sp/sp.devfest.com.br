@@ -19,6 +19,11 @@
             "logoUrl": "../images/partners/fecomercio.svg"
           },
           {
+            "name": "Intel",
+            "url": "http://software.intel.com/pt-br/",
+            "logoUrl": "../images/partners/intel.svg"
+          },
+          {
             "name": "Eventick",
             "url": "https://www.eventick.com.br/",
             "logoUrl": "../images/partners/eventick.svg"
