@@ -1,0 +1,27 @@
+[{
+    "id": 1,
+    "name": "Luiz Gustavo Martins",
+    "company": "Google",
+    "photoUrl": "../../images/people/gus.jpg"
+}, {
+    "id": 2,
+    "name": "Diogo Botelho",
+    "company": "Google",
+    "photoUrl": "../../images/people/diogo_botelho.jpeg"
+}, {
+    "id": 3,
+    "name": "Camila Matsubara",
+    "company": "Google",
+    "photoUrl": "../../images/people/camila_matsubara.jpg"
+},
+{
+    "id": 8,
+    "name": "Juliana Chahoud",
+    "company": "Moville",
+    "photoUrl": "../../images/people/juchahoud.jpeg"
+}, {
+    "id": 9,
+    "name": "Flávia Fortes",
+    "company": "Plataformatec",
+    "photoUrl": "../../images/people/flafortes.jpg"
+}]

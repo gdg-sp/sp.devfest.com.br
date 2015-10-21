@@ -1,0 +1,181 @@
+[{
+    "id": 1,
+    "name": "Luiz Gustavo Martins",
+    "title": "Developer Advocate",
+    "company": "Google",
+    "country": "Inglaterra",
+    "photoUrl": "../../images/people/gus.jpg",
+    "bio": "Luiz Gustava Martins é Developer Advocate para Google Fit e atua no escritório do Google em Londres.",
+    "tags": ["Android", "Google Fit"],
+    "badges": [],
+    "socials": [{
+        "name": "Twitter",
+        "link": "https://twitter.com/gusthema"
+    }, {
+        "name": "Google+",
+        "link": "https://plus.google.com/+LuizGustavoMartins"
+    }]
+}, {
+    "id": 2,
+    "name": "Diogo Botelho",
+    "title": "Search Quality Analyst",
+    "company": "Google",
+    "country": "Dublin",
+    "photoUrl": "../../images/people/diogo_botelho.jpeg",
+    "bio": "Currently taking on the task of improving Google organic search results and ensuring a high-quality experience for Google users, by enforcing Google's policies and quality guidelines and by sharing best practices about website management, online visibility and SEO.",
+    "tags": ["Search"],
+    "badges": [],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/+DiogoBotelhoGoogle/"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/diogofbotelho"
+    }]
+}, {
+    "id": 3,
+    "name": "Camila Matsubara",
+    "title": "Software Engineer",
+    "company": "Google",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/camila_matsubara.jpg",
+    "bio": "Camila Matsubara é Engenheira de Software e trabalha no escritório do Google em Belo Horizonte.",
+    "tags": ["Search"],
+    "badges": [{
+        "name": "WTM",
+        "description": "Women Techmakers",
+        "link": "https://www.womentechmakers.com/"
+    }],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/u/0/111069935041022076212/"
+    }]
+}, {
+    "id": 4,
+    "name": "Daniel Cukier",
+    "title": "CTO",
+    "company": "Playax",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/danicuki.jpg",
+    "bio": "CTO @ Playax. Startups researcher at USP & Geek Software Developer. Love Technology, Arts and Human Consciousness (meditation), poetry, theater and music",
+    "tags": ["Cloud"],
+    "badges": [],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/u/0/104200463293521594749/"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/danicuki"
+    }]
+}, {
+    "id": 5,
+    "name": "Pedro Kayatt",
+    "title": "Game Developer",
+    "company": "Naked VR",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/kayatt.jpeg",
+    "bio": "Engenheiro de Computação formado na Escola Politécnica de São Paulo com Diploma Duplo com o Politecnico di Milano.Experiência de 10 anos no mercado de jogos digitais com projetos juntos do MIT e participação em desafios internacionais, trabalhou em empresas na Itália e Brasil, sendo desenvolvedor oficial de: Xbox 360, Playstation 3, Wii, Android, iOS, Windows 8 e Windows Phone.Atualmente é empreendedor, fundador da VRMonkey empresa incubada no Cietec – Centro de Inovação e Empreendedorismo e Tecnologia, cujo foco principal são jexperiências em realidade virtual, misturando interfaces naturais de usuário e trazendo ao mundo uma nova realidade.",
+    "tags": ["Realidade Virtual"],
+    "badges": [],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/u/0/+PedroKayatt"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/pekayatt"
+    }]
+}, {
+    "id": 6,
+    "name": "Anderson Silva",
+    "title": "Software Enginner",
+    "company": "ZAP SA Internet",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/anderson_silva.jpeg",
+    "bio": "Especialista Mobile no Zap Imóveis. Mais de 10 anos de experiência em análise e desenvolvimento de softwares para desktop e web na plataforma .NET (full stack) e 3 anos com foco exclusivo em desenvolvimento de aplicativos para Android.",
+    "tags": ["Android"],
+    "badges": [],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/+AndersonSilva10"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/ladoleste"
+    }]
+},{
+    "id": 7,
+    "name": "Rafael Toledo",
+    "title": "Software Enginner",
+    "company": "Concrete Solutions",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/rafael_toledo.png",
+    "bio": "Desenvolvedor Android desde 2011, tem experiência em diversos projetos para empresas e startups no Brasil e no exterior. É formado em Sistemas de Informação e pós-graduado em Desenvolvimento Ágil para Web e Mobile. Entre 2013 e 2014 foi instrutor de diversos treinamentos ligados a tecnologias móveis. Escreve esporadicamente em seu blog com mais de 15.000 visitas mensais.",
+    "tags": ["Android"],
+    "badges": [],
+    "socials": [{
+        "name": "Google+",
+        "link": "http://plus.google.com/+RafaelToledoDev"
+    }, {
+        "name": "Twitter",
+        "link": "http://twitter.com/_rafaeltoledo"
+    }]
+}, {
+    "id": 8,
+    "name": "Juliana Chahoud",
+    "title": "Software Enginner, Tech Lead",
+    "company": "Moville",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/juchahoud.jpeg",
+    "bio": "Mestre em Inteligência Artificial (USP), atua há mais de dezesseis anos na área de TI em Desenvolvimento de Sistemas. Possui vivência internacional de um ano e meio nos EUA e India, trabalhando com desenvolvimento de aplicativos móveis. Atualmente é Líder Técnica de iOS na Movile trabalhando com o aplicativo PlayKids e professora no MBA em Desenvolvimento de Aplicações e Games para Dispositivos Móveis na FIAP.",
+    "tags": ["Google APIs"],
+    "badges": [{
+        "name": "WTM",
+        "description": "Women Techmakers",
+        "link": "https://www.womentechmakers.com/"
+    }],
+    "socials": [{
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/julianachahoud"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/jchahoud"
+    }]
+}, {
+    "id": 9,
+    "name": "Flávia Fortes",
+    "title": "Software Enginner",
+    "company": "Plataformatec",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/flafortes.jpg",
+    "bio": "Flavia Fortes works as a developer for the past 5 years. Experienced the dark times with ASP and also developed many apps with PHP and Ruby on Rails. Today works at Plataformatec and is very interested about the learning process of new programmers, good practices and woman in technology.",
+    "tags": ["Software Craftmanship"],
+    "badges": [{
+        "name": "WTM",
+        "description": "Women Techmakers",
+        "link": "https://www.womentechmakers.com/"
+    }],
+    "socials": [{
+        "name": "Github",
+        "link": "https://github.com/flaviafortes"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/FlaFortes"
+    }]
+}, {
+    "id": 10,
+    "name": "Matheus Pontes",
+    "title": "Engenheiro de Software",
+    "company": "Geoambiente",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/matheus_pontes.png",
+    "bio": "Analista Desenvolvedor na Geoambiente. Possui grande experiência em desenvolvimento de software utilizando a API do Google Maps. Certificado pela Microsoft Certified Professional (MCP .NET), moderador da comunidade Google Maps API Brasil e organizador do GDG SJC (São José dos campos)",
+    "tags": ["Google APIs"],
+    "badges": [],
+    "socials": [{
+        "name": "LinkedIn",
+        "link": "https://br.linkedin.com/in/mateuspontes"
+    }, {
+        "name": "Blog",
+        "link": "http://mateuspontes.com.br/"
+    }]
+}
+]
