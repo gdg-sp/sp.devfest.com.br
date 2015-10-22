@@ -181,5 +181,43 @@ Além de engenheira, Camila lidera o grupo de diversidade para mulheres no escri
         "name": "Blog",
         "link": "http://mateuspontes.com.br/"
     }]
+}, {
+    "id": 11,
+    "name": "Nathalie Lima",
+    "title": "Desenvolvedora Android",
+    "company": "Buscapé Company",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/nathalie_lima.jpg",
+    "bio": "Especialista em desenvolvimento Android no Buscapé, com mais de 7 anos de experiência em TI e pós-graduada em Comunicação Digital (USP). Já atuou por diversos anos como desenvolvedora front-end e, nos últimos 3 anos, tem dedicado-se exclusivamente ao desenvolvimento de aplicativos Android. ",
+    "tags": ["Android"],
+    "badges": [{
+        "name": "WTM",
+        "description": "Women Techmakers",
+        "link": "https://www.womentechmakers.com/"
+    }],
+    "socials": [{
+        "name": "LinkedIn",
+        "link": "http://br.linkedin.com/in/nathalielima"
+    }, {
+        "name": "Facebook",
+        "link": "https://www.facebook.com/nathalieplima"
+    }]
+}, {
+    "id": 12,
+    "name": "Eduardo Carrara",
+    "title": "Sofware Analyst",
+    "company": "Technical Evangelist",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/eduardo_carrara.jpg",
+    "bio": "Formado em Engenharia da Computação, atua na área de desenvolvimento de software desde 2006, teve a oportunidade de utilizar diversas tecnologias nos ramos automobilístico, financeiros e de eletrônicos para consumo. Atualmente é evangelista técnico  na Intel Software e colabora principalmente em projetos na área de educação e mobilidade com Android.",
+    "tags": ["Android"],
+    "badges": [],
+    "socials": [{
+        "name": "Twitter",
+        "link": "https://twitter.com/DuCarrara"
+    }, {
+        "name": "Google+",
+        "link": "https://plus.google.com/+EduardoCarraraDeAraujo"
+    }]
 }
 ]
