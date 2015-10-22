@@ -5,7 +5,7 @@
     "company": "Google",
     "country": "Inglaterra",
     "photoUrl": "../../images/people/gus.jpg",
-    "bio": "Luiz Gustava Martins é Developer Advocate para Google Fit e atua no escritório do Google em Londres.",
+    "bio": "Luiz Gustava Martins é Developer Advocate e atua no escritório do Google em Londres, focado na qualidade dos aplicativos de parceiros do Google",
     "tags": ["Android", "Google Fit"],
     "badges": [],
     "socials": [{
@@ -39,7 +39,8 @@
     "company": "Google",
     "country": "Brasil",
     "photoUrl": "../../images/people/camila_matsubara.jpg",
-    "bio": "Camila Matsubara é Engenheira de Software e trabalha no escritório do Google em Belo Horizonte.",
+    "bio": "Camila Matsubara possui graduação e mestrado em Ciência da Computação pela Universidade de São Paulo. É engenheira de software do Google Belo Horizonte desde 2013, trabalhando na área de Busca - Search Quality.
+Além de engenheira, Camila lidera o grupo de diversidade para mulheres no escritório de Belo Horizonte. O grupo tem como objetivos: conectar e proporcionar oportunidades de desenvolvimento para as mulheres do Google, aumentar a visibilidade, apoiar e inspirar meninas e mulheres com a magia da tecnologia. ",
     "tags": ["Search"],
     "badges": [{
         "name": "WTM",
@@ -48,7 +49,10 @@
     }],
     "socials": [{
         "name": "Google+",
-        "link": "https://plus.google.com/u/0/111069935041022076212/"
+        "link": "http://plus.google.com/+CamilaMariMatsubara"
+    }, {
+        "name": "Twitter",
+        "link": "http://twitter.com/cmmatsubara"
     }]
 }, {
     "id": 4,
@@ -57,7 +61,7 @@
     "company": "Playax",
     "country": "Brasil",
     "photoUrl": "../../images/people/danicuki.jpg",
-    "bio": "CTO @ Playax. Startups researcher at USP & Geek Software Developer. Love Technology, Arts and Human Consciousness (meditation), poetry, theater and music",
+    "bio": "Daniel Cukier trabalha com desenvolvimento de software desde 1995, principalmente com Java, Scala e Ruby (Rails). Após 2 anos como CTO da Elo7, tornou-se conselheiro técnico da Monashees Capital. Atualmente é CTO da Playax, uma plataforma de inteligência de dados na área de música. Como aluno de doutorado, faz parte do grupo de pesquisas em empreendedorismo digital e Startups de Software do IME-USP.Fez mestrado também no IME-USP com a dissertação Padrões para Introduzir Novas Ideias na Indústria de Software. Ativo na comunidade ágil desde 2005, quando ingressou na Agilcoop, produzindo podcasts, artigos e ministrando cursos sobre agilidade. Introduziu o uso de Métodos Ágeis na Locaweb, maior empresa de hosting da America Latina, onde participou de vários projetos de software na área de SaaS e IaS. Organizou o evento DevOpsDays Brasil, um encontro de desenvolvedores com sysadmins.É autor do blog AgileAndArt, onde costuma escrever sobre desenvolvimento de software e as artes. Além da presença na área de software, trabalha com teatro, música (toca violão) e poesia.",
     "tags": ["Cloud"],
     "badges": [],
     "socials": [{
@@ -79,7 +83,7 @@
     "badges": [],
     "socials": [{
         "name": "Google+",
-        "link": "https://plus.google.com/u/0/+PedroKayatt"
+        "link": "https://plus.google.com/+PedroKayatt"
     }, {
         "name": "Twitter",
         "link": "https://twitter.com/pekayatt"
@@ -162,7 +166,7 @@
     }]
 }, {
     "id": 10,
-    "name": "Matheus Pontes",
+    "name": "Mateus Pontes",
     "title": "Engenheiro de Software",
     "company": "Geoambiente",
     "country": "Brasil",
