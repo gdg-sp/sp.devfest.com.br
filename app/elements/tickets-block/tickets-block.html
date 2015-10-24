@@ -81,13 +81,13 @@
                     <span class="ticket-name block">Traga sua toalha</span>
                     <span class="currency">R$</span>
                     <span class="price">340</span>
-                    <span class="additional-info block">*Entre 11 e 23 de outubro ou 600 ingressos.</span>
+                    <span class="additional-info block">*Entre 11 e 31 de outubro ou 600 ingressos.</span>
                 </div>
                 <div class="price-block flex text-center">
                     <span class="ticket-name block">Não seja um Vógon</span>
                     <span class="currency">R$</span>
                     <span class="price">440</span>
-                    <span class="additional-info block">*Após 23 de Outubro</span>
+                    <span class="additional-info block">*Após 31 de Outubro</span>
                 </div>
             </div>
             <span class="details">O ingresso garante o acesso a todas as áreas do evento incluindo experimentos e alimentação (welcome coffee e break da tarde).<br/>
@@ -102,21 +102,6 @@
     </template>
 </dom-module>
 <script>
-    /* jshint ignore:start */
-    var widgetOptions = {
-        bg_color: 'ffffff',
-        id: 312113,
-        lang: 'en'
-    };
-    /* jshint ignore:end */
-    (function() {
-        var script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.async = true;
-        script.src = 'http://2event.com/js/widget-tickets.js';
-        document.getElementsByTagName('head')[0].appendChild(script);
-    })();
-
     Polymer({
         is: 'tickets-block',
         openTicketsDialog: function() {

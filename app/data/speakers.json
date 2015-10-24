@@ -1,11 +1,11 @@
 [{
-    "id": 1,
+    "id": "luizgustavo",
     "name": "Luiz Gustavo Martins",
     "title": "Developer Advocate",
     "company": "Google",
     "country": "Inglaterra",
     "photoUrl": "../../images/people/gus.jpg",
-    "bio": "Luiz Gustava Martins é Developer Advocate para Google Fit e atua no escritório do Google em Londres.",
+    "bio": "Luiz Gustava Martins é Developer Advocate e atua no escritório do Google em Londres, focado na qualidade dos aplicativos de parceiros do Google",
     "tags": ["Android", "Google Fit"],
     "badges": [],
     "socials": [{
@@ -16,7 +16,7 @@
         "link": "https://plus.google.com/+LuizGustavoMartins"
     }]
 }, {
-    "id": 2,
+    "id": "diogobotelho",
     "name": "Diogo Botelho",
     "title": "Search Quality Analyst",
     "company": "Google",
@@ -33,13 +33,13 @@
         "link": "https://twitter.com/diogofbotelho"
     }]
 }, {
-    "id": 3,
+    "id": "camilamatsubara",
     "name": "Camila Matsubara",
     "title": "Software Engineer",
     "company": "Google",
     "country": "Brasil",
     "photoUrl": "../../images/people/camila_matsubara.jpg",
-    "bio": "Camila Matsubara é Engenheira de Software e trabalha no escritório do Google em Belo Horizonte.",
+    "bio": "Camila Matsubara possui graduação e mestrado em Ciência da Computação pela Universidade de São Paulo. É engenheira de software do Google Belo Horizonte desde 2013, trabalhando na área de Busca - Search Quality.\nAlém de engenheira, Camila lidera o grupo de diversidade para mulheres no escritório de Belo Horizonte. O grupo tem como objetivos: conectar e proporcionar oportunidades de desenvolvimento para as mulheres do Google, aumentar a visibilidade, apoiar e inspirar meninas e mulheres com a magia da tecnologia. ",
     "tags": ["Search"],
     "badges": [{
         "name": "WTM",
@@ -48,16 +48,19 @@
     }],
     "socials": [{
         "name": "Google+",
-        "link": "https://plus.google.com/u/0/111069935041022076212/"
+        "link": "http://plus.google.com/+CamilaMariMatsubara"
+    }, {
+        "name": "Twitter",
+        "link": "http://twitter.com/cmmatsubara"
     }]
 }, {
-    "id": 4,
+    "id": "danielcukier",
     "name": "Daniel Cukier",
     "title": "CTO",
     "company": "Playax",
     "country": "Brasil",
     "photoUrl": "../../images/people/danicuki.jpg",
-    "bio": "CTO @ Playax. Startups researcher at USP & Geek Software Developer. Love Technology, Arts and Human Consciousness (meditation), poetry, theater and music",
+    "bio": "Daniel Cukier trabalha com desenvolvimento de software desde 1995, principalmente com Java, Scala e Ruby (Rails). Após 2 anos como CTO da Elo7, tornou-se conselheiro técnico da Monashees Capital. Atualmente é CTO da Playax, uma plataforma de inteligência de dados na área de música. Como aluno de doutorado, faz parte do grupo de pesquisas em empreendedorismo digital e Startups de Software do IME-USP.Fez mestrado também no IME-USP com a dissertação Padrões para Introduzir Novas Ideias na Indústria de Software. Ativo na comunidade ágil desde 2005, quando ingressou na Agilcoop, produzindo podcasts, artigos e ministrando cursos sobre agilidade. Introduziu o uso de Métodos Ágeis na Locaweb, maior empresa de hosting da America Latina, onde participou de vários projetos de software na área de SaaS e IaS. Organizou o evento DevOpsDays Brasil, um encontro de desenvolvedores com sysadmins.É autor do blog AgileAndArt, onde costuma escrever sobre desenvolvimento de software e as artes. Além da presença na área de software, trabalha com teatro, música (toca violão) e poesia.",
     "tags": ["Cloud"],
     "badges": [],
     "socials": [{
@@ -68,7 +71,7 @@
         "link": "https://twitter.com/danicuki"
     }]
 }, {
-    "id": 5,
+    "id": "pedrokayatt",
     "name": "Pedro Kayatt",
     "title": "Game Developer",
     "company": "Naked VR",
@@ -79,13 +82,13 @@
     "badges": [],
     "socials": [{
         "name": "Google+",
-        "link": "https://plus.google.com/u/0/+PedroKayatt"
+        "link": "https://plus.google.com/+PedroKayatt"
     }, {
         "name": "Twitter",
         "link": "https://twitter.com/pekayatt"
     }]
 }, {
-    "id": 6,
+    "id": "andersonsilva",
     "name": "Anderson Silva",
     "title": "Software Enginner",
     "company": "ZAP SA Internet",
@@ -102,7 +105,7 @@
         "link": "https://twitter.com/ladoleste"
     }]
 },{
-    "id": 7,
+    "id": "rafaeltoledo",
     "name": "Rafael Toledo",
     "title": "Software Enginner",
     "company": "Concrete Solutions",
@@ -119,7 +122,7 @@
         "link": "http://twitter.com/_rafaeltoledo"
     }]
 }, {
-    "id": 8,
+    "id": "julianachahoud",
     "name": "Juliana Chahoud",
     "title": "Software Enginner, Tech Lead",
     "company": "Moville",
@@ -140,7 +143,7 @@
         "link": "https://twitter.com/jchahoud"
     }]
 }, {
-    "id": 9,
+    "id": "flaviafortes",
     "name": "Flávia Fortes",
     "title": "Software Enginner",
     "company": "Plataformatec",
@@ -161,8 +164,8 @@
         "link": "https://twitter.com/FlaFortes"
     }]
 }, {
-    "id": 10,
-    "name": "Matheus Pontes",
+    "id": "mateuspontes",
+    "name": "Mateus Pontes",
     "title": "Engenheiro de Software",
     "company": "Geoambiente",
     "country": "Brasil",
@@ -176,6 +179,44 @@
     }, {
         "name": "Blog",
         "link": "http://mateuspontes.com.br/"
+    }]
+}, {
+  "id": "nathalielima",
+    "name": "Nathalie Lima",
+    "title": "Desenvolvedora Android",
+    "company": "Buscapé Company",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/nathalie_lima.jpg",
+    "bio": "Especialista em desenvolvimento Android no Buscapé, com mais de 7 anos de experiência em TI e pós-graduada em Comunicação Digital (USP). Já atuou por diversos anos como desenvolvedora front-end e, nos últimos 3 anos, tem dedicado-se exclusivamente ao desenvolvimento de aplicativos Android. ",
+    "tags": ["Android"],
+    "badges": [{
+        "name": "WTM",
+        "description": "Women Techmakers",
+        "link": "https://www.womentechmakers.com/"
+    }],
+    "socials": [{
+        "name": "LinkedIn",
+        "link": "http://br.linkedin.com/in/nathalielima"
+    }, {
+        "name": "Facebook",
+        "link": "https://www.facebook.com/nathalieplima"
+    }]
+}, {
+    "id": "eduardocarrara",
+    "name": "Eduardo Carrara",
+    "title": "Sofware Analyst",
+    "company": "Technical Evangelist",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/eduardo_carrara.jpg",
+    "bio": "Formado em Engenharia da Computação, atua na área de desenvolvimento de software desde 2006, teve a oportunidade de utilizar diversas tecnologias nos ramos automobilístico, financeiros e de eletrônicos para consumo. Atualmente é evangelista técnico  na Intel Software e colabora principalmente em projetos na área de educação e mobilidade com Android.",
+    "tags": ["Android"],
+    "badges": [],
+    "socials": [{
+        "name": "Twitter",
+        "link": "https://twitter.com/DuCarrara"
+    }, {
+        "name": "Google+",
+        "link": "https://plus.google.com/+EduardoCarraraDeAraujo"
     }]
 }
 ]

@@ -138,10 +138,12 @@
                         <template is="dom-repeat" items="[[person.sessions]]" as="session">
                             <div class="session">
                                 <h3 class="session-title">[[session.title]]</h3>
-                                <span class="session-meta">Language:
+<!--
+                                <span class="session-meta">Idioma:
                                     <span>[[session.language]]</span>
                                 </span>
-                                <span class="session-meta">Complexity:
+-->
+                                <span class="session-meta">Complexidade:
                                     <span>[[session.complexity]]</span>
                                 </span>
                                 <marked-element markdown="[[session.description]]"></marked-element>
