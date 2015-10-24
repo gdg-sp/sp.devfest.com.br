@@ -18724,236 +18724,206 @@ Configuration:
     });
 </script>
 <style is="custom-style" include="tags-color">
-/* Application theme */
-
-:root {
-
-    --dark-primary-color: #303F9F;
-    --default-primary-color: #00BCD4;
-    --light-primary-color: #C5CAE9;
-    --text-primary-color: #ffffff;
-
-    /*text/icons*/
-    --accent-color: #FF4081;
-    --primary-background-color: #c5cae9;
-    --primary-text-color: #212121;
-    --secondary-text-color: #727272;
-    --disabled-text-color: #bdbdbd;
-    --divider-color: #B6B6B6;
-    /* Components */
-    /* paper-drawer-panel */
-    --drawer-menu-color: #ffffff;
-    --drawer-border-color: 1px solid #ccc;
-    --paper-toolbar-background: #00BCD4;
-    --paper-toolbar-color: #07434D;
-    /* paper-menu */
-    --paper-menu-background-color: #fff;
-    --menu-link-color: #111111;
-    --paper-radio-button-checked-color: var(--default-primary-color);
-    --paper-radio-button-checked-ink-color: var(--default-primary-color);
-    --paper-radio-button-unchecked-ink-color: var(--default-primary-color);
-
-    /* default-color */
-    --default-color: 4E4E4E;
-}
-
-
-/* General styles */
-
-iron-pages {
-    padding: 0 !important;
-}
-
-paper-button,
-a paper-button {
-    color: inherit;
-}
-
-paper-button.colorful {
-    color: #00BCD4;
-}
-
-paper-button[raised].colorful {
-    background: #00BCD4;
-    color: #fff;
-}
-
-a,
-.anchor-like {
-    color: var(--default-primary-color);
-    cursor: pointer;
-}
-
-.post-link {
-    color: #ffffff;
-    font-weight: 100;
-    padding-bottom: 1px;
-    font-style: italic;
-}
-
-#drawerToolbar {
-    color: var(--secondary-text-color);
-    background-color: var(--drawer-menu-color);
-    border-bottom: var(--drawer-toolbar-border-color);
-    height: 64px;
-}
-
-paper-drawer-panel {
-    --paper-drawer-panel-left-drawer-container: {
-        z-index: 10;
+    :root {
+        --dark-primary-color: #0097A7;
+        --default-primary-color: #00BCD4;
+        --light-primary-color: #B2EBF2;
+        --text-primary-color: #FFFFFF;
+        --accent-color: #FF4081;
+        --primary-background-color: #B2EBF2;
+        --primary-text-color: #212121;
+        --secondary-text-color: #727272;
+        --disabled-text-color: #BDBDBD;
+        --divider-color: #B6B6B6;
+        /* Components */
+        /* paper-drawer-panel */
+        --drawer-menu-color: #ffffff;
+        --drawer-border-color: 1px solid #ccc;
+        --drawer-toolbar-border-color: 1px solid rgba(0, 0, 0, 0.22);
+        /* paper-menu */
+        --paper-menu-background-color: #fff;
+        --menu-link-color: #111111;
+        /* paper-input */
+        --paper-input-container-color: rgba(255, 255, 255, 0.64);
+        --paper-input-container-focus-color: rgba(255, 255, 255, 1);
+        --paper-input-container-input-color: #fff;
+        /*paper-toolbar*/
+        --paper-toolbar-background: var(--default-primary-color);
+        --paper-toolbar-color: var(--dark-primary-color);
+        /*paper-radio-button*/
+        --paper-radio-button-checked-color: var(--default-primary-color);
+        --paper-radio-button-checked-ink-color: var(--default-primary-color);
+        --paper-radio-button-unchecked-ink-color: var(--default-primary-color);
     }
-    ;
-}
+    /* General styles */
 
-paper-material {
-    border-radius: 2px;
-    height: 100%;
-    padding: 16px 0 16px 0;
-    width: calc(98.66% - 16px);
-    margin: 16px auto;
-    background: white;
-}
-
-paper-menu a {
-    text-decoration: none;
-    color: var(--menu-link-color);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 24px;
-    min-height: 48px;
-    padding: 0 16px;
-}
-
-.paper-menu > .iron-selected {
-    background: #eaeaea;
-}
-
-
-/* Breakpoints */
-
-
-/* Small */
-
-@media (max-width: 600px) {
-    paper-material {
-        --menu-container-display: none;
-        width: calc(97.33% - 32px);
-        padding-left: 16px;
-        padding-right: 16px;
+    body,
+    html {
+        background: #fafafa;
+        font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: var(--primary-text-color);
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.4;
+        overflow: hidden;
     }
-}
 
-
-/* Tablet+ */
-
-@media (min-width: 601px) {
-    paper-material {
-        width: calc(98% - 46px);
-        margin-bottom: 32px;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
     iron-pages {
-        padding: 48px 62px;
+        padding: 0 !important;
     }
-}
 
+    paper-button,
+    a paper-button {
+        color: initial;
+    }
 
-/* Material Design Adaptive Breakpoints */
+    paper-button.white {
+        color: #fff;
+    }
 
+    paper-button.colorful {
+        color: var(--default-primary-color);
+    }
 
-/*
+    paper-button[raised].colorful {
+        background: var(--default-primary-color);
+        color: var(--text-primary-color);
+    }
+
+    a,
+    .anchor-like {
+        color: var(--default-primary-color);
+        cursor: pointer;
+    }
+
+    .post-link {
+        color: #ffffff;
+        font-weight: 300;
+        padding-bottom: 1px;
+        font-style: italic;
+    }
+
+    #drawerToolbar {
+        color: var(--secondary-text-color);
+        background-color: var(--drawer-menu-color);
+        border-bottom: var(--drawer-toolbar-border-color);
+        height: 64px;
+    }
+
+    paper-drawer-panel {
+        --paper-drawer-panel-left-drawer-container: {
+            z-index: 10;
+        }
+        ;
+    }
+
+    paper-material {
+        border-radius: 2px;
+        height: 100%;
+        padding: 16px 0 16px 0;
+        width: calc(98.66% - 16px);
+        margin: 16px auto;
+        background: white;
+    }
+
+    paper-menu a {
+        text-decoration: none;
+        color: var(--menu-link-color);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        min-height: 48px;
+        padding: 0 16px;
+    }
+
+    .paper-menu > .iron-selected {
+        background: #eaeaea;
+    }
+    /* Breakpoints */
+    /* Small */
+
+    @media (max-width: 600px) {
+        paper-material {
+            --menu-container-display: none;
+            width: calc(97.33% - 32px);
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+    }
+    /* Tablet+ */
+
+    @media (min-width: 601px) {
+        paper-material {
+            width: calc(98% - 46px);
+            margin-bottom: 32px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        iron-pages {
+            padding: 48px 62px;
+        }
+    }
+    /* Material Design Adaptive Breakpoints */
+    /*
     Below you'll find CSS media queries based on the breakpoint guidance
     published by the Material Design team. You can choose to use, customise
     or remove these breakpoints based on your needs.
 
     http://www.google.com/design/spec/layout/adaptive-ui.html#adaptive-ui-breakpoints
    */
+    /* mobile-small */
 
+    @media all and (min-width: 0) and (max-width: 360px) and (orientation: portrait) {}
+    /* mobile-large */
 
-/* mobile-small */
+    @media all and (min-width: 361px) and (orientation: portrait) {}
+    /* mobile-small-landscape */
 
-@media all and (min-width: 0) and (max-width: 360px) and (orientation: portrait) {}
+    @media all and (min-width: 0) and (max-width: 480px) and (orientation: landscape) {}
+    /* mobile-large-landscape */
 
+    @media all and (min-width: 481px) and (orientation: landscape) {}
+    /* tablet-small-landscape */
 
-/* mobile-large */
+    @media all and (min-width: 601px) and (max-width: 960px) and (orientation: landscape) {}
+    /* tablet-large-landscape */
 
-@media all and (min-width: 361px) and (orientation: portrait) {}
+    @media all and (min-width: 961px) and (orientation: landscape) {}
+    /* tablet-small */
 
+    @media all and (min-width: 601px) and (orientation: portrait) {}
+    /* tablet-large */
 
-/* mobile-small-landscape */
+    @media all and (min-width: 601px) and (max-width: 960px) and (orientation: portrait) {}
+    /* desktop-x-small-landscape */
 
-@media all and (min-width: 0) and (max-width: 480px) and (orientation: landscape) {}
+    @media all and (min-width: 0) and (max-width: 480px) and (orientation: landscape) {}
+    /* desktop-x-small */
 
+    @media all and (min-width: 0) and (max-width: 480px) and (max-aspect-ratio: 4/3) {}
+    /* desktop-small-landscape */
 
-/* mobile-large-landscape */
+    @media all and (min-width: 481px) and (max-width: 960px) and (orientation: landscape) {}
+    /* desktop-small */
 
-@media all and (min-width: 481px) and (orientation: landscape) {}
+    @media all and (min-width: 481px) and (max-width: 960px) and (max-aspect-ratio: 4/3) {}
+    /* desktop-medium-landscape */
 
+    @media all and (min-width: 961px) and (max-width: 1280px) and (orientation: landscape) {}
+    /* desktop-medium */
 
-/* tablet-small-landscape */
+    @media all and (min-width: 961px) and (max-width: 1280px) and (max-aspect-ratio: 4/3) {}
+    /* desktop-large */
 
-@media all and (min-width: 600px) and (max-width: 960px) and (orientation: landscape) {}
+    @media all and (min-width: 1281px) and (max-width: 1600px) {}
+    /* desktop-xlarge */
 
-
-/* tablet-large-landscape */
-
-@media all and (min-width: 961px) and (orientation: landscape) {}
-
-
-/* tablet-small */
-
-@media all and (min-width: 600px) and (orientation: portrait) {}
-
-
-/* tablet-large */
-
-@media all and (min-width: 601px) and (max-width: 840px) and (orientation: portrait) {}
-
-
-/* desktop-x-small-landscape */
-
-@media all and (min-width: 0) and (max-width: 480px) and (orientation: landscape) {}
-
-
-/* desktop-x-small */
-
-@media all and (min-width: 0) and (max-width: 480px) and (max-aspect-ratio: 4/3) {}
-
-
-/* desktop-small-landscape */
-
-@media all and (min-width: 481px) and (max-width: 840px) and (orientation: landscape) {}
-
-
-/* desktop-small */
-
-@media all and (min-width: 481px) and (max-width: 840px) and (max-aspect-ratio: 4/3) {}
-
-
-/* desktop-medium-landscape */
-
-@media all and (min-width: 841px) and (max-width: 1280px) and (orientation: landscape) {}
-
-
-/* desktop-medium */
-
-@media all and (min-width: 841px) and (max-width: 1280px) and (max-aspect-ratio: 4/3) {}
-
-
-/* desktop-large */
-
-@media all and (min-width: 1281px) and (max-width: 1600px) {}
-
-
-/* desktop-xlarge */
-
-@media all and (min-width: 1601px) and (max-width: 1920px) {}
+    @media all and (min-width: 1601px) and (max-width: 1920px) {}
 </style><!-- Configure your routes here -->
 <script>!function(e){if("object"==typeof exports&&"undefined"!=typeof module)module.exports=e();else if("function"==typeof define&&define.amd)define([],e);else{var f;"undefined"!=typeof window?f=window:"undefined"!=typeof global?f=global:"undefined"!=typeof self&&(f=self),f.page=e()}}(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 (function (process){
@@ -19929,6 +19899,18 @@ module.exports = Array.isArray || function (arr) {
 
         page.exit('/speakers/:id', function() {
             document.querySelector('#people-block').closePerson();
+        });
+
+        page('/schedule', function() {
+            trackPageview('/schedule');
+            app.route = 'schedule';
+            app.scrollToTop();
+        });
+        page('/schedule/:id', function(data) {
+            trackPageview('/schedule/' + data.params.id);
+            app.route = 'schedule';
+            app.params = data.params;
+            // document.querySelector('#schedule-block').checkParams();
         });
 
         page('/contact', function() {
@@ -29647,14 +29629,57 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 --angularjs: #E0343D;
                 --polymer: #D81B60;
                 --dart: #00B4AA;
+                --firebase: #FF9800;
+                --appengine: #0D47A1;
+                --serviceworkers: #311B92;
+                --web-rtc: #7B1FA2;
                 --kubernetes: #326DE6;
-                --v8-engine: #009688;
+                --v8-engine: #006064;
                 --gae: #FFC107;
                 --ndk: #4CAF50;
+                --ble: #1565C0;
                 --ci: #CDDC39;
-                --grpc: #617D8A;
+                --tv: #D32F2F;
+                --grpc: #607D8B;
                 --ux: #9C27B0;
                 --material-design: #009688;
+                --entrepreneurship: #673AB7;
+            }
+
+            .default {
+                background: var(--disabled-text-color);
+                color: var(--disabled-text-color);
+                border-color: var(--disabled-text-color);
+            }
+
+            .android {
+                background: var(--android);
+                color: var(--android);
+                border-color: var(--android);
+            }
+
+            .web {
+                background: var(--web);
+                color: var(--web);
+                border-color: var(--web);
+            }
+
+            .cloud {
+                background: var(--cloud);
+                color: var(--cloud);
+                border-color: var(--cloud);
+            }
+
+            .community {
+                background: var(--community);
+                color: var(--community);
+                border-color: var(--community);
+            }
+
+            .entrepreneurship {
+                background: var(--entrepreneurship);
+                color: var(--entrepreneurship);
+                border-color: var(--entrepreneurship);
             }
 
             paper-checkbox.android {
@@ -29699,6 +29724,30 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 --paper-checkbox-unchecked-ink-color: var(--dart);
             }
 
+            paper-checkbox.firebase {
+                --paper-checkbox-checked-color: var(--firebase);
+                --paper-checkbox-checked-ink-color: var(--firebase);
+                --paper-checkbox-unchecked-ink-color: var(--firebase);
+            }
+
+            paper-checkbox.appengine {
+                --paper-checkbox-checked-color: var(--appengine);
+                --paper-checkbox-checked-ink-color: var(--appengine);
+                --paper-checkbox-unchecked-ink-color: var(--appengine);
+            }
+
+            paper-checkbox.serviceworkers {
+                --paper-checkbox-checked-color: var(--serviceworkers);
+                --paper-checkbox-checked-ink-color: var(--serviceworkers);
+                --paper-checkbox-unchecked-ink-color: var(--serviceworkers);
+            }
+
+            paper-checkbox.web-rtc {
+                --paper-checkbox-checked-color: var(--web-rtc);
+                --paper-checkbox-checked-ink-color: var(--web-rtc);
+                --paper-checkbox-unchecked-ink-color: var(--web-rtc);
+            }
+
             paper-checkbox.kubernetes {
                 --paper-checkbox-checked-color: var(--kubernetes);
                 --paper-checkbox-checked-ink-color: var(--kubernetes);
@@ -29723,10 +29772,22 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 --paper-checkbox-unchecked-ink-color: var(--ndk);
             }
 
+            paper-checkbox.ble {
+                --paper-checkbox-checked-color: var(--ble);
+                --paper-checkbox-checked-ink-color: var(--ble);
+                --paper-checkbox-unchecked-ink-color: var(--ble);
+            }
+
             paper-checkbox.ci {
                 --paper-checkbox-checked-color: var(--ci);
                 --paper-checkbox-checked-ink-color: var(--ci);
                 --paper-checkbox-unchecked-ink-color: var(--ci);
+            }
+
+            paper-checkbox.tv {
+                --paper-checkbox-checked-color: var(--tv);
+                --paper-checkbox-checked-ink-color: var(--tv);
+                --paper-checkbox-unchecked-ink-color: var(--tv);
             }
 
             paper-checkbox.grpc {
@@ -29745,6 +29806,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 --paper-checkbox-checked-color: var(--material-design);
                 --paper-checkbox-checked-ink-color: var(--material-design);
                 --paper-checkbox-unchecked-ink-color: var(--material-design);
+            }
+
+            paper-checkbox.entrepreneurship {
+                --paper-checkbox-checked-color: var(--entrepreneurship);
+                --paper-checkbox-checked-ink-color: var(--entrepreneurship);
+                --paper-checkbox-unchecked-ink-color: var(--entrepreneurship);
             }
 
             .tag-label {
@@ -29782,6 +29849,22 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 background: var(--dart);
             }
 
+            .tag-label.firebase {
+                background: var(--firebase);
+            }
+
+            .tag-label.appengine {
+                background: var(--appengine);
+            }
+
+            .tag-label.serviceworkers {
+                background: var(--serviceworkers);
+            }
+
+            .tag-label.web-rtc {
+                background: var(--web-rtc);
+            }
+
             .tag-label.kubernetes {
                 background: var(--kubernetes);
             }
@@ -29798,8 +29881,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 background: var(--ndk);
             }
 
+            .tag-label.ble {
+                background: var(--ble);
+            }
+
             .tag-label.ci {
                 background: var(--ci);
+            }
+
+            .tag-label.tv {
+                background: var(--tv);
             }
 
             .tag-label.grpc {
@@ -29812,6 +29903,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
             .tag-label.material-design {
                 background: var(--material-design);
+            }
+
+            .tag-label.entrepreneurship {
+                background: var(--entrepreneurship);
             }
 
             paper-scroll-header-panel.android {
@@ -29857,7 +29952,120 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 }
                 ;
             }
-        </style></template></dom-module><dom-module id="hero-block" assetpath="hero-block/">
+        </style></template></dom-module><dom-module id="app-data" assetpath="app-data/">
+    <template>
+        <iron-ajax auto="" url="[[speakersSource]]" handle-as="json" last-response="{{speakers}}"></iron-ajax>
+        <iron-ajax auto="" url="[[sessionsSource]]" handle-as="json" last-response="{{sessions}}"></iron-ajax>
+        <iron-ajax auto="" url="[[postsSource]]" handle-as="json" last-response="{{posts}}"></iron-ajax>
+        <iron-ajax auto="" url="[[partnersSource]]" handle-as="json" last-response="{{partners}}"></iron-ajax>
+        <iron-ajax auto="" url="[[scheduleSource]]" handle-as="json" last-response="{{_scheduleRaw}}"></iron-ajax>
+    </template>
+</dom-module>
+
+<script>
+    Polymer({
+        is: 'app-data',
+        properties: {
+            speakersSource: {
+                type: String,
+                value: '../../data/speakers.json'
+            },
+            sessionsSource: {
+                type: String,
+                value: '../../data/sessions.json'
+            },
+            postsSource: {
+                type: String,
+                value: '../../data/blog.json'
+            },
+            partnersSource: {
+                type: String,
+                value: '../../data/partners.json'
+            },
+            scheduleSource: {
+                type: String,
+                value: '../../data/schedule.json'
+            },
+            speakers: {
+                type: Array,
+                notify: true
+            },
+            sessions: {
+                type: Array,
+                notify: true
+            },
+            posts: {
+                type: Array,
+                notify: true
+            },
+            partners: {
+                type: Array,
+                notify: true
+            },
+            _scheduleRaw: {
+                type: Array
+            },
+            schedule: {
+                type: Array,
+                notify: true
+            }
+        },
+        observers: [
+            '_generateSchedule(speakers, sessions, _scheduleRaw)'
+        ],
+        _generateSchedule: function() {
+            for (var i = 0, scheduleLen = this._scheduleRaw.length; i < scheduleLen; i++) {
+                var day = this._scheduleRaw[i];
+                for (var j = 0, timeslotsLen = day.timeslots.length; j < timeslotsLen; j++) {
+                    var timeslot = day.timeslots[j];
+                    for (var k = 0, sessionsLen = timeslot.sessions.length; k < sessionsLen; k++) {
+                        for (var l = 0, subSessionsLen = timeslot.sessions[k].length; l < subSessionsLen; l++) {
+                            var session = this._getSession(timeslot.sessions[k][l]);
+                            if(!session.track) {
+                                session.track = day.tracks[k];
+                            }
+                            session.startTime = timeslot.startTime;
+                            session.endTime = subSessionsLen > 1 ? this._getEndTime(day.date, timeslot.startTime, timeslot.endTime, subSessionsLen, l + 1) : timeslot.endTime;
+                            this._scheduleRaw[i].timeslots[j].sessions[k][l] = session;
+                        }
+                    }
+                }
+            }
+            this.schedule = this._scheduleRaw;
+        },
+        _getSession: function(sessionId) {
+            for (var i = 0, sessionsLen = this.sessions.length; i < sessionsLen; i++) {
+                if (sessionId === this.sessions[i].id) {
+                    this.sessions[i].mainTag = this.sessions[i].tags ? app.generateClass(this.sessions[i].tags[0]) : 'default';
+                    if (this.sessions[i].speakers) {
+                        for (var j = 0, speakersLen = this.sessions[i].speakers.length; j < speakersLen; j++) {
+                            if (!this.sessions[i].speakers[j].id) {
+                                this.sessions[i].speakers[j] = this._getSpeaker(this.sessions[i].speakers[j]);
+                            }
+                        }
+                    }
+                    return this.sessions[i];
+                }
+            }
+        },
+        _getSpeaker: function(speakerId) {
+            for (var i = 0, speakersLen = this.speakers.length; i < speakersLen; i++) {
+                if (speakerId === this.speakers[i].id) {
+                    return this.speakers[i];
+                }
+            }
+        },
+        _getEndTime: function(date, startTime, endTime, totalNumber, number) {
+            var timezone = new Date().toString().match(/([A-Z]+[\+-][0-9]+.*)/)[1],
+                timeStart = new Date(date + ' ' + startTime + ' ' + timezone).getTime(),
+                timeEnd = new Date(date + ' ' + endTime + ' ' + timezone).getTime(),
+                difference = Math.floor((timeEnd - timeStart) / totalNumber),
+                result = new Date(timeStart + difference * number);
+            return result.getHours() + ':' + result.getMinutes();
+        }
+    });
+</script>
+<dom-module id="hero-block" assetpath="hero-block/">
     <template>
         <style>
             :host {
@@ -29950,6 +30158,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 ::content .title-wrapper {
                     min-height: 150px;
                 }
+
+                paper-tab {
+                  padding: 0 15px;
+                }
             }
         </style>
         <div id="hero">
@@ -29962,11 +30174,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                         </a>
                     </div>
                     <paper-tabs class="hidden-xs" attr-for-selected="data-route" selected="{{route}}">
-                      <!--
                         <paper-tab class="text-u-c">
                             <a data-route="blog" href="#!/blog" class="nav-link horizontal center-center layout">Novidades</a>
                         </paper-tab>
-                      -->
+                        <paper-tab class="text-u-c">
+                            <a data-route="schedule" href="#!/schedule" class="nav-link horizontal center-center layout">Programação</a>
+                        </paper-tab>
                         <paper-tab class="text-u-c">
                             <a data-route="speakers" href="#!/speakers" class="nav-link horizontal center-center layout">Palestrantes</a>
                         </paper-tab>
@@ -30235,7 +30448,7 @@ Polymer({
                   counter: 3,
                   caption: 'Áreas simultâneas'
               }, {
-                counter: 14,
+                counter: 16,
                 caption: 'Palestras'
               }, {
                 counter: 28,
@@ -30268,17 +30481,17 @@ Polymer({
             }
 
             .fe-people {
-                font-weight: 100;
+                font-weight: 200;
             }
 
-            @media (max-width: 767px) {
+            @media (max-width: 600px) {
                 .fe-people:nth-child(1),
                 .fe-people:nth-child(2) {
                     margin-bottom: 40px;
                 }
             }
 
-            @media (min-width: 768px) {
+            @media (min-width: 601px) {
                 .fe-people-img {
                     height: 120px;
                     width: 120px;
@@ -30305,11 +30518,10 @@ Polymer({
                 font-size: .9em;
             }
         </style>
-        <iron-ajax auto="" url="[[source]]" handle-as="json" on-response="peopleLoaded"></iron-ajax>
         <div class="container text-center">
             <content></content>
             <div class="flex wrap layout horizontal people-wraper">
-                <template is="dom-repeat" items="[[people)]" as="person">
+                <template is="dom-repeat" items="[[featuredPeople]]" as="person">
                     <div class="fe-people two-column-xs">
                         <iron-image src="[[person.photoUrl]]" class="fe-people-img placeholder-color img-circle" preload="" fade="" sizing="cover"></iron-image>
                         <h4 class="fe-people-name">
@@ -30321,7 +30533,7 @@ Polymer({
             </div>
             <div>
                 <a data-route="speakers" href="#!/speakers" class="block-link">
-                    <paper-button>Confira todos os palestrantes</paper-button>
+                    <paper-button>View all speakers</paper-button>
                 </a>
             </div>
         </div>
@@ -30332,10 +30544,19 @@ Polymer({
     Polymer({
         is: 'featured-people',
         properties: {
-            source: String
+            people: {
+                type: Array,
+                observer: '_peopleChanged'
+            }
         },
-        peopleLoaded: function(event, response) {
-            this.people = this.randomOrder(response.response).slice(0, 4);
+        _peopleChanged: function() {
+            var filteredPeople = [];
+            for (var i = 0; i < this.people.length; i++) {
+                if (this.people[i].featured) {
+                    filteredPeople.push(this.people[i]);
+                }
+            }
+            this.featuredPeople = this.randomOrder(filteredPeople).slice(0, 4);
         },
         randomOrder: function(array) {
             return array.sort(function() {
@@ -30659,11 +30880,11 @@ Polymer({
             <!-- <div class="line full-width"></div> -->
             <div class="footer-content footer-bottom layout vertical-horizontal justified">
                 <span class="flex self-center">
-                    © 2015 Based on <a href="https://github.com/gdg-x/hoverboard" target="_blank">Project Hoverboard</a>. Designed and created by <a href="http://o.zasadnyy.com/" target="_blank">Oleh Zasadnyy</a> ·
+                    © 2015 Based on <a href="https://github.com/gdg-x/hoverboard" target="_blank">Project Hoverboard</a>. Desenvolvido e criado por <a href="http://o.zasadnyy.com/" target="_blank">Oleh Zasadnyy</a> ·
                     <a href="http://lviv.gdg.org.ua" target="_blank">GDG Lviv</a>
                 </span>
                 <div class="self-end">
-                    <img class="gdg-logo" src="../images/gdg-logo.svg" alt="GDG Lviv">
+                    <img class="gdg-logo" src="../images/gdg-logo.svg" alt="GDG São Paulo">
                 </div>
             </div>
         </div>
@@ -31804,28 +32025,28 @@ Polymer({
                 padding: 0 16px;
             }
 
-            @media (max-width: 767px) {
+            @media (max-width: 600px) {
                 .post-wrapper,
                 .post {
                     @apply(--layout-fit);
                 }
             }
 
-            @media (min-width: 768px) {
+            @media (min-width: 601px) {
                 .card-wrapper {
                     margin: 0 15px 30px;
                     width: calc(100% / 3);
                 }
             }
         </style>
-        <iron-ajax auto="" url="[[source]]" handle-as="json" on-response="postsLoaded"></iron-ajax>
+        <!-- <iron-ajax auto url="[[source]]" handle-as="json" on-response="postsLoaded"></iron-ajax> -->
         <div id="posts" class="container flex layout horizontal center-justified wrap">
             <template is="dom-repeat" items="[[posts]]" as="post">
                 <div class="card-wrapper layout horizontal">
                     <paper-material class="layout vertical">
                         <div class="card-content">
                             <span class="title block">[[post.title]]</span>
-                            <span class="posted">Posted
+                            <span class="posted">Postado em:
                                 <span>[[post.posted]]</span>
                             </span>
                         </div>
@@ -31833,7 +32054,7 @@ Polymer({
                             <marked-element markdown="[[post.brief]]"></marked-element>
                         </div>
                         <div class="card-actions">
-                            <paper-button on-tap="readMore">Continue lendo</paper-button>
+                            <paper-button on-tap="readMore">Continuar lendo</paper-button>
                         </div>
                     </paper-material>
                 </div>
@@ -31854,6 +32075,10 @@ Polymer({
         ],
         properties: {
             source: String,
+            posts: {
+                type: Array,
+                observer: '_postsChanged'
+            },
             opened: {
                 type: Boolean,
                 observer: '_openedChanged'
@@ -31899,8 +32124,8 @@ Polymer({
         listeners: {
             'neon-animation-finish': '_onNeonAnimationFinish'
         },
-        postsLoaded: function(event, response) {
-            this.posts = response.response.reverse();
+        _postsChanged: function() {
+            this.posts = this.posts.reverse();
 
             this.async(function() {
                 var nodeList = this.$.posts.querySelectorAll('.card-wrapper');
@@ -31933,7 +32158,7 @@ Polymer({
             this.$.postCon.style.display = 'block';
             this.cancelAnimation();
             this.playAnimation('openPost');
-            if (screen.width > 768) {
+            if (screen.width > 601) {
                 this.playAnimation('unloadPosts');
             }
         },
@@ -31944,13 +32169,13 @@ Polymer({
             this.playAnimation('closePost');
         },
         _onNeonAnimationFinish: function() {
-            if (this.opened && screen.width > 768) {
+            if (this.opened && screen.width > 601) {
                 this.$.posts.style.display = 'none';
                 this.$.posts.style.position = 'absolute';
             }
             if (!this.opened) {
                 this.$.postCon.style.display = 'none';
-                if (screen.width > 768) {
+                if (screen.width > 601) {
                     this.$.posts.style.display = 'flex';
                     this.$.posts.style.position = 'relative';
                 }
@@ -32103,10 +32328,12 @@ Polymer({
                         <template is="dom-repeat" items="[[person.sessions]]" as="session">
                             <div class="session">
                                 <h3 class="session-title">[[session.title]]</h3>
-                                <span class="session-meta">Language:
+<!--
+                                <span class="session-meta">Idioma:
                                     <span>[[session.language]]</span>
                                 </span>
-                                <span class="session-meta">Complexity:
+-->
+                                <span class="session-meta">Complexidade:
                                     <span>[[session.complexity]]</span>
                                 </span>
                                 <marked-element markdown="[[session.description]]"></marked-element>
@@ -32347,6 +32574,9 @@ Polymer({
             .filters {
                 margin-bottom: 20px;
             }
+            .filters paper-checkbox {
+                background: none;
+            }
 
             .filters .card-content {
                 border-bottom: 1px solid #eee;
@@ -32365,7 +32595,7 @@ Polymer({
                 padding: 14px 16px;
             }
 
-            @media (max-width: 767px) {
+            @media (max-width: 600px) {
                 .person-wrapper,
                 .person {
                     @apply(--layout-fit);
@@ -32378,7 +32608,7 @@ Polymer({
                 }
             }
 
-            @media (min-width: 768px) {
+            @media (min-width: 601px) {
                 .card-wrapper {
                     width: calc(100% / 3);
                 }
@@ -32390,8 +32620,6 @@ Polymer({
                 }
             }
         </style>
-        <iron-ajax auto="" url="[[source]]" handle-as="json" last-response="{{peopleTemp}}"></iron-ajax>
-        <iron-ajax auto="" url="[[sessionsSource]]" handle-as="json" last-response="{{sessions}}"></iron-ajax>
         <div id="people" class="container flex layout vertical">
             <div class="layout vertical-horizontal">
                 <div class="flex">
@@ -32469,8 +32697,8 @@ Polymer({
             Polymer.NeonAnimationRunnerBehavior
         ],
         properties: {
-            source: String,
-            sessionsSource: String,
+            sessions: Array,
+            speakers: Array,
             tags: Array,
             badges: Array,
             filters: {
@@ -32529,21 +32757,21 @@ Polymer({
             }
         },
         observers: [
-            'generatePeople(peopleTemp, sessions)'
+            'generatePeople(speakers, sessions)'
         ],
         listeners: {
             'neon-animation-finish': '_onNeonAnimationFinish'
         },
-        generatePeople: function(peopleTemp, sessions) {
-            for (var i = 0; i < peopleTemp.length; i++) {
-                peopleTemp[i].sessions = [];
+        generatePeople: function(speakers, sessions) {
+            for (var i = 0; i < speakers.length; i++) {
+                speakers[i].sessions = [];
                 for (var j = 0; j < sessions.length; j++) {
-                    if (sessions[j].speakers.indexOf(peopleTemp[i].id) > -1) {
-                        peopleTemp[i].sessions.push(sessions[j]);
+                    if (sessions[j].speakers && sessions[j].speakers.indexOf(speakers[i].id) > -1) {
+                        speakers[i].sessions.push(sessions[j]);
                     }
                 }
             }
-            this.people = peopleTemp;
+            this.people = speakers;
 
             this._generateFilters();
 
@@ -32609,7 +32837,7 @@ Polymer({
             this.$.personCon.style.display = 'block';
             this.cancelAnimation();
             this.playAnimation('openPerson');
-            if (screen.width > 768) {
+            if (screen.width > 601) {
                 this.playAnimation('unloadPeople');
             }
         },
@@ -32620,13 +32848,13 @@ Polymer({
             this.playAnimation('closePerson');
         },
         _onNeonAnimationFinish: function() {
-            if (this.opened && screen.width > 768) {
+            if (this.opened && screen.width > 601) {
                 this.$.people.style.display = 'none';
                 this.$.people.style.position = 'absolute';
             }
             if (!this.opened) {
                 this.$.personCon.style.display = 'none';
-                if (screen.width > 768) {
+                if (screen.width > 601) {
                     this.$.people.style.display = 'flex';
                     this.$.people.style.position = 'relative';
                 }
@@ -32712,9 +32940,8 @@ Polymer({
                 font-size: 16px;
             }
         </style>
-        <iron-ajax auto="" url="[[source]]" handle-as="json" on-response="newsLoaded"></iron-ajax>
         <div class="container relative">
-            <h4 class="heading text-center">Últimas Notícias</h4>
+            <h4 class="heading text-center">Novidades</h4>
             <div class="layout vertical-horizontal">
                 <div class="flex-5">
                     <span class="title block">[[news.0.title]]</span>
@@ -32736,10 +32963,14 @@ Polymer({
     Polymer({
         is: 'latest-news',
         properties: {
-            source: String
+            source: String,
+            posts: {
+                type: Array,
+                observer: '_postsChanged'
+            },
         },
-        newsLoaded: function(event, response) {
-            var temp = response.response.reverse().slice(0, 2);
+        _postsChanged: function() {
+            var temp = this.posts.reverse().slice(0, 2);
             for (var i = 0; i < temp.length; i++) {
                 temp[i].url = '#!/blog/' + temp[i].titleUrl;
                 temp[i].dataRoute = 'blog/' + temp[i].titleUrl;
@@ -32831,13 +33062,13 @@ Polymer({
                     <span class="ticket-name block">Traga sua toalha</span>
                     <span class="currency">R$</span>
                     <span class="price">340</span>
-                    <span class="additional-info block">*Entre 11 e 23 de outubro ou 600 ingressos.</span>
+                    <span class="additional-info block">*Entre 11 e 31 de outubro ou 600 ingressos.</span>
                 </div>
                 <div class="price-block flex text-center">
                     <span class="ticket-name block">Não seja um Vógon</span>
                     <span class="currency">R$</span>
                     <span class="price">440</span>
-                    <span class="additional-info block">*Após 23 de Outubro</span>
+                    <span class="additional-info block">*Após 31 de Outubro</span>
                 </div>
             </div>
             <span class="details">O ingresso garante o acesso a todas as áreas do evento incluindo experimentos e alimentação (welcome coffee e break da tarde).<br>
@@ -32852,21 +33083,6 @@ Polymer({
     </template>
 </dom-module>
 <script>
-    /* jshint ignore:start */
-    var widgetOptions = {
-        bg_color: 'ffffff',
-        id: 312113,
-        lang: 'en'
-    };
-    /* jshint ignore:end */
-    (function() {
-        var script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.async = true;
-        script.src = 'http://2event.com/js/widget-tickets.js';
-        document.getElementsByTagName('head')[0].appendChild(script);
-    })();
-
     Polymer({
         is: 'tickets-block',
         openTicketsDialog: function() {
@@ -32924,4 +33140,448 @@ Polymer({
     }
 });
 </script>
+<dom-module id="schedule-block" assetpath="schedule-block/">
+    <template>
+        <style include="tags-color"></style>
+        <style>
+            :host {
+                margin-top: 32px;
+                display: block;
+                --paper-tabs-selection-bar-color: #fff;
+                --paper-tab-ink: rgba(255, 255, 255, 0.2);
+                --paper-tab-content: {
+                    font-weight: 400 !important;
+                }
+                ;
+                --paper-tab: {
+                    color: #fff;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    flex: none;
+                }
+            }
+
+            .schedule-icon {
+                --iron-icon-height: 20px;
+                --iron-icon-width: 20px;
+            }
+
+            .track {
+                width: 40px;
+            }
+
+            .track-dot span {
+                margin: 7px 0 0 8px;
+                width: 10px;
+                height: 10px;
+                display: block;
+                border-radius: 50%;
+            }
+
+            .session {
+                background: #fff;
+            }
+
+            .sub-session {
+                padding: 10px 16px;
+                background: none !important;
+                color: inherit !important;
+                cursor: pointer;
+            }
+
+            .session:last-of-type .sub-sessio:last-of-type {
+                padding-bottom: 0;
+            }
+
+            .session-title {
+                margin-bottom: 10px;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 1.1;
+                color: var(--primary-text-color);
+            }
+
+            .start-time {
+                margin: 25px 0 10px 10px;
+                font-size: 14px;
+                font-weight: 400;
+                color: var(--secondary-text-color);
+            }
+
+            .session-meta {
+                margin-top: 10px;
+                font-size: 14px;
+                color: var(--disabled-text-color);
+            }
+
+            .meta-block {
+                margin-right: 10px;
+            }
+
+            .session-meta-icon {
+                --iron-icon-height: 18px;
+                --iron-icon-width: 18px;
+            }
+
+            .lang {
+                margin: 4px 0 0 10px;
+                text-transform: uppercase;
+                font-size: 12px;
+                color: var(--secondary-text-color);
+            }
+
+            .speaker {
+                margin-top: 5px;
+                color: var(--secondary-text-color);
+            }
+
+            .speaker-img {
+                margin-right: 10px;
+                height: 30px;
+                width: 30px;
+            }
+
+            .person-name {
+                font-size: 18px;
+                line-height: 1;
+            }
+
+            .person-title {
+                font-size: 14px;
+                color: var(--disabled-text-color);
+            }
+
+            @media (max-width: 960px) {
+                .container {
+                    padding: 40px 0;
+                }
+                .sessions-wrapper {
+                    padding: 10px 0;
+                    background: #fff;
+                    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+                }
+                .dialog-wrapper {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+
+            @media (min-width: 961px) {
+                .schedule {
+                    margin-top: 10px;
+                }
+                .tracks-header {
+                    margin-top: 5px;
+                    color: var(--secondary-text-color);
+                    text-transform: uppercase;
+                }
+                .start-time {
+                    margin: 15px 10px;
+                    font-size: 20px;
+                    font-weight: 300;
+                }
+                .timeslot {
+                    margin-bottom: 10px;
+                }
+                .track {
+                    width: 30px;
+                }
+                .track-dot span {
+                    margin-left: 4px;
+                }
+                .session {
+                    margin: 0 10px;
+                    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+                }
+                .sub-session {
+                    padding: 20px 16px;
+                    border-top: 3px solid;
+                }
+                .dialog-wrapper {
+                    width: 50%;
+                    min-height: 90% !important;
+                    max-height: 90% !important;
+                }
+            }
+        </style>
+        <div id="schedule" class="container flex layout vertical">
+            <paper-tabs class="schedule-tabs" selected="{{selected}}">
+                <template is="dom-repeat" items="[[schedule]]" as="day">
+                    <paper-tab>[[day.dateReadable]]</paper-tab>
+                </template>
+            </paper-tabs>
+
+            <iron-pages class="schedule" selected="{{selected}}">
+                <template is="dom-repeat" items="[[schedule]]" as="day">
+                    <div>
+                        <template is="dom-repeat" items="[[day.timeslots]]" as="timeslot">
+                            <div class="timeslot layout vertical">
+                                <div class="start-time">
+                                    <iron-icon class="schedule-icon" icon="schedule"></iron-icon>
+                                    <span>[[timeslot.startTime]]</span>
+                                </div>
+                                <div class="sessions-wrapper layout vertical-horizontal flex">
+                                    <template is="dom-repeat" items="[[timeslot.sessions]]" as="session">
+                                        <div class="session layout vertical flex">
+                                            <template is="dom-repeat" items="[[session]]" as="subSession">
+                                                <div class$="[[ _concatClass('sub-session layout horizontal', subSession.mainTag) ]]" on-tap="_sessionTap">
+                                                    <div class="track track-dot">
+                                                        <span class$="[[subSession.mainTag]]"></span>
+                                                    </div>
+                                                    <div class="session-detail layout vertical flex">
+                                                        <div class="layout horizontal">
+                                                            <h4 class="session-title flex">[[subSession.title]]</h4>
+                                                            <span class="lang">[[subSession.language]]</span>
+                                                        </div>
+                                                        <template is="dom-repeat" items="[[subSession.speakers]]" as="speaker">
+                                                            <div class="speaker layout horizontal">
+                                                                <iron-image src="[[speaker.photoUrl]]" class="speaker-img placeholder-color img-circle" preload="" fade="" sizing="cover"></iron-image>
+                                                                <div class="person-detail flex layout vertical center-center">
+                                                                    <span class="person-name self-start">[[speaker.name]]</span>
+                                                                    <div class="person-title self-start">
+                                                                        <span>[[speaker.company]]</span>,
+                                                                        <span>[[speaker.country]]</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </template>
+                                                        <div class="session-meta layout horizontal">
+                                                            <div class="meta-block">
+                                                                <iron-icon class="session-meta-icon" icon="restore"></iron-icon>
+                                                                <span>[[subSession.endTime]]</span>
+                                                            </div>
+                                                            <div class="meta-block">
+                                                                <iron-icon class="session-meta-icon" icon="room"></iron-icon>
+                                                                <span>[[subSession.track.title]]</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </template>
+                                        </div>
+                                    </template>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                </template>
+            </iron-pages>
+        </div>
+
+        <paper-dialog id="sessionDialog" class="dialog-wrapper" with-backdrop="" modal$="{{smallScreen}}" on-iron-overlay-opened="_patchOverlay">
+            <session-dialog session="{{selectedSession}}" opened="{{opened}}"></session-dialog>
+        </paper-dialog>
+        <iron-media-query query="(max-width: 960px)" query-matches="{{smallScreen}}"></iron-media-query>
+    </template>
+</dom-module>
+
+<script>
+    Polymer({
+        is: 'schedule-block',
+        properties: {
+            schedule: {
+                type: Array
+            },
+            sessions: {
+                type: Array
+            },
+            selected: {
+                type: Number,
+                value: 0
+            },
+            opened: {
+                type: Boolean,
+                observer: '_openedChanged'
+            }
+        },
+        observers: [
+            'checkUrlParams(schedule, sessions)'
+        ],
+        checkUrlParams: function(schedule, sessions) {
+            this.async(function() {
+                if (app.params && app.params.id) {
+                    var session = app.findByPropertyValue(sessions, 'id', app.params.id);
+                    if (session) {
+                        this._openSession(session);
+
+                    }
+                }
+            }, 1000);
+        },
+        _concatClass: function(basic, target) {
+            return basic + ' ' + target;
+        },
+        _sessionTap: function() {
+            page.redirect('/schedule/' + event.model.subSession.id);
+            this._openSession(event.model.subSession);
+        },
+        _openSession: function(session) {
+            this.selectedSession = session;
+            this.opened = true;
+            this.$.sessionDialog.open();
+        },
+        _openedChanged: function() {
+            if (!this.opened) {
+                page.show('/schedule', null, false);
+                this.$.sessionDialog.close();
+            }
+        },
+        _patchOverlay: function(e) {
+            if (e.target.withBackdrop) {
+                e.target.parentNode.insertBefore(e.target._backdrop, e.target);
+            }
+        }
+    });
+</script>
+<dom-module id="session-dialog" assetpath="session-dialog/">
+    <template>
+        <style include="tags-color"></style>
+        <style>
+            :host {
+                display: block;
+            }
+
+            paper-scroll-header-panel {
+                background: #fff;
+                height: 100%;
+                --paper-scroll-header-panel-full-header: {
+                    background-color: var(--default-primary-color);
+                }
+                ;
+                --paper-scroll-header-panel-condensed-header: {
+                    background-color: var(--default-primary-color);
+                }
+                ;
+            }
+
+            paper-toolbar {
+                background-color: transparent;
+                color: #fff;
+            }
+
+            paper-toolbar .title {
+                margin: 0;
+            }
+
+            .card-content {
+                background: #fff;
+                padding: 16px;
+                color: var(--primary-text-color);
+            }
+
+            .session-description {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+
+            .meta-info {
+                font-size: 14px;
+                color: var(--disabled-text-color);
+            }
+
+            .meta-block {
+                margin-right: 15px;
+            }
+
+            .session-meta-icon {
+                --iron-icon-height: 18px;
+                --iron-icon-width: 18px;
+            }
+
+            .speaker,
+            .speakers-info {
+                color: var(--secondary-text-color);
+            }
+
+            .speaker-img {
+                margin-right: 10px;
+                height: 30px;
+                width: 30px;
+            }
+
+            .block-header {
+                margin-bottom: 10px;
+                font-weight: 400;
+                font-size: 16px;
+                color: var(--secondary-text-color);
+            }
+        </style>
+        <paper-scroll-header-panel id="scrollHeaderPanel" class$="[[_concatClass('fit', '')]]" condenses="" keep-condensed-header="">
+            <paper-toolbar class="tall">
+                <paper-icon-button class="back-button" on-tap="_close" icon="arrow-back"></paper-icon-button>
+                <div id="title" class="bottom title">[[session.title]]</div>
+            </paper-toolbar>
+            <div class="content flex">
+                <div class="card-content meta-info layout horizontal">
+                    <div class="meta-block">
+                        <iron-icon class="session-meta-icon" icon="schedule"></iron-icon>
+                        <span>[[session.startTime]]</span> -
+                        <span>[[session.endTime]]</span>
+                    </div>
+                    <div class="meta-block" hidden$="[[!smallScreen]]">
+                        <iron-icon class="session-meta-icon" icon="room"></iron-icon>
+                        <span>[[session.track.title]]</span>
+                    </div>
+                    <template is="dom-if" if="[[session.language]]">
+                        <div class="meta-block" hidden$="[[!smallScreen]]">
+                            <iron-icon class="session-meta-icon" icon="font-download"></iron-icon>
+                            <span>[[session.language]]</span>
+                        </div>
+                    </template>
+                </div>
+                <div class="card-content session-description">
+                    <marked-element markdown="[[session.description]]"></marked-element>
+                </div>
+                <template is="dom-if" if="[[session.speakers]]">
+                    <div class="card-content">
+                        <h4 class="block-header">Palestrante(s)</h4>
+                        <template is="dom-repeat" items="[[session.speakers]]" as="speaker">
+                            <div class="speaker layout horizontal">
+                                <iron-image src="[[speaker.photoUrl]]" class="speaker-img placeholder-color img-circle" preload="" fade="" sizing="cover"></iron-image>
+                                <div class="person-detail flex layout vertical center-center">
+                                    <span class="name self-start">[[speaker.name]]</span>
+                                </div>
+                            </div>
+                            <marked-element class="speakers-info" markdown="[[speaker.bio]]"></marked-element>
+                        </template>
+                    </div>
+                </template>
+            </div>
+        </paper-scroll-header-panel>
+    </template>
+    <script>
+        Polymer({
+            is: 'session-dialog',
+            properties: {
+                session: {
+                    type: Object
+                },
+                opened: {
+                    type: Boolean,
+                    notify: true
+                }
+            },
+            ready: function() {
+                var title = this.$.title;
+                addEventListener('paper-header-transform', function(e) {
+                    var d = e.detail;
+                    var m = d.height - d.condensedHeight;
+                    var transform = 50 * d.y / m;
+                    Polymer.Base.transform('translate3d(' + transform + 'px,0,0)', title);
+                });
+            },
+            _concatClass: function(basic, target) {
+                return basic + ' ' + target;
+            },
+            _close: function() {
+                this.opened = false;
+            }
+        });
+    </script>
+</dom-module>
 </div></body></html>
