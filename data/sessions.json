@@ -244,7 +244,7 @@
   },
   {
     "id": "eduardocarrara",
-    "title": "Android com Estilo",
+    "title": "Utilizando Espresso e UIAutomator para automação de testes",
     "description": "Executar testes é uma etapa importante do processo de desenvolvimento para garantir níveis de qualidade aceitáveis pelos usuários de sua aplicação. No entanto com o aumento do número de funcionalidades e as frequentes ondas de novos devices esta tarefa tem se tornado cada vez mais árdua, além de extremamente repetitiva, tediosa e sujeita a erros. No mundo Android algumas ferramentas podem lhe auxiliar a automatizar seu processo de testes, o Espresso e o UIAutomator são duas delas que recentemente foram adicionadas ao Android Testing Framework. Nesta palestra trataremos de como utilizar estes frameworks em seu projeto Android para automatizar e simular a interação do usuário com sua app e validar funcionalidades de sua aplicação no processo tornando o seu dia mais legal e produtivo.",
     "speakers": [
       "eduardocarrara"
