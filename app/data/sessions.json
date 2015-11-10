@@ -131,11 +131,11 @@
     "tags": [""]
   },
   {
-    "id": "pedrokayatt",
+    "id": "viniciusvecchi",
     "title": "Realidade Virtual - O Futuro é agora! ",
     "description": "Uma retrospectiva dos fracassos da tecnologia e uma atualização com os mais recentes lançamento e o porquê veremos em breve uma revolução como poucas vistas antes. ",
     "speakers": [
-      "pedrokayatt"
+      "viniciusvecchi"
     ],
     "language": "pt-br",
     "complexity": "Nível Básico",
@@ -203,8 +203,8 @@
 
     {
       "id": "diogobotelho",
-      "title": "TBD",
-      "description": "TBD",
+      "title": "Introdução a DeepLinking e Indexação de Aplicativos",
+      "description": "Nesta palestra iremos falar sobre como fazer para seu aplicativo aparecer nos resultados de busca móvel usando DeepLinking e Indexação de Aplicativos e quais as melhores práticas para implementá-los",
       "speakers": [
         "diogobotelho"
       ],
@@ -244,7 +244,7 @@
   },
   {
     "id": "eduardocarrara",
-    "title": "Android com Estilo",
+    "title": "Utilizando Espresso e UIAutomator para automação de testes",
     "description": "Executar testes é uma etapa importante do processo de desenvolvimento para garantir níveis de qualidade aceitáveis pelos usuários de sua aplicação. No entanto com o aumento do número de funcionalidades e as frequentes ondas de novos devices esta tarefa tem se tornado cada vez mais árdua, além de extremamente repetitiva, tediosa e sujeita a erros. No mundo Android algumas ferramentas podem lhe auxiliar a automatizar seu processo de testes, o Espresso e o UIAutomator são duas delas que recentemente foram adicionadas ao Android Testing Framework. Nesta palestra trataremos de como utilizar estes frameworks em seu projeto Android para automatizar e simular a interação do usuário com sua app e validar funcionalidades de sua aplicação no processo tornando o seu dia mais legal e produtivo.",
     "speakers": [
       "eduardocarrara"
@@ -254,5 +254,23 @@
     "presentation": "",
     "video": "",
     "tags": ["Android"]
+  }, {
+  "id": "flaviafortes",
+  "title": "Aprendendo com meus erros",
+  "description": "O principal objetivo dessa palestra é pontuar os erros mais comuns que um desenvolvedor comete no início de sua carreira. Apesar de ser direcionado para iniciantes, muitas dicas valem também para programadores com mais tempo de mercado ou que trabalham com outras linguagens e frameworks de programação além de Ruby on Rails. O conteúdo desta palestra vai orientar os ouvintes a valorizar diversas boas práticas, incluindo TDD/BDD até formas de melhorar a legibilidade do seu código.",
+  "speakers": ["flaviafortes"],
+  "language": "pt-br",
+  "complexity": "Nível Intermediário",
+  "presentation": "",
+  "video": ""
+  }, {
+  "id": "andrebaltieri",
+  "title": "Firebase e BaaS seguros",
+  "description": "A utilização de Backend as a Service é algo que vem se tornando popular, principalmente pelas facilidades que ele nos oferece, mas com toda esta exposição das informações na internet, precisamos nos preocupar muito com a segurança. Nesta palestra, vamos ver os principais recursos de segurança que o Firebase nos oferece, e como você deve trabalhar para evitar que suas informações sofram acessos indevidos",
+  "speakers": ["flaviafortes"],
+  "language": "pt-br",
+  "complexity": "Nível Intermediário",
+  "presentation": "",
+  "video": ""
   }
 ]

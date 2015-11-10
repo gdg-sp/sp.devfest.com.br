@@ -71,21 +71,21 @@
         "link": "https://twitter.com/danicuki"
     }]
 }, {
-    "id": "pedrokayatt",
-    "name": "Pedro Kayatt",
+    "id": "viniciusvecchi",
+    "name": "Viniciu Vecchi",
     "title": "Game Developer",
-    "company": "Naked VR",
+    "company": "VR Monkey",
     "country": "Brasil",
-    "photoUrl": "../../images/people/kayatt.jpeg",
-    "bio": "Engenheiro de Computação formado na Escola Politécnica de São Paulo com Diploma Duplo com o Politecnico di Milano.Experiência de 10 anos no mercado de jogos digitais com projetos juntos do MIT e participação em desafios internacionais, trabalhou em empresas na Itália e Brasil, sendo desenvolvedor oficial de: Xbox 360, Playstation 3, Wii, Android, iOS, Windows 8 e Windows Phone.Atualmente é empreendedor, fundador da VRMonkey empresa incubada no Cietec – Centro de Inovação e Empreendedorismo e Tecnologia, cujo foco principal são jexperiências em realidade virtual, misturando interfaces naturais de usuário e trazendo ao mundo uma nova realidade.",
+    "photoUrl": "../../images/people/vvechi.jpeg",
+    "bio": "Matemático aplicado e game developer, explorando o mundo da realidade virtual",
     "tags": ["Realidade Virtual"],
     "badges": [],
     "socials": [{
-        "name": "Google+",
-        "link": "https://plus.google.com/+PedroKayatt"
+        "name": "LinkedIn",
+        "link": "https://br.linkedin.com/in/viniciusvecchi"
     }, {
         "name": "Twitter",
-        "link": "https://twitter.com/pekayatt"
+        "link": "https://twitter.com/vvecchi"
     }]
 }, {
     "id": "andersonsilva",
@@ -217,6 +217,23 @@
     }, {
         "name": "Google+",
         "link": "https://plus.google.com/+EduardoCarraraDeAraujo"
+    }]
+}, {
+    "id": "andrebaltieri",
+    "name": "André Baltieri",
+    "title": "Sofware Engineer",
+    "company": "Imobee",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/andre_baltieri.png",
+    "bio": "Microsoft MVP em ASP.NET/IIS, trabalha com desenvolvimento de aplicações web desde 2003, com experiência em projetos de médio e grande porte no Brasil, EUA, Inglaterra e Holanda. Palestrante em grandes eventos como TDC e ASP.NET Conference, criador do ASP.NET CAST, trabalha ativamente com comunidades técnicas desde 2007, e mantém o título de MVP pela Microsoft desde 2013. Atualmente realiza treinamentos e consultorias sobre plataforma Web em geral. É proprietário da Imobee, onde também atua na área de desenvolvimento web. Apesar do grande vínculo com a Microsoft, também adota muitas tecnologias abertas como NodeJs, AngularJs, MongoDB, Firebase entre outros.",
+    "tags": ["Firebase"],
+    "badges": [],
+    "socials": [{
+        "name": "Twitter",
+        "link": "http://twitter.com/andrebaltieri"
+    }, {
+        "name": "Facebook",
+        "link": "http://facebook.com/andre.baltieri"
     }]
 }
 ]
