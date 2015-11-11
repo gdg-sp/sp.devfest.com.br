@@ -72,7 +72,7 @@
     }]
 }, {
     "id": "viniciusvecchi",
-    "name": "Viniciu Vecchi",
+    "name": "Vinicius Vecchi",
     "title": "Game Developer",
     "company": "VR Monkey",
     "country": "Brasil",
@@ -149,12 +149,12 @@
     "company": "Plataformatec",
     "country": "Brasil",
     "photoUrl": "../../images/people/flafortes.jpg",
-    "bio": "Flavia Fortes works as a developer for the past 5 years. Experienced the dark times with ASP and also developed many apps with PHP and Ruby on Rails. Today works at Plataformatec and is very interested about the learning process of new programmers, good practices and woman in technology.",
+    "bio": "Flavia Fortes trabalha como desenvolvedora de software há pelo menos 5 anos e programa em Ruby On Rails há pelo menos 3. Hoje faz parte do time da Plataformatec e tem profundo interesse pelo processo de aprendizado de novos programadores, open source, boas práticas e mulheres na tecnologia.",
     "tags": ["Software Craftmanship"],
     "badges": [{
         "name": "WTM",
         "description": "Women Techmakers",
-        "link": "https://www.womentechmakers.com/"
+        "link": "https://www.womentechmakers.com"
     }],
     "socials": [{
         "name": "Github",
@@ -224,7 +224,7 @@
     "title": "Sofware Engineer",
     "company": "Imobee",
     "country": "Brasil",
-    "photoUrl": "../../images/people/andre_baltieri.png",
+    "photoUrl": "../../images/people/andre_baltieri.jpg",
     "bio": "Microsoft MVP em ASP.NET/IIS, trabalha com desenvolvimento de aplicações web desde 2003, com experiência em projetos de médio e grande porte no Brasil, EUA, Inglaterra e Holanda. Palestrante em grandes eventos como TDC e ASP.NET Conference, criador do ASP.NET CAST, trabalha ativamente com comunidades técnicas desde 2007, e mantém o título de MVP pela Microsoft desde 2013. Atualmente realiza treinamentos e consultorias sobre plataforma Web em geral. É proprietário da Imobee, onde também atua na área de desenvolvimento web. Apesar do grande vínculo com a Microsoft, também adota muitas tecnologias abertas como NodeJs, AngularJs, MongoDB, Firebase entre outros.",
     "tags": ["Firebase"],
     "badges": [],
