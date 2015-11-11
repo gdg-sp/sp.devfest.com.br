@@ -18,8 +18,8 @@
 					pattern: /^\{|\}$/i,
 					alias: 'punctuation'
 				},
-				'string': /(["'])(?:\\?.)*?\1/,
-				'number': /\b-?(?:0x[\dA-Fa-f]+|\d*\.?\d+(?:[Ee][-+]?\d+)?)\b/,
+				'string': /(["'])(\\?.)*?\1/,
+				'number': /\b-?(0x[\dA-Fa-f]+|\d*\.?\d+([Ee]-?\d+)?)\b/,
 				'variable': [
 					/\$(?!\d)\w+/,
 					/#(?!\d)\w+#/,
@@ -48,14 +48,12 @@
 							pattern: /(=\s*)(?!\d)\w+/,
 							lookbehind: true
 						},
-						"operator": /=/
+						"punctuation": /=/
 					}
 				},
-				'punctuation': [
-					/[\[\]().,:`]|\->/
-				],
+				'punctuation': /[\[\]().,=\|:`]|\->/,
 				'operator': [
-					/[+\-*\/%]|==?=?|[!<>]=?|&&|\|\|?/,
+					/[+\-*\/%]|===?|[!<>]=?|&&|\|\|/,
 					/\bis\s+(?:not\s+)?(?:div|even|odd)(?:\s+by)?\b/,
 					/\b(?:eq|neq?|gt|lt|gt?e|lt?e|not|mod|or|and)\b/
 				],
@@ -117,8 +115,7 @@
 		}
 
 		for (var i = 0, t; t = env.tokenStack[i]; i++) {
-			// The replace prevents $$, $&, $`, $', $n, $nn from being interpreted as special patterns
-			env.highlightedCode = env.highlightedCode.replace('___SMARTY' + (i + 1) + '___', Prism.highlight(t, env.grammar, 'smarty').replace(/\$/g, '$$$$'));
+			env.highlightedCode = env.highlightedCode.replace('___SMARTY' + (i + 1) + '___', Prism.highlight(t, env.grammar, 'smarty'));
 		}
 
 		env.element.innerHTML = env.highlightedCode;

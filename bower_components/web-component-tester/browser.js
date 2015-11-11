@@ -1346,12 +1346,11 @@
    */
   function loadSync() {
     util_js.debug('Loading environment scripts:');
-    var a11ySuite = 'web-component-tester/data/a11ySuite.js';
     var scripts = config_js.get('environmentScripts');
-    var a11ySuiteWillBeLoaded = window.__generatedByWct || scripts.indexOf(a11ySuite) > -1;
+    var a11ySuiteWillBeLoaded = window.__generatedByWct;
     if (!a11ySuiteWillBeLoaded) {
       // wct is running as a bower dependency, load a11ySuite from data/
-      scripts.push(a11ySuite);
+      scripts.push('web-component-tester/data/a11ySuite.js');
     }
     scripts.forEach(function(path) {
       var url = util_js.expandUrl(path, config_js.get('root'));
@@ -1744,8 +1743,8 @@
    * @param {function()} callback
    */
   window.flush = function flush(callback) {
-    // Ideally, this function would be a call to Polymer.dom.flush, but that doesn't
-    // support a callback yet (https://github.com/Polymer/polymer-dev/issues/851),
+    // Ideally, this function would be a call to Polymer.flush, but that doesn't
+    // support a callback yet (https://github.com/Polymer/polymer-dev/issues/115),
     // ...and there's cross-browser flakiness to deal with.
 
     // Make sure that we're invoking the callback with no arguments so that the
@@ -1764,15 +1763,8 @@
     }
 
     // Everyone else gets a regular flush.
-    var scope;
-    if (window.Polymer && window.Polymer.dom && window.Polymer.dom.flush) {
-      scope = window.Polymer.dom;
-    } else if (window.Polymer && window.Polymer.flush) {
-      scope = window.Polymer;
-    } else if (window.WebComponents && window.WebComponents.flush) {
-      scope = window.WebComponents;
-    }
-    if (scope) {
+    var scope = window.Polymer || window.WebComponents;
+    if (scope && scope.flush) {
       scope.flush();
     }
 

@@ -1,26 +1,18 @@
 (function(Prism) {
-	// TODO:
-	// - Add CSS highlighting inside <style> tags
-	// - Add support for multi-line code blocks
-	// - Add support for interpolation #{} and !{}
-	// - Add support for tag interpolation #[]
-	// - Add explicit support for plain text using |
-	// - Add support for markup embedded in plain text
-
 	Prism.languages.jade = {
 
 		// Multiline stuff should appear before the rest
 
-		// This handles both single-line and multi-line comments
-		'comment': {
-			pattern: /(^([\t ]*))\/\/.*((?:\r?\n|\r)\2[\t ]+.+)*/m,
-			lookbehind: true
+		'multiline-comment': {
+			pattern: /((?:^|\n)([\t ]*))\/\/.*(\n\2[\t ]+.+)*/,
+			lookbehind: true,
+			alias: 'comment'
 		},
 
 		// All the tag-related part is in lookbehind
 		// so that it can be highlighted by the "tag" pattern
 		'multiline-script': {
-			pattern: /(^([\t ]*)script\b.*\.[\t ]*)((?:\r?\n|\r(?!\n))(?:\2[\t ]+.+|\s*?(?=\r?\n|\r)))+/m,
+			pattern: /((?:^|\n)([\t ]*)script\b.*\.[\t ]*)(\n(?:\2[\t ]+.+|\s*?(?=\n)))+/,
 			lookbehind: true,
 			inside: {
 				rest: Prism.languages.javascript
@@ -29,7 +21,7 @@
 
 		// See at the end of the file for known filters
 		'filter': {
-			pattern: /(^([\t ]*)):.+((?:\r?\n|\r(?!\n))(?:\2[\t ]+.+|\s*?(?=\r?\n|\r)))+/m,
+			pattern: /((?:^|\n)([\t ]*)):.+(\n(?:\2[\t ]+.+|\s*?(?=\n)))+/,
 			lookbehind: true,
 			inside: {
 				'filter-name': {
@@ -40,15 +32,19 @@
 		},
 
 		'multiline-plain-text': {
-			pattern: /(^([\t ]*)[\w\-#.]+\.[\t ]*)((?:\r?\n|\r(?!\n))(?:\2[\t ]+.+|\s*?(?=\r?\n|\r)))+/m,
+			pattern: /((?:^|\n)([\t ]*)[\w\-#.]+\.[\t ]*)(\n(?:\2[\t ]+.+|\s*?(?=\n)))+/,
 			lookbehind: true
 		},
 		'markup': {
-			pattern: /(^[\t ]*)<.+/m,
+			pattern: /((?:^|\n)[\t ]*)<.+/,
 			lookbehind: true,
 			inside: {
 				rest: Prism.languages.markup
 			}
+		},
+		'comment': {
+			pattern: /((?:^|\n)[\t ]*)\/\/.+/,
+			lookbehind: true
 		},
 		'doctype': {
 			pattern: /((?:^|\n)[\t ]*)doctype(?: .+)?/,
@@ -57,31 +53,33 @@
 
 		// This handle all conditional and loop keywords
 		'flow-control': {
-			pattern: /(^[\t ]*)(?:if|unless|else|case|when|default|each|while)\b(?: .+)?/m,
+			pattern: /((?:^|\n)[\t ]*)(?:if|unless|else|case|when|default|each|while)(?: .+)?/,
 			lookbehind: true,
 			inside: {
 				'each': {
-					pattern: /^each .+? in\b/,
+					pattern: /((?:^|\n)[\t ]*)each .+? in\b/,
+					lookbehind: true,
 					inside: {
 						'keyword': /\b(?:each|in)\b/,
 						'punctuation': /,/
 					}
 				},
 				'branch': {
-					pattern: /^(?:if|unless|else|case|when|default|while)\b/,
+					pattern: /((?:^|\n)[\t ]*)(?:if|unless|else|case|when|default|while)/,
+					lookbehind: true,
 					alias: 'keyword'
 				},
 				rest: Prism.languages.javascript
 			}
 		},
 		'keyword': {
-			pattern: /(^[\t ]*)(?:block|extends|include|append|prepend)\b.+/m,
+			pattern: /((?:^|\n)[\t ]*)(?:block|extends|include|append|prepend)\b.+/,
 			lookbehind: true
 		},
 		'mixin': [
 			// Declaration
 			{
-				pattern: /(^[\t ]*)mixin .+/m,
+				pattern: /((?:^|\n)[\t ]*)mixin .+/,
 				lookbehind: true,
 				inside: {
 					'keyword': /^mixin/,
@@ -91,7 +89,7 @@
 			},
 			// Usage
 			{
-				pattern: /(^[\t ]*)\+.+/m,
+				pattern: /((?:^|\n)[\t ]*)\+.+/,
 				lookbehind: true,
 				inside: {
 					'name': {
@@ -103,7 +101,7 @@
 			}
 		],
 		'script': {
-			pattern: /(^[\t ]*script(?:(?:&[^(]+)?\([^)]+\))*[\t ]+).+/m,
+			pattern: /((?:^|\n)[\t ]*script(?:(?:&[^(]+)?\([^)]+\))*) .+/,
 			lookbehind: true,
 			inside: {
 				rest: Prism.languages.javascript
@@ -111,11 +109,11 @@
 		},
 
 		'plain-text': {
-			pattern: /(^[\t ]*(?!-)[\w\-#.]*[\w\-](?:(?:&[^(]+)?\([^)]+\))*\/?[\t ]+).+/m,
-			lookbehind: true
+				pattern: /((?:^|\n)[\t ]*(?!-)[\w\-#.]*[\w\-](?:(?:&[^(]+)?\([^)]+\))*\/?[\t ]+).+/,
+				lookbehind: true
 		},
 		'tag': {
-			pattern: /(^[\t ]*)(?!-)[\w\-#.]*[\w\-](?:(?:&[^(]+)?\([^)]+\))*\/?:?/m,
+			pattern: /((?:^|\n)[\t ]*)(?!-)[\w\-#.]*[\w\-](?:(?:&[^(]+)?\([^)]+\))*\/?:?/,
 			lookbehind: true,
 			inside: {
 				'attributes': [
@@ -129,33 +127,33 @@
 						pattern: /\([^)]+\)/,
 						inside: {
 							'attr-value': {
-								pattern: /(=\s*)(?:\{[^}]*\}|[^,)\r\n]+)/,
+								pattern: /(=\s*)(?:\{[^}]*\}|[^,)\n]+)/,
 								lookbehind: true,
 								inside: {
 									rest: Prism.languages.javascript
 								}
 							},
 							'attr-name': /[\w-]+(?=\s*!?=|\s*[,)])/,
-							'punctuation': /[!=(),]+/
+							'punctuation': /[!=(),]/
 						}
 					}
 				],
-				'punctuation': /:/
+				'punctuation': /[:]/
 			}
 		},
 		'code': [
 			{
-				pattern: /(^[\t ]*(?:-|!?=)).+/m,
+				pattern: /((?:^|\n)[\t ]*(?:-|!?=)).+/,
 				lookbehind: true,
 				inside: {
 					rest: Prism.languages.javascript
 				}
 			}
 		],
-		'punctuation': /[.\-!=|]+/
+		'punctuation': /[.\-!=|]/
 	};
 
-	var filter_pattern = '(^([\\t ]*)):{{filter_name}}((?:\\r?\\n|\\r(?!\\n))(?:\\2[\\t ]+.+|\\s*?(?=\\r?\\n|\\r)))+';
+	var filter_pattern = '((?:^|\\n)([\\t ]*)):{{filter_name}}(\\n(?:\\2[\\t ]+.+|\\s*?(?=\\n)))+';
 
 	// Non exhaustive list of available filters and associated languages
 	var filters = [
@@ -180,7 +178,7 @@
 		filter = typeof filter === 'string' ? {filter: filter, language: filter} : filter;
 		if (Prism.languages[filter.language]) {
 			all_filters['filter-' + filter.filter] = {
-				pattern: RegExp(filter_pattern.replace('{{filter_name}}', filter.filter), 'm'),
+				pattern: RegExp(filter_pattern.replace('{{filter_name}}', filter.filter)),
 				lookbehind: true,
 				inside: {
 					'filter-name': {

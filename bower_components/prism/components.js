@@ -35,8 +35,7 @@ var components = {
 		"meta": {
 			"path": "components/prism-{id}",
 			"noCSS": true,
-			"examplesPath": "examples/prism-{id}",
-			"addCheckAll": true
+			"examplesPath": "examples/prism-{id}"
 		},
 		"markup": {
 			"title": "Markup",
@@ -56,12 +55,8 @@ var components = {
 			"require": "clike"
 		},
 
+		// ---
 
-
-		"abap": {
-			"title": "ABAP",
-			"owner": "dellagustin"
-		},
 		"actionscript": {
 			"title": "ActionScript",
 			"require": "javascript",
@@ -71,16 +66,8 @@ var components = {
 			"title": "Apache Configuration",
 			"owner": "GuiTeK"
 		},
-		"apl": {
-			"title": "APL",
-			"owner": "ngn"
-		},
 		"applescript": {
 			"title": "AppleScript",
-			"owner": "Golmote"
-		},
-		"asciidoc": {
-			"title": "AsciiDoc",
 			"owner": "Golmote"
 		},
 		"aspnet": {
@@ -88,30 +75,14 @@ var components = {
 			"require": "markup",
 			"owner": "nauzilus"
 		},
-		"autoit": {
-			"title": "AutoIt",
-			"owner": "Golmote"
-		},
 		"autohotkey": {
 			"title": "AutoHotkey",
 			"owner": "aviaryan"
 		},
 		"bash": {
 			"title": "Bash",
+			"require": "clike",
 			"owner": "zeitgeist87"
-		},
-		"basic": {
-			"title": "BASIC",
-			"owner": "Golmote"
-		},
-		"batch": {
-			"title": "Batch",
-			"owner": "Golmote"
-		},
-		"bison": {
-			"title": "Bison",
-			"require": "c",
-			"owner": "Golmote"
 		},
 		"brainfuck": {
 			"title": "Brainfuck",
@@ -137,41 +108,19 @@ var components = {
 			"require": "javascript",
 			"owner": "R-osey"
 		},
-		"crystal": {
-			"title": "Crystal",
-			"require": "ruby",
-			"owner": "MakeNowJust"
-		},
 		"css-extras": {
 			"title": "CSS Extras",
 			"require": "css",
 			"owner": "milesj"
-		},
-		"d": {
-			"title": "D",
-			"require": "clike",
-			"owner": "Golmote"
 		},
 		"dart": {
 			"title": "Dart",
 			"require": "clike",
 			"owner": "Golmote"
 		},
-		"diff": {
-			"title": "Diff",
-			"owner": "uranusjr"
-		},
-		"docker": {
-			"title": "Docker",
-			"owner": "JustinBeckwith"
-		},
 		"eiffel": {
 			"title": "Eiffel",
 			"owner": "Conaclos"
-		},
-		"elixir": {
-			"title": "Elixir",
-			"owner": "Golmote"
 		},
 		"erlang": {
 			"title": "Erlang",
@@ -193,11 +142,6 @@ var components = {
 		"git": {
 			"title": "Git",
 			"owner": "lgiraudel"
-		},
-		"glsl": {
-			"title": "GLSL",
-			"require": "clike",
-			"owner": "Golmote"
 		},
 		"go": {
 			"title": "Go",
@@ -223,30 +167,13 @@ var components = {
 			"title": "Haskell",
 			"owner": "bholst"
 		},
-		"haxe": {
-			"title": "Haxe",
-			"require": "clike",
-			"owner": "Golmote"
-		},
 		"http": {
 			"title": "HTTP",
 			"owner": "danielgtaylor"
 		},
-		"icon": {
-			"title": "Icon",
-			"owner": "Golmote"
-		},
-		"inform7": {
-			"title": "Inform 7",
-			"owner": "Golmote"
-		},
 		"ini": {
 			"title": "Ini",
 			"owner": "aviaryan"
-		},
-		"j": {
-			"title": "J",
-			"owner": "Golmote"
 		},
 		"jade": {
 			"title": "Jade",
@@ -266,11 +193,6 @@ var components = {
 			"title": "Keyman",
 			"owner": "mcdurdin"
 		},
-		"kotlin": {
-			"title": "Kotlin",
-			"require": "clike",
-			"owner": "Golmote"
-		},
 		"latex": {
 			"title": "LaTeX",
 			"owner": "japborst"
@@ -282,10 +204,6 @@ var components = {
 		},
 		"lolcode": {
 			"title": "LOLCODE",
-			"owner": "Golmote"
-		},
-		"lua": {
-			"title": "Lua",
 			"owner": "Golmote"
 		},
 		"makefile": {
@@ -301,34 +219,9 @@ var components = {
 			"title": "MATLAB",
 			"owner": "Golmote"
 		},
-		"mel": {
-			"title": "MEL",
-			"owner": "Golmote"
-		},
-		"mizar": {
-			"title": "Mizar",
-			"owner": "Golmote"
-		},
-		"monkey": {
-			"title": "Monkey",
-			"owner": "Golmote"
-		},
 		"nasm": {
 			"title": "NASM",
 			"owner": "rbmj"
-		},
-		"nginx": {
-			"title": "nginx",
-			"owner": "westonganger",
-			"require": "clike"
-		},
-		"nim": {
-			"title": "Nim",
-			"owner": "Golmote"
-		},
-		"nix": {
-			"title": "Nix",
-			"owner": "Golmote"
 		},
 		"nsis": {
 			"title": "NSIS",
@@ -338,23 +231,6 @@ var components = {
 			"title": "Objective-C",
 			"require": "c",
 			"owner": "uranusjr"
-		},
-		"ocaml": {
-			"title": "OCaml",
-			"owner": "Golmote"
-		},
-		"oz": {
-			"title": "Oz",
-			"owner": "Golmote"
-		},
-		"parigp": {
-			"title": "PARI/GP",
-			"owner": "Golmote"
-		},
-		"parser": {
-			"title": "Parser",
-			"require": "markup",
-			"owner": "Golmote"
 		},
 		"pascal": {
 			"title": "Pascal",
@@ -378,35 +254,9 @@ var components = {
 			"title": "PowerShell",
 			"owner": "nauzilus"
 		},
-		"processing": {
-			"title": "Processing",
-			"require": "clike",
-			"owner": "Golmote"
-		},
-		"prolog": {
-			"title": "Prolog",
-			"owner": "Golmote"
-		},
-		"puppet": {
-			"title": "Puppet",
-			"owner": "Golmote"
-		},
-		"pure": {
-			"title": "Pure",
-			"owner": "Golmote"
-		},
 		"python": {
 			"title": "Python",
 			"owner": "multipetros"
-		},
-		"q": {
-			"title": "Q",
-			"owner": "Golmote"
-		},
-		"qore": {
-			"title": "Qore",
-			"require": "clike",
-			"owner": "temnroegg"
 		},
 		"r": {
 			"title": "R",
@@ -425,10 +275,6 @@ var components = {
 			"title": "Rip",
 			"owner": "ravinggenius"
 		},
-		"roboconf": {
-			"title": "Roboconf",
-			"owner": "Golmote"
-		},
 		"ruby": {
 			"title": "Ruby",
 			"require": "clike",
@@ -444,7 +290,6 @@ var components = {
 		},
 		"sass": {
 			"title": "Sass (Sass)",
-			"require": "css",
 			"owner": "Golmote"
 		},
 		"scss": {
@@ -483,15 +328,6 @@ var components = {
 			"require": "clike",
 			"owner": "chrischares"
 		},
-		"tcl": {
-			"title": "Tcl",
-			"owner": "PeterChaplin"
-		},
-		"textile": {
-			"title": "Textile",
-			"require": "markup",
-			"owner": "Golmote"
-		},
 		"twig": {
 			"title": "Twig",
 			"require": "markup",
@@ -502,17 +338,9 @@ var components = {
 			"require": "javascript",
 			"owner": "vkbansal"
 		},
-		"verilog": {
-			"title": "Verilog",
-			"owner": "a-rey"
-		},
 		"vhdl": {
 			"title": "VHDL",
 			"owner": "a-rey"
-		},
-		"vim": {
-			"title": "vim",
-			"owner": "westonganger"
 		},
 		"wiki": {
 			"title": "Wiki markup",
@@ -545,58 +373,9 @@ var components = {
 			"title": "Show Language",
 			"owner": "nauzilus"
 		},
-		"jsonp-highlight": {
-			"title": "JSONP Highlight",
-			"noCSS": true,
-			"owner": "nauzilus"
-		},
 		"highlight-keywords": {
 			"title": "Highlight Keywords",
 			"owner": "vkbansal",
-			"noCSS": true
-		},
-		"remove-initial-line-feed": {
-			"title": "Remove initial line feed",
-			"owner": "Golmote",
-			"noCSS": true
-		},
-		"previewer-base": {
-			"title": "Previewer: Base",
-			"owner": "Golmote"
-		},
-		"previewer-color": {
-			"title": "Previewer: Color",
-			"require": "previewer-base",
-			"owner": "Golmote"
-		},
-		"previewer-gradient": {
-			"title": "Previewer: Gradient",
-			"require": "previewer-base",
-			"owner": "Golmote"
-		},
-		"previewer-easing": {
-			"title": "Previewer: Easing",
-			"require": "previewer-base",
-			"owner": "Golmote"
-		},
-		"previewer-time": {
-			"title": "Previewer: Time",
-			"require": "previewer-base",
-			"owner": "Golmote"
-		},
-		"previewer-angle": {
-			"title": "Previewer: Angle",
-			"require": "previewer-base",
-			"owner": "Golmote"
-		},
-		"autoloader": {
-			"title": "Autoloader",
-			"owner": "Golmote",
-			"noCSS": true
-		},
-		"keep-markup": {
-			"title": "Keep Markup",
-			"owner": "Golmote",
 			"noCSS": true
 		}
 	}

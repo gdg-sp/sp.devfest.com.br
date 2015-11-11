@@ -29,7 +29,7 @@ Prism.languages.less = Prism.languages.extend('css', {
 		}
 	},
 
-	'property': /(?:@\{[\w-]+\}|[\w-])+(?:\+_?)?(?=\s*:)/i,
+	'property': /(\b|\B)(?:@\{[\w-]+\}|[\w-])+(?:\+_?)?(?=\s*:)/i,
 	'punctuation': /[{}();:,]/,
 	'operator': /[+\-*\/]/
 });

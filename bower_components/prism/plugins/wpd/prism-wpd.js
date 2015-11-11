@@ -1,9 +1,6 @@
 (function(){
 
-if (
-	typeof self !== 'undefined' && !self.Prism ||
-	typeof global !== 'undefined' && !global.Prism
-) {
+if (!self.Prism) {
 	return;
 }
 
@@ -44,9 +41,9 @@ if (Prism.languages.markup) {
 			'feFuncR': 1, 'feFuncG': 1, 'feFuncB': 1, 'feFuncA': 1, 'feComposite': 1, 'feConvolveMatrix': 1, 'feDiffuseLighting': 1, 'feDisplacementMap': 1, 
 			'feFlood': 1, 'feGaussianBlur': 1, 'feImage': 1, 'feMerge': 1, 'feMergeNode': 1, 'feMorphology': 1, 'feOffset': 1, 'feSpecularLighting': 1, 
 			'feTile': 1, 'feTurbulence': 1, 'feDistantLight': 1, 'fePointLight': 1, 'feSpotLight': 1, 'linearGradient': 1, 'radialGradient': 1, 'altGlyph': 1, 
-			'textPath': 1, 'tref': 1, 'altglyph': 1, 'textpath': 1, 'altglyphdef': 1, 'altglyphitem': 1, 'clipPath': 1, 'color-profile': 1, 'cursor': 1,
-			'font-face': 1, 'font-face-format': 1, 'font-face-name': 1, 'font-face-src': 1, 'font-face-uri': 1, 'foreignObject': 1, 'glyphRef': 1,
-			'hkern': 1, 'vkern': 1
+			'textPath': 1, 'tref': 1, 'altglyph': 1, 'textpath': 1, 'tref': 1, 'altglyphdef': 1, 'altglyphitem': 1, 'clipPath': 1, 'color-profile': 1, 'cursor': 1, 
+			'font-face': 1, 'font-face-format': 1, 'font-face-name': 1, 'font-face-src': 1, 'font-face-uri': 1, 'foreignObject': 1, 'glyph': 1, 'glyphRef': 1, 
+			'hkern': 1, 'vkern': 1, 
 		},
 		MathML: {}
 	}
@@ -55,7 +52,7 @@ if (Prism.languages.markup) {
 var language;
 
 Prism.hooks.add('wrap', function(env) {
-	if ((env.type == 'tag-id'
+	if ((['tag-id'].indexOf(env.type) > -1
 		|| (env.type == 'property' && env.content.indexOf('-') != 0)
 		|| (env.type == 'atrule-id'&& env.content.indexOf('@-') != 0)
 		|| (env.type == 'pseudo-class'&& env.content.indexOf(':-') != 0) 
@@ -64,13 +61,13 @@ Prism.hooks.add('wrap', function(env) {
 	    ) && env.content.indexOf('<') === -1
 	) {
 		var searchURL = 'w/index.php?fulltext&search=';
-
+		
 		env.tag = 'a';
 		
 		var href = 'http://docs.webplatform.org/';
 		
 		if (env.language == 'css') {
-			href += 'wiki/css/';
+			href += 'wiki/css/'
 			
 			if (env.type == 'property') {
 				href += 'properties/';
@@ -128,7 +125,7 @@ function getLanguage(tag) {
 	}
 	
 	// Not in dictionary, perform check
-	if (Tags.HTML[tagL] !== 0 && typeof document !== 'undefined') {
+	if (Tags.HTML[tagL] !== 0) {
 		var htmlInterface = (document.createElement(tag).toString().match(/\[object HTML(.+)Element\]/) || [])[1];
 		
 		if (htmlInterface && htmlInterface != 'Unknown') {
@@ -139,7 +136,7 @@ function getLanguage(tag) {
 	
 	Tags.HTML[tagL] = 0;
 	
-	if (Tags.SVG[tag] !== 0 && typeof document !== 'undefined') {
+	if (Tags.SVG[tag] !== 0) {
 		var svgInterface = (document.createElementNS('http://www.w3.org/2000/svg', tag).toString().match(/\[object SVG(.+)Element\]/) || [])[1];
 		
 		if (svgInterface && svgInterface != 'Unknown') {

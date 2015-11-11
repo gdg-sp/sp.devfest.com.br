@@ -8,9 +8,7 @@ Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 -->
 <link rel="import" href="../marked-element/marked-element.html">
-<link rel="import" href="../paper-styles/typography.html">
-<link rel="import" href="../paper-styles/shadow.html">
-<link rel="import" href="../paper-styles/color.html">
+<link rel="import" href="../paper-styles/paper-styles.html">
 <link rel="import" href="../paper-button/paper-button.html">
 <link rel="import" href="../polymer/polymer.html">
 <link rel="import" href="../prism-element/prism-highlighter.html">
@@ -53,9 +51,8 @@ property.
     <prism-highlighter></prism-highlighter>
 
     <section id="summary" class="card" hidden$="[[!descriptor.desc]]">
-      <marked-element markdown="{{descriptor.desc}}">
-        <div class="markdown-html"></div>
-      </marked-element>
+      <header>Documentation</header>
+      <marked-element markdown="{{descriptor.desc}}"></marked-element>
     </section>
 
     <nav id="api">

@@ -45,7 +45,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   padding: 4px 0;
 }
 
-#summary .markdown-html pre {
+#summary marked-element::shadow #content pre {
   background-color: var(--paper-grey-50);
   border: solid #e5e5e5;
   border-width: 1px 0;
@@ -55,52 +55,52 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   word-wrap: break-word;
 }
 
-#summary .markdown-html table {
+#summary marked-element::shadow #content table {
   width: 100%;
   border-collapse: collapse;
   margin: 12px 0;
   border-top: 1px solid #e5e5e5;
 }
 
-#summary .markdown-html tr {
+#summary marked-element::shadow #content tr {
   border-bottom: 1px solid #e5e5e5;
   padding: 0 18px;
 }
 
-#summary .markdown-html td,
-#summary .markdown-html th {
+#summary marked-element::shadow #content td,
+#summary marked-element::shadow #content th {
   padding: 6px 12px;
 }
 
-#summary .markdown-html td:first-child,
-#summary .markdown-html th:first-child {
+#summary marked-element::shadow #content td:first-child,
+#summary marked-element::shadow #content th:first-child {
   padding-left: 24px;
 }
 
-#summary .markdown-html td:last-child,
-#summary .markdown-html th:last-child {
+#summary marked-element::shadow #content td:last-child,
+#summary marked-element::shadow #content th:last-child {
   padding-right: 24px;
 }
 
-#summary .markdown-html code {
+#summary marked-element::shadow #content code {
   @apply(--paper-font-code1);
 }
 
-#summary .markdown-html p {
+#summary marked-element::shadow #content p {
   padding: 0 24px;
 }
 
-#summary .markdown-html a {
+#summary marked-element::shadow #content a {
   color: var(--paper-indigo-a200);
   font-weight: 500;
   text-decoration: none;
 }
 
-#summary .markdown-html h1,
-#summary .markdown-html h2,
-#summary .markdown-html h3,
-#summary .markdown-html h4,
-#summary .markdown-html h5 {
+#summary marked-element::shadow #content h1,
+#summary marked-element::shadow #content h2,
+#summary marked-element::shadow #content h3,
+#summary marked-element::shadow #content h4,
+#summary marked-element::shadow #content h5 {
   padding: 0 18px;
 }
 
@@ -110,7 +110,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   background: white;
   margin-bottom: 20px;
   border-radius: 2px;
-  border: 1px solid #e5e5e5;
+  @apply(--shadow-elevation-2dp);
 }
 
 .card > header {
@@ -119,7 +119,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   font-size: 20px;
   line-height: 28px;
   font-weight: 400;
-  @apply(--iron-doc-viewer-header);
 }
 
 iron-doc-property {
@@ -149,8 +148,4 @@ iron-doc-property[configuration] {
   display: block;
   padding: 16px 24px;
   cursor: pointer;
-}
-
-#behaviors > p:last-of-type {
-  border-bottom: none;
 }

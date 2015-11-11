@@ -14,6 +14,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   padding: 16px 24px;
 }
 
+.type:before {
+  content: '\007b'; /* https://github.com/Polymer/polymer/issues/1291 */
+}
+.type:after {
+  content: '\007d'; /* https://github.com/Polymer/polymer/issues/1291 */
+}
+
 #transitionMask {
   position: relative;
   overflow: hidden;
@@ -25,7 +32,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 #signature {
   @apply(--paper-font-code1);
-  width: 260px;
+  width: 160px;
   overflow: hidden;
   text-overflow: ellipsis;
   float: left;
@@ -49,38 +56,32 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 }
 
 #details {
-  font-size: 12px;
-  margin-left: 260px;
+  margin-left: 160px;
   flex: 1;
 }
+
 /* Metadata */
+
+#meta {
+  display: flex;
+}
 
 #type {
   @apply(--paper-font-code1);
-  font-style: italic;
 }
 
-.annotation {
-  float: right;
-  color: #666;
+#default {
+  flex: 1;
+  text-align: right;
 }
-
-.annotation > span::before {
-  content: "  &middot;  ";
-}
-
-.annotation > span:first-child::before {
-  content: "" !important;
-}
-
 #default .value {
-  color: #999;
-  font-size: 12px;
+  @apply(--paper-font-code1);
 }
 
 /* Function Parameters */
 
 #params {
+  background: rgba(0,0,0,0.05);
   list-style: none;
   margin: 8px -8px 0 -8px;
   padding: 0 8px;
@@ -100,11 +101,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   padding-bottom: 8px;
 }
 
-marked-element {
+#params marked-element {
   display: inline-block;
 }
-#params .markdown-html p {
-
+#params marked-element::shadow #content p {
   margin: 0;
 }
 
@@ -112,23 +112,18 @@ marked-element {
 
 #desc {
   display: block;
-  clear: both;
 }
 
-#desc .markdown-html > :first-child {
+#desc::shadow #content > :first-child {
   margin-top: 0;
 }
 
-#desc .markdown-html > :last-child {
+#desc::shadow #content > :last-child {
   margin-bottom: 0;
 }
 
-#desc .markdown-html code {
+#desc::shadow #content #content code {
   @apply(--paper-font-code1);
-}
-
-.return {
-  font-size: 14px;
 }
 
 /* State Transitions */
@@ -143,9 +138,6 @@ marked-element {
   transition: transform ease-in-out 150ms, opacity  ease-in-out 150ms;
 }
 
-.name {
-  font-size: 14px;
-}
 /* Collapsed State */
 
 :host([_collapsed]) #transitionMask {
@@ -160,15 +152,4 @@ marked-element {
 }
 :host([_collapsed][function]) #desc {
   opacity: 0;
-}
-
-@media (max-width: 600px) {
-  #details {
-    margin-left: 0;
-  }
-
-  .annotation {
-    float: none;
-    display: block;
-  }
 }

@@ -9,13 +9,11 @@ Prism.languages.jsx.tag.inside['attr-value'].pattern = /=[^\{](?:('|")[\w\W]*?(\
 
 Prism.languages.insertBefore('inside', 'attr-value',{
 	'script': {
-		// Allow for one level of nesting
-		pattern: /=(\{(?:\{[^}]*\}|[^}])+\})/i,
+		pattern: /=(\{[\w\W]*?\})/i,
 		inside: {
 			'function' : Prism.languages.javascript.function,
 			'punctuation': /[={}[\];(),.:]/,
-			'keyword':  Prism.languages.javascript.keyword,
-			'boolean': Prism.languages.javascript.boolean
+			'keyword':  Prism.languages.javascript.keyword
 		},
 		'alias': 'language-javascript'
 	}

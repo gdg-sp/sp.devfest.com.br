@@ -1,6 +1,9 @@
 Prism.languages.matlab = {
 	// We put string before comment, because of printf() patterns that contain "%"
-	'string': /\B'(?:''|[^'\n])*'/,
+	'string': {
+		pattern: /(^|\W)'(?:''|[^'\n])*'/,
+		lookbehind: true
+	},
 	'comment': [
 		/%\{[\s\S]*?\}%/,
 		/%.+/

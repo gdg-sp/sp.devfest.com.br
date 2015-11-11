@@ -40,9 +40,7 @@
       bubbles: true,
       cancelable: true,
       clientX: xy.x,
-      clientY: xy.y,
-      // Make this a primary input.
-      buttons: 1 // http://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/buttons
+      clientY: xy.y
     };
     var e;
     var mousetype = type === 'tap' ? 'click' : 'mouse' + type;
@@ -50,19 +48,8 @@
       e = new MouseEvent(mousetype, props);
     } else {
       e = document.createEvent('MouseEvent');
-      e.initMouseEvent(
-        mousetype, props.bubbles, props.cancelable,
-        null, /* view */
-        null, /* detail */
-        0,    /* screenX */
-        0,    /* screenY */
-        props.clientX, props.clientY,
-        false, /*ctrlKey */
-        false, /*altKey */
-        false, /*shiftKey */
-        false, /*metaKey */
-        0,     /*button */
-        null   /*relatedTarget*/);
+      e.initMouseEvent(mousetype, props.bubbles, props.cancelable, null, null, 0, 0,
+        props.clientX, props.clientY, false, false, false, false, 0, null);
     }
     node.dispatchEvent(e);
   }
@@ -143,10 +130,7 @@
   }
 
   function keyboardEventFor(type, keyCode) {
-    var event = new CustomEvent(type, {
-      bubbles: true,
-      cancelable: true
-    });
+    var event = new CustomEvent(type);
 
     event.keyCode = keyCode;
     event.code = keyCode;

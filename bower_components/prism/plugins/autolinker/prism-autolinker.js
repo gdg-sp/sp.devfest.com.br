@@ -1,9 +1,6 @@
 (function(){
 
-if (
-	typeof self !== 'undefined' && !self.Prism ||
-	typeof global !== 'undefined' && !global.Prism
-) {
+if (!self.Prism) {
 	return;
 }
 
@@ -14,21 +11,19 @@ var url = /\b([a-z]{3,7}:\/\/|tel:)[\w\-+%~/.:#=?&amp;]+/,
 	// Tokens that may contain URLs and emails
     candidates = ['comment', 'url', 'attr-value', 'string'];
 
-Prism.hooks.add('before-highlight', function(env) {
-	// Abort if grammar has already been processed
-	if (!env.grammar || env.grammar['url-link']) {
-		return;
-	}
-	Prism.languages.DFS(env.grammar, function (key, def, type) {
+for (var language in Prism.languages) {
+	var tokens = Prism.languages[language];
+	
+	Prism.languages.DFS(tokens, function (key, def, type) {
 		if (candidates.indexOf(type) > -1 && Prism.util.type(def) !== 'Array') {
 			if (!def.pattern) {
 				def = this[key] = {
 					pattern: def
 				};
 			}
-
+			
 			def.inside = def.inside || {};
-
+			
 			if (type == 'comment') {
 				def.inside['md-link'] = linkMd;
 			}
@@ -38,13 +33,14 @@ Prism.hooks.add('before-highlight', function(env) {
 			else {
 				def.inside['url-link'] = url;
 			}
-
+			
 			def.inside['email-link'] = email;
 		}
 	});
-	env.grammar['url-link'] = url;
-	env.grammar['email-link'] = email;
-});
+	
+	tokens['url-link'] = url;
+	tokens['email-link'] = email;
+}
 
 Prism.hooks.add('wrap', function(env) {
 	if (/-link$/.test(env.type)) {

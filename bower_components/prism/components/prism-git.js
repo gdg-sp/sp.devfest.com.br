@@ -8,13 +8,7 @@ Prism.languages.git = {
 	 * # and have 1 and 2 different commits each, respectively.
 	 * nothing to commit (working directory clean)
 	 */
-	'comment': /^#.*/m,
-
-	/*
-	 * Regexp to match the changed lines in a git diff output. Check the example below.
-	 */
-	'deleted': /^[-–].*/m,
-	'inserted': /^\+.*/m,
+	'comment': /^#.*$/m,
 
 	/*
 	 * a string (double and simple quote)
@@ -53,6 +47,12 @@ Prism.languages.git = {
 	 * +And this is the second line
 	 */
 	'coord': /^@@.*@@$/m,
+
+	/*
+	 * Regexp to match the changed lines in a git diff output. Check the example above.
+	 */
+	'deleted': /^-(?!-).+$/m,
+	'inserted': /^\+(?!\+).+$/m,
 
 	/*
 	 * Match a "commit [SHA1]" line in a git log output.

@@ -19,12 +19,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../iron-icons/iron-icons.html">
 <link rel="import" href="../iron-icon/iron-icon.html">
 <link rel="import" href="../iron-selector/iron-selectable.html">
-<link rel="import" href="../iron-form-element-behavior/iron-form-element-behavior.html">
-<link rel="import" href="../iron-validatable-behavior/iron-validatable-behavior.html">
 
 <!--
-Material design: [Dropdown menus](https://www.google.com/design/spec/components/buttons.html#buttons-dropdown-buttons)
-
 `paper-dropdown-menu` is similar to a native browser select element.
 `paper-dropdown-menu` works with selectable content. The currently selected
 item is displayed in the control. If no item is selected, the `label` is
@@ -46,9 +42,6 @@ Example:
     </paper-dropdown-menu>
 
 This example renders a dropdown menu with 4 options.
-
-Similarly to using `iron-select`, `iron-deselect` events will cause the
-current selection of the `paper-dropdown-menu` to be cleared.
 
 ### Styling
 
@@ -81,12 +74,6 @@ respectively.
       text-align: left;
       cursor: pointer;
 
-      /* NOTE(cdata): Both values are needed, since some phones require the
-       * value to be `transparent`.
-       */
-      -webkit-tap-highlight-color: rgba(0,0,0,0);
-      -webkit-tap-highlight-color: transparent;
-
       --paper-input-container-input: {
         overflow: hidden;
         white-space: nowrap;
@@ -112,17 +99,15 @@ respectively.
     }
 
     paper-ripple {
-      top: 12px;
-      left: 0px;
-      bottom: 8px;
-      right: 0px;
+      top: 20px;
+      left: 8px;
+      bottom: 16px;
+      right: 8px;
 
       @apply(--paper-dropdown-menu-ripple);
     }
 
     paper-menu-button {
-      display: block;
-      padding: 0;
       @apply(--paper-dropdown-menu-button);
     }
 
@@ -138,8 +123,6 @@ respectively.
 
   </style>
   <template>
-    <!-- this div fulfills an a11y requirement for combobox, do not remove -->
-    <div role="button"></div>
     <paper-menu-button
       id="menuButton"
       vertical-align="top"
@@ -148,14 +131,10 @@ respectively.
       disabled="[[disabled]]"
       no-animations="[[noAnimations]]"
       on-iron-select="_onIronSelect"
-      on-iron-deselect="_onIronDeselect"
       opened="{{opened}}">
       <div class="dropdown-trigger">
         <paper-ripple></paper-ripple>
-        <!-- paper-input has type="text" for a11y, do not remove -->
         <paper-input
-          type="text"
-          invalid="[[invalid]]"
           readonly
           disabled="[[disabled]]"
           value="[[selectedItemLabel]]"
@@ -191,9 +170,7 @@ respectively.
 
       behaviors: [
         Polymer.IronControlState,
-        Polymer.IronButtonState,
-        Polymer.IronFormElementBehavior,
-        Polymer.IronValidatableBehavior
+        Polymer.IronButtonState
       ],
 
       properties: {
@@ -205,29 +182,16 @@ respectively.
         selectedItemLabel: {
           type: String,
           notify: true,
-          readOnly: true
+          computed: '_computeSelectedItemLabel(selectedItem)'
         },
 
         /**
          * The last selected item. An item is selected if the dropdown menu has
          * a child with class `dropdown-content`, and that child triggers an
          * `iron-select` event with the selected `item` in the `detail`.
-         *
-         * @type {?Object}
          */
         selectedItem: {
           type: Object,
-          notify: true,
-          readOnly: true
-        },
-
-        /**
-         * The value for this element that will be used when submitting in
-         * a form. It is read only, and will always have the same value
-         * as `selectedItemLabel`.
-         */
-        value: {
-          type: String,
           notify: true,
           readOnly: true
         },
@@ -252,8 +216,7 @@ respectively.
         opened: {
           type: Boolean,
           notify: true,
-          value: false,
-          observer: '_openedChanged'
+          value: false
         },
 
         /**
@@ -295,14 +258,9 @@ respectively.
       },
 
       hostAttributes: {
-        role: 'combobox',
-        'aria-autocomplete': 'none',
+        role: 'group',
         'aria-haspopup': 'true'
       },
-
-      observers: [
-        '_selectedItemChanged(selectedItem)'
-      ],
 
       attached: function() {
         // NOTE(cdata): Due to timing, a preselected value in a `IronSelectable`
@@ -346,15 +304,6 @@ respectively.
       },
 
       /**
-       * A handler that is called when `iron-deselect` is fired.
-       *
-       * @param {CustomEvent} event An `iron-deselect` event.
-       */
-      _onIronDeselect: function(event) {
-        this._setSelectedItem(null);
-      },
-
-      /**
        * A handler that is called when the dropdown is tapped.
        *
        * @param {CustomEvent} event A tap event.
@@ -371,16 +320,12 @@ respectively.
        * @param {Element} selectedItem A selected Element item, with an
        * optional `label` property.
        */
-      _selectedItemChanged: function(selectedItem) {
-        var value = '';
+      _computeSelectedItemLabel: function(selectedItem) {
         if (!selectedItem) {
-          value = '';
-        } else {
-          value = selectedItem.label || selectedItem.textContent.trim();
+          return '';
         }
 
-        this._setValue(value);
-        this._setSelectedItemLabel(value);
+        return selectedItem.label || selectedItem.textContent.trim();
       },
 
       /**
@@ -395,26 +340,9 @@ respectively.
         // derived from the metrics of elements internal to `paper-input`'s
         // template. The metrics will change depending on whether or not the
         // input has a floating label.
-        return noLabelFloat ? -4 : 8;
-      },
-
-      /**
-       * Returns false if the element is required and does not have a selection,
-       * and true otherwise.
-       * @return {boolean} true if `required` is false, or if `required` is true
-       * and the element has a valid selection.
-       */
-      _getValidity: function() {
-        return this.disabled || !this.required || (this.required && this.value);
-      },
-
-      _openedChanged: function() {
-        var openState = this.opened ? 'true' : 'false';
-        var e = this.contentElement;
-        if (e) {
-          e.setAttribute('aria-expanded', openState);
-        }
+        return noLabelFloat ? -4 : 16;
       }
     });
   })();
 </script>
+
