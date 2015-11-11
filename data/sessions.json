@@ -186,8 +186,8 @@
 
   {
     "id": "flaviafortes",
-    "title": "TBD",
-    "description": "TBD",
+    "title": "Aprendendo com meus erros",
+    "description": "O principal objetivo dessa palestra é pontuar os erros mais comuns que um desenvolvedor comete no início de sua carreira. Apesar de ser direcionado para iniciantes, muitas dicas valem também para programadores com mais tempo de mercado ou que trabalham com outras linguagens e frameworks de programação além de Ruby on Rails. O conteúdo desta palestra vai orientar os ouvintes a valorizar diversas boas práticas, incluindo TDD/BDD até formas de melhorar a legibilidade do seu código.",
     "speakers": [
       "flaviafortes"
     ],
