@@ -45,6 +45,72 @@
             "url": "http://www.imasters.com.br/",
             "logoUrl": "../images/partners/imasters.svg"
           }
+        ]
+      },
+
+      {
+          "title": "",
+          "logos": [
+          {
+            "name": "Caelum",
+            "url": "#",
+            "logoUrl": "../images/partners/caelum.svg"
+          },
+
+          {
+            "name": "Casa do Código",
+            "url": "#",
+            "logoUrl": "../images/partners/casa-do-codigo.svg"
+          },
+
+          {
+            "name": "Globalcode",
+            "url": "#",
+            "logoUrl": "../images/partners/globalcode.svg"
+          }
+        ]
+      },
+
+      {
+          "title": "",
+          "logos": [
+          {
+            "name": "IMPACTA",
+            "url": "#",
+            "logoUrl": "../images/partners/impacta.svg"
+          },
+          {
+            "name": "FIAP",
+            "url": "#",
+            "logoUrl": "../images/partners/fiap.svg"
+          },
+          {
+            "name": "IBTA",
+            "url": "#",
+            "logoUrl": "../images/partners/ibta.svg"
+          },
+          {
+            "name": "FATEC",
+            "url": "#",
+            "logoUrl": "../images/partners/fatec.png"
+          },
+          {
+            "name": "Escola de Negócios",
+            "url": "#",
+            "logoUrl": "../images/partners/escoladenegocios.png"
+          }
+        ]
+      },
+
+      {
+          "title": "",
+          "logos": [          
+          {
+            "name": "LGroup",
+            "url": "#",
+            "logoUrl": "../images/partners/lgroup.svg"
+          }
+
 
         ]
     }
