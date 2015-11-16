@@ -98,13 +98,18 @@
             "name": "Escola de Negócios",
             "url": "#",
             "logoUrl": "../images/partners/escoladenegocios.png"
+          },
+          {
+            "name": "Mackenzie",
+            "url": "#",
+            "logoUrl": "../images/partners/mackenzie.svg"
           }
         ]
       },
 
       {
           "title": "",
-          "logos": [          
+          "logos": [
           {
             "name": "LGroup",
             "url": "#",
