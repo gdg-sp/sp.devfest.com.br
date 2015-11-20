@@ -264,5 +264,35 @@
   "complexity": "Nível Intermediário",
   "presentation": "",
   "video": ""
+  },
+  {
+  "id": "rodrigosicarelli",
+  "title": "Micro interações no seu aplicativo: como o desenvolvedor deve lidar com isso",
+  "description": "Usuários são usuários, todos nós já estamos cansados de saber disso. Mas por que nós, desenvolvedores, não os ajudamos? Entenda qual a importancia de identificar gaps de interações dentro de sua aplicação e de brinde levar algumas dicas de como lidar com isso pro seu dia-a-dia",
+  "speakers": ["rodrigosicarelli"],
+  "language": "pt-br",
+  "complexity": "Nível Intermediário",
+  "presentation": "",
+  "video": ""
+  },
+  {
+  "id": "luisleao",
+  "title": "Conectando com o mundo real: Web Bluetooth e Physical Web",
+  "description": "Enquanto o Web Bluetooth abre uma comunicação de baixo-nível através de múltiplos dispositivos BLE como brinquedos, vending machines, museus, quiosques e outras coisas, o Physical Web torna a descoberta e a conexão a esses objetos algo simples para os usuários. Juntos eles irão expandir o alcance da web para muito mais dispositivos em torno dos usuários",
+  "speakers": ["luisleao"],
+  "language": "pt-br",
+  "complexity": "Nível Intermediário",
+  "presentation": "",
+  "video": ""
+  },
+  {
+  "id": "valterlacerda",
+  "title": "Sentimental Analysis em ambientes inteligentes com a mineração de dados em redes sociais",
+  "description": "Nessa palestra, vamos entender o que é Análise de Sentimentos e como utilizar ferramentas como Speech API e Prediction API para saber mais sobre os nossos usuários!",
+  "speakers": ["valterlacerda"],
+  "language": "pt-br",
+  "complexity": "Nível Intermediário",
+  "presentation": "",
+  "video": ""
   }
 ]
