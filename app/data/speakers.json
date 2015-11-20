@@ -252,5 +252,25 @@
         "name": "Github",
         "link": "https://github.com/sicachester"
     }]
+}, {
+    "id": "luisleao",
+    "name": "Luís Leão",
+    "title": "Innovation Engineer",
+    "company": "GDG-SP",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/leao.jpeg",
+    "bio": "Engenheiro de inovação, atualmente trabalhando como freelancer para desenvolver ideias factíveis com tecnologia. Contribuidor de projetos de open data, como a comunidade Transparência Hacker, também é membro do Garoa Hacker Clube, co-organizador do Google Developer Group São Paulo (GDG-SP) e é editor da Revista iMasters. Desenvolvedor desde 2000, criou o sms2blog, o primeiro gateway de SMS para Twitter no Brasil, e atuou em agências digitais com marcas como Google, Coca-Cola, Nestlé, Itaucard, Fiat, GE, Globo Minas, Iveco, Usiminas, Vivo and Yamaha. Entre suas especialidades, estão APIs, JavaScript, HTML, sistemas embarcados, Arduino, Python, . Net.",
+    "tags": ["Physical Web"],
+    "badges": [],
+    "socials": [{
+        "name": "Twitter",
+        "link": "https://twitter.com/luisleao"
+    }, {
+        "name": "LinkedIn",
+        "link": "http://www.linkedin.com/in/luisleao"
+    }, {
+        "name": "Github",
+        "link": "https://github.com/luisleao"
+    }]
 }
 ]

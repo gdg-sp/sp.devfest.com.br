@@ -274,5 +274,15 @@
   "complexity": "Nível Intermediário",
   "presentation": "",
   "video": ""
+  },
+  {
+  "id": "luisleao",
+  "title": "Conectando com o mundo real: Web Bluetooth e Physical Web",
+  "description": "Enquanto o Web Bluetooth abre uma comunicação de baixo-nível através de múltiplos dispositivos BLE como brinquedos, vending machines, museus, quiosques e outras coisas, o Physical Web torna a descoberta e a conexão a esses objetos algo simples para os usuários. Juntos eles irão expandir o alcance da web para muito mais dispositivos em torno dos usuários",
+  "speakers": ["luisleao"],
+  "language": "pt-br",
+  "complexity": "Nível Intermediário",
+  "presentation": "",
+  "video": ""
   }
 ]
