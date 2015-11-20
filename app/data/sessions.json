@@ -284,5 +284,15 @@
   "complexity": "Nível Intermediário",
   "presentation": "",
   "video": ""
+  },
+  {
+  "id": "valterlacerda",
+  "title": "Sentimental Analysis em ambientes inteligentes com a mineração de dados em redes sociais",
+  "description": "Nessa palestra, vamos entender o que é Análise de Sentimentos e como utilizar ferramentas como Speech API e Prediction API para saber mais sobre os nossos usuários!",
+  "speakers": ["valterlacerda"],
+  "language": "pt-br",
+  "complexity": "Nível Intermediário",
+  "presentation": "",
+  "video": ""
   }
 ]

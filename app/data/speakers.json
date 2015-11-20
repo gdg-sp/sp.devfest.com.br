@@ -272,5 +272,19 @@
         "name": "Github",
         "link": "https://github.com/luisleao"
     }]
+}, {
+    "id": "valterlacerda",
+    "name": " Valter Lacerda",
+    "title": "Teacher",
+    "company": "Impacta",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/valter_lacerda.jpg",
+    "bio": "Possui oito anos de experiência na área de data mining, banco de dados, data warehouse e desenvolvimento de aplicações em .NET e PYTHON. Atualmente é Especialista de Projetos em Analytics na Serasa Experian e docente na área de Business Intelligence na graduação e pós-graduação da Faculdade Impacta. Mestre em tecnologias da inteligência do design digital pela Pontifícia universidade católica de São Paulo (PUC-SP), Bacharel em Matemática pela Universidade Paulista e possui pós-graduação Lato Sensu em Business Intelligence pela Faculdade Impacta de Tecnologia",
+    "tags": ["APIs"],
+    "badges": [],
+    "socials": [{
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/valter-lacerda-1b65612b"
+    }]
 }
 ]
