@@ -264,5 +264,15 @@
   "complexity": "Nível Intermediário",
   "presentation": "",
   "video": ""
+  },
+  {
+  "id": "rodrigosicarelli",
+  "title": "Micro interações no seu aplicativo: como o desenvolvedor deve lidar com isso",
+  "description": "Usuários são usuários, todos nós já estamos cansados de saber disso. Mas por que nós, desenvolvedores, não os ajudamos? Entenda qual a importancia de identificar gaps de interações dentro de sua aplicação e de brinde levar algumas dicas de como lidar com isso pro seu dia-a-dia",
+  "speakers": ["rodrigosicarelli"],
+  "language": "pt-br",
+  "complexity": "Nível Intermediário",
+  "presentation": "",
+  "video": ""
   }
 ]

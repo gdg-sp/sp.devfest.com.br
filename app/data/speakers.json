@@ -235,5 +235,22 @@
         "name": "Facebook",
         "link": "http://facebook.com/andre.baltieri"
     }]
+}, {
+    "id": "rodrigosicarelli",
+    "name": "Rodrigo Sicarelli",
+    "title": "Sofware Engineer",
+    "company": "Elo7",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/rodrigo_sicarelli.jpeg",
+    "bio": "Desenvolvedor Android a 4 anos, instrutor e respondedor de perguntas no stackoverflow nas horas vagas, atualmente na Elo7. Apaixonado por usabilidade e interface, tem como desafio e paixão arrancar elogios de seus usuários",
+    "tags": ["Android"],
+    "badges": [],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/u/1/+RodrigoSicarelli2"
+    }, {
+        "name": "Github",
+        "link": "https://github.com/sicachester"
+    }]
 }
 ]
