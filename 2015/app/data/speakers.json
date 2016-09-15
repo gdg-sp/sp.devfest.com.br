@@ -1,0 +1,290 @@
+[{
+    "id": "luizgustavo",
+    "name": "Luiz Gustavo Martins",
+    "title": "Developer Advocate",
+    "company": "Google",
+    "country": "Inglaterra",
+    "photoUrl": "../../images/people/gus.jpg",
+    "bio": "Luiz Gustava Martins é Developer Advocate e atua no escritório do Google em Londres, focado na qualidade dos aplicativos de parceiros do Google",
+    "tags": ["Android", "Google Fit"],
+    "badges": [],
+    "socials": [{
+        "name": "Twitter",
+        "link": "https://twitter.com/gusthema"
+    }, {
+        "name": "Google+",
+        "link": "https://plus.google.com/+LuizGustavoMartins"
+    }]
+}, {
+    "id": "diogobotelho",
+    "name": "Diogo Botelho",
+    "title": "Search Quality Analyst",
+    "company": "Google",
+    "country": "Dublin",
+    "photoUrl": "../../images/people/diogo_botelho.jpeg",
+    "bio": "Currently taking on the task of improving Google organic search results and ensuring a high-quality experience for Google users, by enforcing Google's policies and quality guidelines and by sharing best practices about website management, online visibility and SEO.",
+    "tags": ["Search"],
+    "badges": [],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/+DiogoBotelhoGoogle/"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/diogofbotelho"
+    }]
+}, {
+    "id": "camilamatsubara",
+    "name": "Camila Matsubara",
+    "title": "Software Engineer",
+    "company": "Google",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/camila_matsubara.jpg",
+    "bio": "Camila Matsubara possui graduação e mestrado em Ciência da Computação pela Universidade de São Paulo. É engenheira de software do Google Belo Horizonte desde 2013, trabalhando na área de Busca - Search Quality.\nAlém de engenheira, Camila lidera o grupo de diversidade para mulheres no escritório de Belo Horizonte. O grupo tem como objetivos: conectar e proporcionar oportunidades de desenvolvimento para as mulheres do Google, aumentar a visibilidade, apoiar e inspirar meninas e mulheres com a magia da tecnologia. ",
+    "tags": ["Search"],
+    "badges": [{
+        "name": "WTM",
+        "description": "Women Techmakers",
+        "link": "https://www.womentechmakers.com/"
+    }],
+    "socials": [{
+        "name": "Google+",
+        "link": "http://plus.google.com/+CamilaMariMatsubara"
+    }, {
+        "name": "Twitter",
+        "link": "http://twitter.com/cmmatsubara"
+    }]
+}, {
+    "id": "danielcukier",
+    "name": "Daniel Cukier",
+    "title": "CTO",
+    "company": "Playax",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/danicuki.jpg",
+    "bio": "Daniel Cukier trabalha com desenvolvimento de software desde 1995, principalmente com Java, Scala e Ruby (Rails). Após 2 anos como CTO da Elo7, tornou-se conselheiro técnico da Monashees Capital. Atualmente é CTO da Playax, uma plataforma de inteligência de dados na área de música. Como aluno de doutorado, faz parte do grupo de pesquisas em empreendedorismo digital e Startups de Software do IME-USP.Fez mestrado também no IME-USP com a dissertação Padrões para Introduzir Novas Ideias na Indústria de Software. Ativo na comunidade ágil desde 2005, quando ingressou na Agilcoop, produzindo podcasts, artigos e ministrando cursos sobre agilidade. Introduziu o uso de Métodos Ágeis na Locaweb, maior empresa de hosting da America Latina, onde participou de vários projetos de software na área de SaaS e IaS. Organizou o evento DevOpsDays Brasil, um encontro de desenvolvedores com sysadmins.É autor do blog AgileAndArt, onde costuma escrever sobre desenvolvimento de software e as artes. Além da presença na área de software, trabalha com teatro, música (toca violão) e poesia.",
+    "tags": ["Cloud"],
+    "badges": [],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/u/0/104200463293521594749/"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/danicuki"
+    }]
+}, {
+    "id": "viniciusvecchi",
+    "name": "Vinicius Vecchi",
+    "title": "Game Developer",
+    "company": "VR Monkey",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/vvechi.jpeg",
+    "bio": "Matemático aplicado e game developer, explorando o mundo da realidade virtual",
+    "tags": ["Realidade Virtual"],
+    "badges": [],
+    "socials": [{
+        "name": "LinkedIn",
+        "link": "https://br.linkedin.com/in/viniciusvecchi"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/vvecchi"
+    }]
+}, {
+    "id": "andersonsilva",
+    "name": "Anderson Silva",
+    "title": "Software Enginner",
+    "company": "ZAP SA Internet",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/anderson_silva.jpeg",
+    "bio": "Especialista Mobile no Zap Imóveis. Mais de 10 anos de experiência em análise e desenvolvimento de softwares para desktop e web na plataforma .NET (full stack) e 3 anos com foco exclusivo em desenvolvimento de aplicativos para Android.",
+    "tags": ["Android"],
+    "badges": [],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/+AndersonSilva10"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/ladoleste"
+    }]
+},{
+    "id": "rafaeltoledo",
+    "name": "Rafael Toledo",
+    "title": "Software Enginner",
+    "company": "Concrete Solutions",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/rafael_toledo.png",
+    "bio": "Desenvolvedor Android desde 2011, tem experiência em diversos projetos para empresas e startups no Brasil e no exterior. É formado em Sistemas de Informação e pós-graduado em Desenvolvimento Ágil para Web e Mobile. Entre 2013 e 2014 foi instrutor de diversos treinamentos ligados a tecnologias móveis. Escreve esporadicamente em seu blog com mais de 15.000 visitas mensais.",
+    "tags": ["Android"],
+    "badges": [],
+    "socials": [{
+        "name": "Google+",
+        "link": "http://plus.google.com/+RafaelToledoDev"
+    }, {
+        "name": "Twitter",
+        "link": "http://twitter.com/_rafaeltoledo"
+    }]
+}, {
+    "id": "julianachahoud",
+    "name": "Juliana Chahoud",
+    "title": "Software Enginner, Tech Lead",
+    "company": "Moville",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/juchahoud.jpeg",
+    "bio": "Mestre em Inteligência Artificial (USP), atua há mais de dezesseis anos na área de TI em Desenvolvimento de Sistemas. Possui vivência internacional de um ano e meio nos EUA e India, trabalhando com desenvolvimento de aplicativos móveis. Atualmente é Líder Técnica de iOS na Movile trabalhando com o aplicativo PlayKids e professora no MBA em Desenvolvimento de Aplicações e Games para Dispositivos Móveis na FIAP.",
+    "tags": ["Google APIs"],
+    "badges": [{
+        "name": "WTM",
+        "description": "Women Techmakers",
+        "link": "https://www.womentechmakers.com/"
+    }],
+    "socials": [{
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/julianachahoud"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/jchahoud"
+    }]
+}, {
+    "id": "flaviafortes",
+    "name": "Flávia Fortes",
+    "title": "Software Enginner",
+    "company": "Plataformatec",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/flafortes.jpg",
+    "bio": "Flavia Fortes trabalha como desenvolvedora de software há pelo menos 5 anos e programa em Ruby On Rails há pelo menos 3. Hoje faz parte do time da Plataformatec e tem profundo interesse pelo processo de aprendizado de novos programadores, open source, boas práticas e mulheres na tecnologia.",
+    "tags": ["Software Craftmanship"],
+    "badges": [{
+        "name": "WTM",
+        "description": "Women Techmakers",
+        "link": "https://www.womentechmakers.com"
+    }],
+    "socials": [{
+        "name": "Github",
+        "link": "https://github.com/flaviafortes"
+    }, {
+        "name": "Twitter",
+        "link": "https://twitter.com/FlaFortes"
+    }]
+}, {
+    "id": "mateuspontes",
+    "name": "Mateus Pontes",
+    "title": "Engenheiro de Software",
+    "company": "Geoambiente",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/matheus_pontes.png",
+    "bio": "Analista Desenvolvedor na Geoambiente. Possui grande experiência em desenvolvimento de software utilizando a API do Google Maps. Certificado pela Microsoft Certified Professional (MCP .NET), moderador da comunidade Google Maps API Brasil e organizador do GDG SJC (São José dos campos)",
+    "tags": ["Google APIs"],
+    "badges": [],
+    "socials": [{
+        "name": "LinkedIn",
+        "link": "https://br.linkedin.com/in/mateuspontes"
+    }, {
+        "name": "Blog",
+        "link": "http://mateuspontes.com.br/"
+    }]
+}, {
+  "id": "nathalielima",
+    "name": "Nathalie Lima",
+    "title": "Desenvolvedora Android",
+    "company": "Buscapé Company",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/nathalie_lima.jpg",
+    "bio": "Especialista em desenvolvimento Android no Buscapé, com mais de 7 anos de experiência em TI e pós-graduada em Comunicação Digital (USP). Já atuou por diversos anos como desenvolvedora front-end e, nos últimos 3 anos, tem dedicado-se exclusivamente ao desenvolvimento de aplicativos Android. ",
+    "tags": ["Android"],
+    "badges": [{
+        "name": "WTM",
+        "description": "Women Techmakers",
+        "link": "https://www.womentechmakers.com/"
+    }],
+    "socials": [{
+        "name": "LinkedIn",
+        "link": "http://br.linkedin.com/in/nathalielima"
+    }, {
+        "name": "Facebook",
+        "link": "https://www.facebook.com/nathalieplima"
+    }]
+}, {
+    "id": "eduardocarrara",
+    "name": "Eduardo Carrara",
+    "title": "Sofware Analyst",
+    "company": "Technical Evangelist",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/eduardo_carrara.jpg",
+    "bio": "Formado em Engenharia da Computação, atua na área de desenvolvimento de software desde 2006, teve a oportunidade de utilizar diversas tecnologias nos ramos automobilístico, financeiros e de eletrônicos para consumo. Atualmente é evangelista técnico  na Intel Software e colabora principalmente em projetos na área de educação e mobilidade com Android.",
+    "tags": ["Android"],
+    "badges": [],
+    "socials": [{
+        "name": "Twitter",
+        "link": "https://twitter.com/DuCarrara"
+    }, {
+        "name": "Google+",
+        "link": "https://plus.google.com/+EduardoCarraraDeAraujo"
+    }]
+}, {
+    "id": "andrebaltieri",
+    "name": "André Baltieri",
+    "title": "Sofware Engineer",
+    "company": "Imobee",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/andre_baltieri.jpg",
+    "bio": "Microsoft MVP em ASP.NET/IIS, trabalha com desenvolvimento de aplicações web desde 2003, com experiência em projetos de médio e grande porte no Brasil, EUA, Inglaterra e Holanda. Palestrante em grandes eventos como TDC e ASP.NET Conference, criador do ASP.NET CAST, trabalha ativamente com comunidades técnicas desde 2007, e mantém o título de MVP pela Microsoft desde 2013. Atualmente realiza treinamentos e consultorias sobre plataforma Web em geral. É proprietário da Imobee, onde também atua na área de desenvolvimento web. Apesar do grande vínculo com a Microsoft, também adota muitas tecnologias abertas como NodeJs, AngularJs, MongoDB, Firebase entre outros.",
+    "tags": ["Firebase"],
+    "badges": [],
+    "socials": [{
+        "name": "Twitter",
+        "link": "http://twitter.com/andrebaltieri"
+    }, {
+        "name": "Facebook",
+        "link": "http://facebook.com/andre.baltieri"
+    }]
+}, {
+    "id": "rodrigosicarelli",
+    "name": "Rodrigo Sicarelli",
+    "title": "Sofware Engineer",
+    "company": "Elo7",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/rodrigo_sicarelli.jpeg",
+    "bio": "Desenvolvedor Android a 4 anos, instrutor e respondedor de perguntas no stackoverflow nas horas vagas, atualmente na Elo7. Apaixonado por usabilidade e interface, tem como desafio e paixão arrancar elogios de seus usuários",
+    "tags": ["Android"],
+    "badges": [],
+    "socials": [{
+        "name": "Google+",
+        "link": "https://plus.google.com/u/1/+RodrigoSicarelli2"
+    }, {
+        "name": "Github",
+        "link": "https://github.com/sicachester"
+    }]
+}, {
+    "id": "luisleao",
+    "name": "Luís Leão",
+    "title": "Innovation Engineer",
+    "company": "GDG-SP",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/leao.jpeg",
+    "bio": "Engenheiro de inovação, atualmente trabalhando como freelancer para desenvolver ideias factíveis com tecnologia. Contribuidor de projetos de open data, como a comunidade Transparência Hacker, também é membro do Garoa Hacker Clube, co-organizador do Google Developer Group São Paulo (GDG-SP) e é editor da Revista iMasters. Desenvolvedor desde 2000, criou o sms2blog, o primeiro gateway de SMS para Twitter no Brasil, e atuou em agências digitais com marcas como Google, Coca-Cola, Nestlé, Itaucard, Fiat, GE, Globo Minas, Iveco, Usiminas, Vivo and Yamaha. Entre suas especialidades, estão APIs, JavaScript, HTML, sistemas embarcados, Arduino, Python, . Net.",
+    "tags": ["Physical Web"],
+    "badges": [],
+    "socials": [{
+        "name": "Twitter",
+        "link": "https://twitter.com/luisleao"
+    }, {
+        "name": "LinkedIn",
+        "link": "http://www.linkedin.com/in/luisleao"
+    }, {
+        "name": "Github",
+        "link": "https://github.com/luisleao"
+    }]
+}, {
+    "id": "valterlacerda",
+    "name": " Valter Lacerda",
+    "title": "Teacher",
+    "company": "Impacta",
+    "country": "Brasil",
+    "photoUrl": "../../images/people/valter_lacerda.jpg",
+    "bio": "Possui oito anos de experiência na área de data mining, banco de dados, data warehouse e desenvolvimento de aplicações em .NET e PYTHON. Atualmente é Especialista de Projetos em Analytics na Serasa Experian e docente na área de Business Intelligence na graduação e pós-graduação da Faculdade Impacta. Mestre em tecnologias da inteligência do design digital pela Pontifícia universidade católica de São Paulo (PUC-SP), Bacharel em Matemática pela Universidade Paulista e possui pós-graduação Lato Sensu em Business Intelligence pela Faculdade Impacta de Tecnologia",
+    "tags": ["APIs"],
+    "badges": [],
+    "socials": [{
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/valter-lacerda-1b65612b"
+    }]
+}
+]

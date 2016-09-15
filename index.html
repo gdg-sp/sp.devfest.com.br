@@ -1,1 +1,229 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="author" content="Oleh Zasadnyy, GDG Lviv"><meta name="description" content=""><meta name="keywords" content="event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, sao paulo"><link rel="canonical" href="http://sp.devfest.com.br/"><title>GDG DevFest São Paulo 2015 &bull; 21 de novembro de 2015</title><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@GDGSP"><meta name="twitter:title" content="GDG DevFest São Paulo 2015 &bull; 21 de novembro de 2015"><meta name="twitter:description" content=""><meta name="twitter:image:src" content="http://sp.devfest.com.br/images/seo/seo.jpg"><meta property="og:title" content="GDG DevFest São Paulo 2015 &bull; 21 de novembro de 2015"><meta property="og:site_name" content="GDG DevFest São Paulo 2015 &bull; 21 de novembro de 2015"><meta property="og:type" content="website"><meta property="og:url" content="http://sp.devfest.com.br/"><meta property="og:image" content="http://sp.devfest.com.br/images/seo/seo.jpg"><meta property="og:description" content=""><meta name="theme-color" content="#00BCD4"><meta name="mobile-web-app-capable" content="yes"><link rel="manifest" href="manifest.json"><meta name="msapplication-TileColor" content="#00BCD4"><meta name="mobile-web-app-capable" content="yes"><meta name="application-name" content="Polymer Starter Kit"><link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-title" content="Polymer Starter Kit"><link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png"><meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png"><link rel="stylesheet" href="styles/main.css"><script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script><link rel="import" href="elements/elements.vulcanized.html"></head><body id="body" unresolved="" class="fullbleed layout vertical"><span id="browser-sync-binding"></span><template is="dom-bind" id="app"><app-data speakers="{{speakers}}" sessions="{{sessions}}" posts="{{posts}}" partners="{{partners}}" schedule="{{schedule}}"></app-data><paper-drawer-panel id="paperDrawerPanel" force-narrow=""><paper-header-panel drawer="" class="drawer" mode="seamed"><paper-toolbar class="tall"><div class="top"><img class="logo" src="images/logo-white.svg" alt="GDG DevFest 2015"></div><div class="bottom"><span class="typo-white">21 de Novembro de 2015</span> <span class="block typo-white">Google São Paulo</span></div></paper-toolbar><paper-menu class="list" attr-for-selected="data-route" selected="{{route}}" on-iron-select="onMenuSelect"><a data-route="#!/home" href="/">Home</a> <a data-route="#!/blog" href="/blog">Novidades</a> <a data-route="#!/schedule" href="/schedule">Programação</a> <a data-route="#!/speakers" href="/speakers">Palestrantes</a></paper-menu></paper-header-panel><div class="scroll" main=""><div class="content"><iron-pages attr-for-selected="data-route" selected="{{route}}"><section data-route="home"><hero-block class="section-shadow" hide-logo="" route="{{route}}"><div class="top-section hero"><div class="layout vertical-horizontal"><div class="flex center-content-xs"><img class="logo" src="images/logo.svg" alt="GDG DevFest 2015"><p class="dates bold">21 de Novembro de 2015</p><p class="description">Vem aí a maior conferência brasileira sobre tecnologias Google,<br>organizada especialmente pela comunidade GDG!</p><p class="slogan">Aprender, inspirar e conectar!</p><div class="links layout horizontal align-pb-block hero-home"><a href="#pricetable"><paper-button class="colorful" raised="">Inscreva-se</paper-button></a></div></div><div class="flex relative right-section"><iron-image class="fit" src="images/sp.svg" sizing="contain"></iron-image></div></div></div></hero-block><statistics-block></statistics-block><featured-people source="../../data/featured-speakers.json"><h4 class="heading">Principais Palestrantes</h4></featured-people><map-block></map-block><social-feed source="http://devfestsp15-twitter.herokuapp.com/tweetledee/favoritesjson.php?c=10&cache_interval=7200"></social-feed><logos-block source="../../data/partners.json"><h4 class="heading">Parceiros</h4></logos-block><call-to-action></call-to-action><photo-block></photo-block><latest-news posts="{{posts}}"></latest-news><footer-block></footer-block></section><section data-route="blog"><hero-block class="section-shadow container-before-atop" style="background: #03A9F4; color: #fff;"><div class="top-section"><div class="title-wrapper layout horizontal"><h3 class="self-end">Blog</h3></div></div></hero-block><blog-block id="blog" class="container-atop" posts="{{posts}}"></blog-block><footer-block></footer-block></section><section data-route="schedule"><hero-block class="section-shadow container-before-atop bottom-tabs" style="background: #009688; color: #fff;"><div class="top-section"><div class="title-wrapper layout horizontal"><h3 class="self-end">Programação</h3></div></div></hero-block><schedule-block id="schedule-block" class="container-atop" schedule="{{schedule}}" sessions="{{sessions}}"></schedule-block><footer-block></footer-block></section><section data-route="speakers"><hero-block class="section-shadow container-before-atop" style="background: #00BCD4; color: #fff;"><div class="top-section"><div class="title-wrapper layout horizontal"><h3 class="self-end">Palestrantes</h3></div></div></hero-block><people-block id="people-block" class="container-atop" speakers="{{speakers}}" sessions="{{sessions}}"></people-block><footer-block></footer-block></section><section data-route="code-of-conduct"><hero-block class="section-shadow container-before-atop" style="background: #455A64; color: #fff;"><div class="top-section"><div class="title-wrapper layout horizontal"><h3 class="self-end">Código de Conduta</h3></div></div></hero-block><cod-block class="container-atop" source="../../posts/code-of-conduct.markdown"></cod-block><footer-block></footer-block></section></iron-pages></div></div></paper-drawer-panel><paper-toast id="caching-complete" duration="6000" text="Caching completo! Este aplicativo funcionará offline."></paper-toast><webfont-loader families="Roboto:100,200,400&subset=latin"></webfont-loader></template><google-analytics code="UA-54291559-1"></google-analytics><script src="scripts/app.js"></script></body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GDG DevFest São Paulo 2016</title>
+    <meta name="description" content="Uma experiência única de conteúdo e tecnologia">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="maximum-scale=1,width=device-width,initial-scale=1,user-scalable=0">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,900,700,500,300,100' rel='stylesheet' type='text/css'>
+    <link href="css/grid12.css" rel="stylesheet" media="screen">
+    <link href="css/james_typography.css" rel="stylesheet" media="screen">
+    <link href="css/main.css" rel="stylesheet" media="screen">
+    <link href="css/rapid-icons.css" rel="stylesheet" media="screen">
+    <link href="css/animate.css" rel="stylesheet" media="screen">
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
+    <link href="css/owl.transitions.css" rel="stylesheet" media="screen">
+    <script src="js/modernizr.custom.js"></script>
+  </head>
+  <body>
+	<div id="preloader_container">
+    <header class="preloader_header">
+      <div class="preloader_loader">
+        <svg class="preloader_inner" width="60px" height="60px" viewBox="0 0 80 80">
+          <path class="preloader_loader_circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+          <path id="preloader_loader_circle" class="preloader_loader_circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+        </svg>
+      </div>
+    </header>
+
+		<section class="hero_fullscreen background_solid">
+      <div class="container align-center" id="main_content">
+        <div class="content_container row" >
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 home_content">
+            <img src="images/gdg-logo.png" alt="GDG 2016 Logo" class="logo inner"/>
+            <h2 class="slogan">DevFest São Paulo 2016 <small>12 de Novembro</small></h2>
+            <div class="cta_button_area">
+              <div>
+                <a class="typeform-share link btn waves-effect waves-light subscribe-submit" href="http://even.tc/devfest-sao-paulo-2016" data-mode="2" target="_blank">Venha participar dessa experiência</a>
+                </div>
+            </div>
+            <div class="home_mockups">
+              <img src="images/sp-illustration.svg" alt="" class="img_responsive home_mockups_1 dfne16-illustration"/>
+            </div>
+          </div>
+        </div>
+        <span class="footer"></span>
+      </div>
+		</section>
+
+		<section id="more_info" class="subsection darker_bg align-center ">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<div class="iconbox content_anim1">
+							<div data-icon="1" class="iconbox_icon"></div>
+							<div class="iconbox_content">
+								<h5>Tudo sobre Google</h5>
+								<p>O maior evento focado em tecnologias Google do Brasil. Android, Chrome, Web, Cloud e muito mais.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<div class="iconbox content_anim2">
+							<div data-icon="&#xe149;" class="iconbox_icon"></div>
+							<div class="iconbox_content">
+								<h5>Áreas de Experimentos</h5>
+								<p>Experimentos criados pela comunidade dão o tom do nosso evento! Venha se impressionar e se divertir com ideias surpreendentes que funcionam na prática!</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+						<div class="iconbox content_anim3">
+							<div data-icon="&#xe07b;" class="iconbox_icon"></div>
+							<div class="iconbox_content">
+								<h5>De São Paulo para o Brasil</h5>
+								<p>No DevFest SP, contamos com a presença de pessoas de todo o país, que trazem conteúdo exclusivo para nossa comunidade</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="subsection" id="features">
+			<div class="container">
+				<div class="row feature_row">
+
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 align-center content_anim6 features_image" >
+						<img src="images/dfsp16-topics.png" alt="" class="img_responsive"/>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 content_anim7">
+						<h3>Tecnologia e muito aprendizado</h3>
+						<p>No DevFest você terá a oportunidade de interagir com conteúdo técnico sobre tecnologias e produtos do Google, oferecido por alguns dos mais renomados profissionais do país. É uma oportunidade única para aprender e também para fazer networking.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- <section id="sponsorship" class="subsection darker_bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-center">
+						<div class="intro content_anim8">
+							<h3>Nossos Patrocinadores</h3>
+							<p>Queremos contar com seu apoio para que possamos trazer uma experiência única para os participantes do DevFest Nordeste.</p>
+              <a href="mailto:ola@devfestne.com.br?Subject=Gostaria%20de%20saber%20mais%20sobre%20o%20DevFest%20Nordeste%202016" class="btn waves-effect waves-light subscribe-submit">Torne-se um parceiro</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+		<!-- <section id="faq" class="subsection">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-center content_anim27">
+						<div class="intro">
+							<h3>Perguntas frequentes</h3>
+							<p>Não achou o que procurava? Entre em contato: <a href="mailto:ola@devfestne.com.br">ola@devfestne.com.br</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row align-left content_anim28">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<div class="iconbox content_anim1">
+							<h5>Como eu posso fazer minha inscrição?</h5>
+							<p>As inscrições estarão disponíveis em breve, por enquanto que tal nos ajudar com nossa pesquisa, basta clicar no botão "Participe dessa experiência"</p>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<div class="iconbox content_anim1">
+							<h5>Poderei fazer minha inscrição no dia do evento??</h5>
+							<p>Então, talvez você não consiga se inscrever no dia do evento devido ao número limitado de vagas, por isso recomendamos garantir sua vaga o mais rápido possível</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row align-left content_anim29">
+
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<div class="iconbox content_anim1">
+							<h5>Não tenho certeza do horário que irei participar do evento. Algum problema?</h5>
+							<p>O credenciamento está liberado a qualquer momento durante a conferência, porém para que você tenha uma experiência completa recomendamos que você chegue cedo nos dias do #dfne16</p>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<div class="iconbox content_anim1">
+							<h5>E quanto ao certificado?</h5>
+							<p>Sabemos o quão importante é o certificado para os participantes, por isso você receberá um certificado digital que será disponibilizado após o evento.</p>
+						</div>
+					</div>
+				</div>
+
+        <div class="row align-left content_anim28">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="iconbox content_anim1">
+              <h5>O conteúdo apresentado no DevFest Nordeste será disponibilizado?</h5>
+              <p>Com certeza. Divulgaremos por meio de nossas mídias sociais as apresentações dos palestrantes que autorizarem e também outros conteúdos relevantes</p>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="iconbox content_anim1">
+              <h5>Eu tenho menos de 16 anos, posso participar da conferência?</h5>
+              <p>Nós encorajamos a participação de adolescentes, porém esses precisam estar acompanhados de um responsável maior de idade.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-left content_anim29">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="iconbox content_anim1">
+              <h5>Haverá estacionamento no local?</h5>
+              <p>As vagas de estacionamento no local da conferência são limitadas. Estamos tentando facilitar o deslocamento dos participantes, em breve maiores novidades</p>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="iconbox content_anim1">
+              <h5>Vocês disponibilizaram almoço para os participantes?</h5>
+              <p>O almoço será por conta de cada participante, porém fizemos uma parceria com o local do evento para reduzir ao máximo esse custo. Você também tem a opção de almoçar em restaurantes próximos.</p>
+            </div>
+          </div>
+        </div>
+			</div>
+		</section> -->
+
+		<section class="subsection darker_bg">
+			<div class="container">
+				<div class="row align-center">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<h4>#devfestsp16 <br>O maior evento sobre tecnologias Google do Brasil</h4>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="footer" class="subsection color_bg">
+		  	<div class="container" >
+		  		<div class="row ">
+		  			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-center">
+		  			<img src="images/gdgsp-logo-white.png" alt="" class="logo-footer inner"/>
+		  			</div>
+		  		</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- JavaScript plugins comes here -->
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.cycle.all.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/pathLoader.js"></script>
+  <script src="js/preloader.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/owl.carousel.js"></script>
+  <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+[{
+    "date": "2015-11-21",
+    "dateReadable": "21 de Novembro",
+
+    "tracks": [{
+        "color": "#90be4e",
+        "title": "Coração de Ouro"
+    }, {
+        "color": "#03a9f4",
+        "title": "Dinamite Pangalática"
+    }, {
+        "color": "#e91e63",
+        "title": "Lounge WTM"
+    }, {
+        "color": "#ff0000",
+        "title": "Inferno Club"
+    }],
+
+
+
+    "timeslots": [{
+        "startTime": "08:00",
+        "endTime": "09:00",
+        "sessions": [
+            ["credenciamento"]
+        ]
+    }, {
+        "startTime": "09:00",
+        "endTime": "10:00",
+        "sessions": [
+            ["abertura"]
+        ]
+    }, {
+        "startTime": "10:00",
+        "endTime": "11:00",
+        "sessions": [
+            ["rodrigosicarelli"],
+            ["danielcukier"],
+            ["expoloungewtm"]
+        ]
+    }, {
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "sessions": [
+            ["luizgustavo"],
+            ["camilamatsubara"]
+        ]
+    }, {
+        "startTime": "12:00",
+        "endTime": "12:30",
+        "sessions": [
+            ["diogobotelho"],
+            ["luisleao"]
+        ]
+    },
+
+
+
+
+    {
+        "startTime": "12:30",
+        "endTime": "14:00",
+        "sessions": [
+            ["almoco"]
+        ]
+    },
+
+
+
+
+
+
+
+    {
+        "startTime": "14:00",
+        "endTime": "15:00",
+        "sessions": [
+            ["nathalielima"],
+            ["valterlacerda"]
+        ]
+    }, {
+        "startTime": "15:00",
+        "endTime": "16:00",
+        "sessions": [
+            ["julianachahoud"],
+            ["viniciusvecchi"]
+        ]
+    }, {
+        "startTime": "16:00",
+        "endTime": "16:30",
+        "sessions": [
+            ["andersonsilva"],
+            ["flaviafortes"]
+        ]
+    }, {
+        "startTime": "16:30",
+        "endTime": "17:30",
+        "sessions": [
+            ["rafaeltoledo"],
+            ["andrebaltieri"]
+        ]
+    }, {
+        "startTime": "17:30",
+        "endTime": "18:30",
+        "sessions": [
+            ["eduardocarrara"],
+            ["mateuspontes"]
+        ]
+    }, {
+        "startTime": "18:30",
+        "endTime": "19:00",
+        "sessions": [
+            ["encerramento"]
+        ]
+    }, {
+        "startTime": "19:30",
+        "endTime": "22:00",
+        "sessions": [
+          ["confraternizacao"]
+        ]
+    }]
+
+}]

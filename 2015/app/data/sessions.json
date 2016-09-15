@@ -1,0 +1,298 @@
+[
+
+  {
+      "id": "credenciamento",
+      "title": "Credenciamento & Kit de boas-vindas",
+      "description": "Retire sua credencial, explore o espaço e faça networking com os presentes.",
+      "language": "",
+      "complexity": "",
+      "presentation": "",
+      "video": ""
+    },
+    {
+      "id": "almoco",
+      "title": "Almoço",
+      "description": "Hora de forrar o estômago!",
+      "language": "",
+      "complexity": "",
+      "presentation": "",
+      "video": ""
+    },
+
+    {
+      "id": "abertura",
+      "title": "Abertura oficial do DevFest São Paulo 2015",
+      "description": "Início da conferência, agradecimentos dos organizadores, patrocinadores e parceiros.",
+      "language": "",
+      "complexity": "",
+      "presentation": "",
+      "video": ""
+    },
+
+    {
+      "id": "encerramento",
+      "title": "Agradecimentos, sorteios e encerramento",
+      "description": "Certifique-se de não perder a cerimônia de encerramento, todos os presentes dos patrocinadores e parceiros serão sorteados neste momento.",
+      "language": "",
+      "complexity": "",
+      "presentation": "",
+      "video": ""
+    },
+
+    {
+      "id": "confraternizacao",
+      "title": "AfterHours com o FrontInSampa",
+      "description": "Celebraremos mais uma edição do DevFest São Paulo.<br/><br/><b>Endereçø</b>: Inferno Club, [R. Augusta, 501 - Consolação, São Paulo - SP, 01305-00](https://goo.gl/maps/aD5jHFXajnz)<br/><br/>Não esqueça de levar sua credencial.",
+      "language": "",
+      "complexity": "",
+      "presentation": "",
+      "video": "",
+      "track": {
+          "title": "Inferno Club"
+      }
+    },
+
+
+
+
+
+  {
+    "id": "expoloungewtm",
+    "title": "Início OpenMic no Lounge WTM",
+    "description": "Área para desconferências powered by WomenTechMakers!<br/><br/>Celebre a diversidade e apresente temas de tecnologia em até 15 minutos. ",
+    "speakers": [],
+    "language": "pt-br",
+    "complexity": "TBD",
+    "presentation": "",
+    "video": ""
+  },
+
+
+  {
+    "id": "tbd",
+    "title": "TBD",
+    "description": "",
+    "speakers": [],
+    "language": "pt-br",
+    "complexity": "TBD",
+    "presentation": "",
+    "video": ""
+  },
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "id": "luizgustavo",
+    "title": "GetFit",
+    "description": "Nessa palestra, venha aprender como usar a plataforma Google Fit e criar aplicativos para deixar seus usuários em forma e felizes!",
+    "speakers": [
+      "luizgustavo"
+    ],
+    "language": "pt-br",
+    "complexity": "Nível Intermediário",
+    "presentation": "",
+    "video": "",
+    "tags": ["Android"]
+  },
+
+  {
+    "id": "camilamatsubara",
+    "title": "Como você imagina um sistema de busca perfeito?",
+    "description": "Nesta palestra vou dar uma breve ideia do quão desafiador este produto é, falando sobre a evolução e também sobre o futuro do sistema de busca do Google. Além disso, vou mostrar algumas curiosidades sobre projetos executados no escritório de Belo Horizonte -- único escritório de engenharia da América Latina.",
+    "speakers": [
+      "camilamatsubara"
+    ],
+    "language": "pt-br",
+    "complexity": "Nível Intermediário",
+    "presentation": "",
+    "video": "",
+    "tags": [""]
+  },
+  {
+    "id": "danielcukier",
+    "title": "O que a Cloud do Google tem de especial? Relatos de um usuário de nuvens.",
+    "description": "Hoje em dia temos muitas opções quando se trata de serviços e provedores de Cloud. Diante de tantas possibilidade, o que deveria simplificar a vida do time de tecnologia das empresas vira uma dor de cabeça. Qual a melhor nuvem? Qual a mais barata? Quais recursos eu perco ou ganho com determinado provedor? Se eu usar tal serviço, eu vou ficar preso a ele para sempre? Nessa palestra, Daniel contará sua experiência real utilizando várias nuvens, porque sua escolha atual de usar a Google Cloud e como usar seus recursos.",
+    "speakers": [
+      "danielcukier"
+
+    ],
+    "language": "pt-br",
+    "complexity": "Nível Intermediário",
+    "presentation": "",
+    "video": "",
+    "tags": [""]
+  },
+  {
+    "id": "viniciusvecchi",
+    "title": "Realidade Virtual - O Futuro é agora! ",
+    "description": "Uma retrospectiva dos fracassos da tecnologia e uma atualização com os mais recentes lançamento e o porquê veremos em breve uma revolução como poucas vistas antes. ",
+    "speakers": [
+      "viniciusvecchi"
+    ],
+    "language": "pt-br",
+    "complexity": "Nível Básico",
+    "presentation": "",
+    "video": "",
+    "tags": [""]
+  },
+  {
+    "id": "andersonsilva",
+    "title": "Explorando Mapas para Android ",
+    "description": "Um dos elementos mais imersivos em um aplicativo é sem dúvida o Mapa. Nesta apresentação vamos transitar pelas várias formas de como a API do Google Maps para Android pode trabalhar para enriquecer o seu aplicativo. Transitaremos desde os conceitos simples como Markers e InfoWindow's até poderosas funcionalidades como Geofancing, Rotas e Clusters.",
+    "speakers": [
+      "andersonsilva"
+    ],
+    "language": "pt-br",
+    "complexity": "Nível Básico",
+    "presentation": "",
+    "video": "",
+    "tags": ["Android"]
+  },
+  {
+    "id": "rafaeltoledo",
+    "title": "Material Chef",
+    "description": "Assim como fazer um prato com apresentação profissional não é fácil, fazer um app com uma interface 'gourmet' pode parecer uma tarefa árdua! Mas calma! Com a palestra Material Chef você vai conhecer tudo que a família das Support Libraries tem a oferecer. Uma Master Class onde você vai ver como preparar os patterns e widgets mais refinados, receita a receita, do Material Design no Android!",
+    "speakers": [
+      "rafaeltoledo"
+    ],
+    "language": "pt-br",
+    "complexity": "Nível Intermediário",
+    "presentation": "",
+    "video": "",
+    "tags": ["Material Design"]
+  },
+  {
+    "id": "julianachahoud",
+    "title": "Integrações de APIs do Google no iOS",
+    "description": "Mas por que usar uma tecnologia do Google em apps iOS? Usar Google Maps é melhor do que os mapas da Apple? Google Analytics funciona bem com iOS? Consigo aproveitar alguma lógica de uma integração que já fiz no Android? Nessa palestra serão discutidas dúvidas como essas além de diversas outras sobre uso de APIs como Google Sign-In, Maps, Analytics, Places e GCM no iOS. Será mostrado na prática como é simples efetuar essas integrações e como fazer com que seu produto funcione muito bem sendo multiplataforma",
+    "speakers": [
+      "julianachahoud"
+    ],
+    "language": "pt-br",
+    "complexity": "Nível Básico",
+    "presentation": "",
+    "video": "",
+    "tags": ["Community"]
+  },
+
+
+  {
+    "id": "flaviafortes",
+    "title": "Aprendendo com meus erros",
+    "description": "O principal objetivo dessa palestra é pontuar os erros mais comuns que um desenvolvedor comete no início de sua carreira. Apesar de ser direcionado para iniciantes, muitas dicas valem também para programadores com mais tempo de mercado ou que trabalham com outras linguagens e frameworks de programação além de Ruby on Rails. O conteúdo desta palestra vai orientar os ouvintes a valorizar diversas boas práticas, incluindo TDD/BDD até formas de melhorar a legibilidade do seu código.",
+    "speakers": [
+      "flaviafortes"
+    ],
+    "language": "pt-br",
+    "complexity": "Nível Básico",
+    "presentation": "",
+    "video": "",
+    "tags": [""]
+  },
+
+
+
+
+    {
+      "id": "diogobotelho",
+      "title": "Introdução a DeepLinking e Indexação de Aplicativos",
+      "description": "Nesta palestra iremos falar sobre como fazer para seu aplicativo aparecer nos resultados de busca móvel usando DeepLinking e Indexação de Aplicativos e quais as melhores práticas para implementá-los",
+      "speakers": [
+        "diogobotelho"
+      ],
+      "language": "pt-br",
+      "complexity": "Nível Básico",
+      "presentation": "",
+      "video": "",
+      "tags": [""]
+    },
+
+
+  {
+    "id": "mateuspontes",
+    "title": "Google Maps API V3",
+    "description": "Nessa palestra, você vai ter a oportunidde de conhecer as novidades da API Javascript para Google Maps, além de aprender como realizar uma integração de um Banco de Dados Espacial com o sistema de mapas mais poderoso da Web!",
+    "speakers": [
+      "mateuspontes"
+    ],
+    "language": "pt-br",
+    "complexity": "Nível Básico",
+    "presentation": "",
+    "video": "",
+    "tags": ["Web", "Google Maps"]
+  },
+  {
+    "id": "nathalielima",
+    "title": "Android com Estilo",
+    "description": "Como as telas do seu app são o primeiro contato com os usuários e, como já dizia também o ditado que \"a primeira impressão é a que fica\", precisamos sim dar atenção e muito amor para elas. Essa apresentação trará um overview do mundo dos layouts e estilos, ajudando quem ainda tem dúvidas em como construir telas e acham que elas são um bicho de sete cabeças. Também trará dicas de como utilizar os estilos a seu favor para aumentar sua produtividade. ",
+    "speakers": [
+      "nathalielima"
+    ],
+    "language": "pt-br",
+    "complexity": "Nível Básico",
+    "presentation": "",
+    "video": "",
+    "tags": ["Android", "Material Design"]
+  },
+  {
+    "id": "eduardocarrara",
+    "title": "Utilizando Espresso e UIAutomator para automação de testes",
+    "description": "Executar testes é uma etapa importante do processo de desenvolvimento para garantir níveis de qualidade aceitáveis pelos usuários de sua aplicação. No entanto com o aumento do número de funcionalidades e as frequentes ondas de novos devices esta tarefa tem se tornado cada vez mais árdua, além de extremamente repetitiva, tediosa e sujeita a erros. No mundo Android algumas ferramentas podem lhe auxiliar a automatizar seu processo de testes, o Espresso e o UIAutomator são duas delas que recentemente foram adicionadas ao Android Testing Framework. Nesta palestra trataremos de como utilizar estes frameworks em seu projeto Android para automatizar e simular a interação do usuário com sua app e validar funcionalidades de sua aplicação no processo tornando o seu dia mais legal e produtivo.",
+    "speakers": [
+      "eduardocarrara"
+    ],
+    "language": "pt-br",
+    "complexity": "Nível Avançado",
+    "presentation": "",
+    "video": "",
+    "tags": ["Android"]
+  },
+  {
+  "id": "andrebaltieri",
+  "title": "Firebase e BaaS seguros",
+  "description": "A utilização de Backend as a Service é algo que vem se tornando popular, principalmente pelas facilidades que ele nos oferece, mas com toda esta exposição das informações na internet, precisamos nos preocupar muito com a segurança. Nesta palestra, vamos ver os principais recursos de segurança que o Firebase nos oferece, e como você deve trabalhar para evitar que suas informações sofram acessos indevidos",
+  "speakers": ["andrebaltieri"],
+  "language": "pt-br",
+  "complexity": "Nível Intermediário",
+  "presentation": "",
+  "video": ""
+  },
+  {
+  "id": "rodrigosicarelli",
+  "title": "Micro interações no seu aplicativo: como o desenvolvedor deve lidar com isso",
+  "description": "Usuários são usuários, todos nós já estamos cansados de saber disso. Mas por que nós, desenvolvedores, não os ajudamos? Entenda qual a importancia de identificar gaps de interações dentro de sua aplicação e de brinde levar algumas dicas de como lidar com isso pro seu dia-a-dia",
+  "speakers": ["rodrigosicarelli"],
+  "language": "pt-br",
+  "complexity": "Nível Intermediário",
+  "presentation": "",
+  "video": ""
+  },
+  {
+  "id": "luisleao",
+  "title": "Conectando com o mundo real: Web Bluetooth e Physical Web",
+  "description": "Enquanto o Web Bluetooth abre uma comunicação de baixo-nível através de múltiplos dispositivos BLE como brinquedos, vending machines, museus, quiosques e outras coisas, o Physical Web torna a descoberta e a conexão a esses objetos algo simples para os usuários. Juntos eles irão expandir o alcance da web para muito mais dispositivos em torno dos usuários",
+  "speakers": ["luisleao"],
+  "language": "pt-br",
+  "complexity": "Nível Intermediário",
+  "presentation": "",
+  "video": ""
+  },
+  {
+  "id": "valterlacerda",
+  "title": "Sentimental Analysis em ambientes inteligentes com a mineração de dados em redes sociais",
+  "description": "Nessa palestra, vamos entender o que é Análise de Sentimentos e como utilizar ferramentas como Speech API e Prediction API para saber mais sobre os nossos usuários!",
+  "speakers": ["valterlacerda"],
+  "language": "pt-br",
+  "complexity": "Nível Intermediário",
+  "presentation": "",
+  "video": ""
+  }
+]

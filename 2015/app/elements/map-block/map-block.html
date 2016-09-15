@@ -1,0 +1,90 @@
+<dom-module id="map-block">
+    <template>
+        <style>
+            :host {
+                display: block;
+                padding: 100px 0;
+                position: relative;
+                overflow: hidden;
+                min-height: 300px;
+            }
+
+            h4 {
+                font-size: 32px;
+            }
+
+            .location-card {
+                min-width: 400px;
+            }
+
+            .bottom-link {
+                color: inherit;
+            }
+
+            @media (min-width: 768px) {
+                .card-container {
+                    padding: 0;
+                }
+                .card-container h5 {
+                    margin-top: 0;
+                }
+            }
+            .bottom-link {
+                color: inherit;
+            }
+        </style>
+        <google-map class="fit" zoom="15" latitude="-23.5868077" longitude="-46.6808028" styles="[[options]]" disable-zoom disable-default-ui>
+            <google-map-marker latitude="-23.586675" longitude="-46.682230"></google-map-marker>
+        </google-map>
+        <div class="container card-container relative layout horizontal center-center">
+            <div class="flex-3 hidden-xs"></div>
+            <paper-card class="flex-2">
+                <div class="paper-card-container location-card">
+                    <div class="card-content">
+                        <div class="title">
+                            <h4>Local</h4>
+                        </div>
+                        <p><b>Escritógio Google Brasil</b></br>Av. Brigadeiro Faria Lima, 3477 - 18º andar<br/>Itaim Bibi - São Paulo - SP</p>
+                    </div>
+                    <div class="card-actions">
+                        <a class="bottom-link" href="https://goo.gl/maps/RSxT5KAYxTS2" target="_blank">
+                            <paper-button on-tap="readMore">Navegar</paper-button>
+                        </a>
+                    </div>
+                </div>
+            </paper-card>
+            <div class="flex hidden-xs"></div>
+    </template>
+</dom-module>
+
+<script>
+    Polymer({
+        is: 'map-block',
+        properties: {
+            options: String
+        },
+        attached: function() {
+            this.options = [{
+                stylers: [{
+                    'lightness': 40
+                }, {
+                    'visibility': 'on'
+                }, /*{
+                    'gamma': 0.9
+                }, {
+                    'weight': 0.4
+                }*/]
+            }, {
+                'elementType': 'labels',
+                'stylers': [{
+                    'visibility': 'on'
+                }]
+            }, {
+                'featureType': 'water',
+                'stylers': [{
+                    'color': '#5dc7ff'
+                }]
+            }];
+        }
+    });
+</script>

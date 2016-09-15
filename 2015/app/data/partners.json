@@ -1,0 +1,122 @@
+[
+
+
+    {
+        "title": "Programa GDG",
+        "logos": [{
+            "name": "Google Developers",
+            "url": "https://developers.google.com/",
+            "logoUrl": "../images/partners/googledev_v.svg"
+        }]
+    },
+
+    {
+        "title": "Patrocinadores",
+        "logos": [
+          {
+            "name": "Fecomércio SP",
+            "url": "http://www.fecomercio.com.br/",
+            "logoUrl": "../images/partners/fecomercio.svg"
+          },
+          {
+            "name": "Intel",
+            "url": "http://software.intel.com/pt-br/",
+            "logoUrl": "../images/partners/intel.svg"
+          },
+          {
+            "name": "Eventick",
+            "url": "https://www.eventick.com.br/",
+            "logoUrl": "../images/partners/eventick.svg"
+          }
+      ]
+    },
+
+    {
+        "title": "Apoiadores",
+        "logos": [
+          {
+            "name": "FrontInSampa",
+            "url": "http://www.frontinsampa.com.br/",
+            "logoUrl": "../images/partners/frontinsampa.svg"
+          },
+
+          {
+            "name": "iMasters",
+            "url": "http://www.imasters.com.br/",
+            "logoUrl": "../images/partners/imasters.svg"
+          }
+        ]
+      },
+
+      {
+          "title": "",
+          "logos": [
+          {
+            "name": "Caelum",
+            "url": "#",
+            "logoUrl": "../images/partners/caelum.svg"
+          },
+
+          {
+            "name": "Casa do Código",
+            "url": "#",
+            "logoUrl": "../images/partners/casa-do-codigo.svg"
+          },
+
+          {
+            "name": "Globalcode",
+            "url": "#",
+            "logoUrl": "../images/partners/globalcode.svg"
+          }
+        ]
+      },
+
+      {
+          "title": "",
+          "logos": [
+          {
+            "name": "IMPACTA",
+            "url": "#",
+            "logoUrl": "../images/partners/impacta.svg"
+          },
+          {
+            "name": "FIAP",
+            "url": "#",
+            "logoUrl": "../images/partners/fiap.svg"
+          },
+          {
+            "name": "IBTA",
+            "url": "#",
+            "logoUrl": "../images/partners/ibta.svg"
+          },
+          {
+            "name": "FATEC",
+            "url": "#",
+            "logoUrl": "../images/partners/fatec.png"
+          },
+          {
+            "name": "Escola de Negócios",
+            "url": "#",
+            "logoUrl": "../images/partners/escoladenegocios.png"
+          },
+          {
+            "name": "Mackenzie",
+            "url": "#",
+            "logoUrl": "../images/partners/mackenzie.svg"
+          }
+        ]
+      },
+
+      {
+          "title": "",
+          "logos": [
+          {
+            "name": "LGroup",
+            "url": "#",
+            "logoUrl": "../images/partners/lgroup.svg"
+          }
+
+
+        ]
+    }
+]
