@@ -1,0 +1,169 @@
+[
+  {
+    "title": "Organizadores GDG-SP",
+    "members": [
+      {
+        "name": "Benedito Batista",
+        "photoUrl": "../images/organizers/benedito-batista.png",
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "https://plus.google.com/+BeneditoBatista2014",
+            "name": "Google+"
+          },
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/benedito.batista.7",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/beneditobatista",
+            "name": "Twitter"
+          },
+          {
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/beneditobatista",
+            "name": "Linkedin"
+          }
+        ],
+        "title": ""
+      },
+      {
+        "name": "Fernando Rychlewski",
+        "photoUrl": "../images/organizers/fernando-rychlewski.png",
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "https://plus.google.com/u/1/+FernandoRychlewski",
+            "name": "Google+"
+          },
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/fernando.rych",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/fernando_rych",
+            "name": "Twitter"
+          },
+          {
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/fernandorych",
+            "name": "Linkedin"
+          },
+          {
+            "icon": "website",
+            "link": "http://imasters.com.br/",
+            "name": "iMasters"
+          }
+        ],
+        "title": ""
+      },
+      {
+        "name": "Luís Leão",
+        "photoUrl": "../images/organizers/luis-leao.png",
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "https://plus.google.com/+LuisLeao",
+            "name": "Google+"
+          },
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/luis.leao",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/luisleao",
+            "name": "Twitter"
+          }
+        ],
+        "title": ""
+      },
+      {
+        "name": "Paulo Fernandes",
+        "photoUrl": "../images/organizers/paulo-fernandes.png",
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "https://plus.google.com/104268131142942797935",
+            "name": "Google+"
+          },
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/paulofernandesj",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/paulofernandesj",
+            "name": "Twitter"
+          },
+          {
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/paulofernandesjr",
+            "name": "Linkedin"
+          }
+        ],
+        "title": ""
+      },
+      {
+        "name": "Thuany Serpa",
+        "photoUrl": "../images/organizers/thuany-serpa.png",
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "https://plus.google.com/+ThuanySerpaOccisioth",
+            "name": "Google+"
+          },
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/tuserpa",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/tuserpa",
+            "name": "Twitter"
+          },
+          {
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/thuanyserpa",
+            "name": "Linkedin"
+          }
+        ],
+        "title": ""
+      },
+      {
+        "name": "Ubiratan Soares",
+        "photoUrl": "../images/organizers/ubiratan-soares.png",
+        "socials": [
+          {
+            "icon": "gplus",
+            "link": "https://plus.google.com/+UbiratanSoares",
+            "name": "Google+"
+          },
+          {
+            "icon": "facebook",
+            "link": "https://www.facebook.com/ubiratanfsoares",
+            "name": "Facebook"
+          },
+          {
+            "icon": "twitter",
+            "link": "https://twitter.com/ubiratanfsoares",
+            "name": "Twitter"
+          },
+          {
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/ubiratanfsoares",
+            "name": "Linkedin"
+          }
+        ],
+        "title": ""
+      }
+    ]
+  }
+]

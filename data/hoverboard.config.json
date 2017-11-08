@@ -1,51 +1,47 @@
 {
-  "url": "https://hoverboard.firebaseapp.com/",
-  "startDate": "2016-09-09T09:00:00+03:00",
-  "endDate": "2016-09-10T19:00:00+03:00",
+  "url": "https://devfestsp17.firebaseapp.com/",
+  "startDate": "2017-12-04T09:00:00+03:00",
+  "endDate": "2016-12-04T19:00:00+03:00",
   "analytics": {
-    "prod": "UA-43643469-8",
-    "dev": "UA-43643469-9"
+    "prod": "",
+    "dev": ""
   },
   "organizer": {
-    "name": "GDG Lviv",
-    "twitter": "gdglviv"
+    "name": "GDG São Paulo",
+    "twitter": "GDGSaoPaulo"
   },
   "webapp": {
-    "shortName": "DevFest",
+    "shortName": "DevFestSP17",
     "themeColor": "#F57C00",
     "backgroundColor": "#F57C00"
   },
   "firebase": {
-    "name": "hoverboard-master",
-    "domain": "hoverboard-master.firebaseapp.com",
-    "database": "https://hoverboard-master.firebaseio.com",
-    "api": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8",
+    "name": "devfestsp17",
+    "domain": "devfestsp17.firebaseapp.com",
+    "database": "https://devfestsp17.firebaseio.com",
+    "api": "AIzaSyCV8Yrdgi_yKA9N-hc2iyb8c6TUK2KjFDU",
     "userSessionsPath": "/userSessions",
     "ratingsPath": "/ratings",
     "indexedDbSession": "hoverboard"
   },
   "mailchimp": {
-    "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
-    "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
+    "url": "",
+    "name": ""
   },
   "dateFormat": {
-    "locale": "en-US",
+    "locale": "pt-BR",
     "blog": {"month": "short", "day": "numeric", "year": "numeric"}
   },
-  "hashtag": "dfua",
-  "disqusShortName": "hoverboard-gdg-x",
+  "hashtag": "dfsp17",
+  "disqusShortName": "devfestsp17-gdgsp",
   "tweetsSource": "/data/tweets.json",
-  "partnershipProposition": "http://bit.ly/df16-sponsor",
-  "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
+  "partnershipProposition": "",
+  "videosSessionsUrl": "",
   "enableSessionsRating": true,
   "navigation": [
     {
       "route": "home",
       "permalink": "/"
-    },
-    {
-      "route": "blog",
-      "permalink": "/blog/"
     },
     {
       "route": "schedule",
@@ -63,43 +59,32 @@
   "social": [
     {
       "name": "twitter",
-      "nickname": "GDGLviv",
-      "url": "https://twitter.com/gdglviv"
+      "nickname": "GDGSaoPaulo",
+      "url": "https://twitter.com/gdgsaopaulo"
     },
     {
       "name": "gplus",
-      "nickname": "102444623953913144164",
-      "url": "https://plus.google.com/102444623953913144164"
-    },
-    {
-      "name": "facebook",
-      "nickname": "GDGLviv",
-      "url": "https://www.facebook.com/GDGLviv"
-    },
-    {
-      "name": "linkedin",
-      "nickname": "google-developers-group-lviv",
-      "url": "https://www.linkedin.com/company/google-developers-group-lviv"
+      "nickname": "gdgsporg",
+      "url": "https://plus.google.com/+gdgsporg"
     }
   ],
   "location": {
     "apiKey": "",
-    "name": "Pivdennyi Expo Center",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
-    "link": "https://www.facebook.com/expopivdennij",
+    "name": "Campus São Paulo",
+    "address": "Rua Coronel Oscar Porto, 70 - Paraíso - São Paulo",
+    "link": "https://www.campus.co/sao-paulo/pt/",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
+      "latitude": -23.5711274,
+      "longitude": -46.652232,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": 49.809841,
-      "longitude": 23.982805
+       "latitude": -23.5711274,
+      "longitude": -46.652232
     },
     "images": [
-      "/images/backgrounds/location_1.jpg",
-      "/images/backgrounds/location_2.jpg",
-      "/images/backgrounds/location_3.jpg"
+      "/images/backgrounds/campus.jpg"
+      
     ]
   },
   "gallery": {
@@ -121,50 +106,46 @@
         "fontColor": "#fff",
         "tabBarColor": "#fff",
         "video": {
-          "title": "GDG DevFest Ukraine 2016",
-          "youtubeId": "TdpbgRgz6eE",
-          "text": "See how it was in 2016"
+          "title": "GDG DevFest São Paulo 2016",
+          "youtubeId": "_qK6q2qOyiI",
+          "text": ""
         },
         "hideLogo": true,
         "minHeight": "360px"
       }
     },
-    "blog": {
-      "title": "Blog",
-      "headerSettings": {
-        "backgroundColor": "#03a9f4",
-        "fontColor": "#fff",
-        "tabBarColor": "#fff"
-      }
-    },
     "speakers": {
-      "title": "Speakers",
+      "title": "Palestrantes",
       "headerSettings": {
         "backgroundColor": "#3f51b5",
+        "backgroundImage": "/images/backgrounds/home.png",
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
     },
     "schedule": {
-      "title": "Schedule",
+      "title": "Agenda",
       "headerSettings": {
         "backgroundColor": "#673ab7",
+        "backgroundImage": "/images/backgrounds/home.png",
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
     },
     "team": {
-      "title": "Team",
+      "title": "Organização",
       "headerSettings": {
         "backgroundColor": "#009688",
+        "backgroundImage": "/images/backgrounds/home.png",
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
     },
     "cod": {
-      "title": "Code of Conduct",
+      "title": "Código de Conduta",
       "headerSettings": {
         "backgroundColor": "#673ab7",
+        "backgroundImage": "/images/backgrounds/home.png",
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }

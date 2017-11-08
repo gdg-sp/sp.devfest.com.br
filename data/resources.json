@@ -4,71 +4,71 @@
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "04 de Dezembro de 2017 ",
   "locationAddressShort": "São Paulo, Brasil",
-  "motto": "Be a GDG. Be a Hero!",
-  "playIcon": "Veja como foi o DevFestSP 2016",
+  "motto": "Aprenda o máximo sobre tecnologias Google!",
+  "playIcon": "Veja como foi em 2016",
   "c4p": "Seja um palestrante",
-  "buyTicket": "Comprar ticket",
+  "buyTicket": "Comprar ingresso(EM Breve)",
   "backToTop": "Voltar ao Topo",
-  "subscribe": "Inscrição",
+  "subscribe": "Assinar",
   "yourEmail": "Seu Email",
-  "subscribeNote": "No spam, only the latest news and updates!",
-  "contactUs": "Contate nos",
-  "ticketsTitle": "Tickets",
-  "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
+  "subscribeNote": "Receba apenas notícias e novidades!",
+  "contactUs": "Entre em contato",
+  "ticketsTitle": "Ingressos",
+  "ticketsDetails": "Ingressos garantem acesso para todas as trilhas e coffee breaks. Hospedagem não incluida no valor.",
   "close": "Fechar",
-  "soldOutTickets": "Sold Out",
+  "soldOutTickets": "Esgotados",
   "socialTitle": "Social",
-  "socialMotto": "Add to circles, like, follow or connect with us on",
-  "beforeHashtag": "What's up",
-  "clickToViewPhotos": "Click here to view more photos",
-  "partners": "Partners",
-  "becomePartner": "Become a partner",
-  "featuredVideosTitle": "Featured #DFUA '15 Sessions",
-  "featuredVideosViewAll": "View all videos",
-  "featuredPeopleTitle": "Rockstar Speakers",
-  "featuredPeopleViewAll": "View all speakers",
-  "action": "See how it was",
-  "locationTitle": "Pivdennyi Expo Center",
-  "locationDescription": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event",
-  "locationAddress": "Shchyretska St, 36",
-  "organizerTitle": "Organizer",
-  "aboutOrganizers": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
-  "openTeamPage": "Open team page",
-  "whatIsGdg": "What is GDG?",
-  "aboutGdg": "Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
-  "readMore": "Read more",
-  "copyLink": "Copy link",
+  "socialMotto": "Adicione ao círculo, curta, siga ou se conecte com a gente",
+  "beforeHashtag": "Tweets sobre",
+  "clickToViewPhotos": "Clique para ver mais fotos",
+  "partners": "Patrocinadores",
+  "becomePartner": "Seja um patrocinador",
+  "featuredVideosTitle": "",
+  "featuredVideosViewAll": "Todos os videos",
+  "featuredPeopleTitle": "Principais Palestrantes",
+  "featuredPeopleViewAll": "Todos os palestrantes",
+  "action": "Veja como foi",
+  "locationTitle": "Campus São Paulo",
+  "locationDescription": "Campus é uma rede global de espaços onde grandes ideias estão moldando o futuro. Operado pelo time do Google for Entrepreneurs, temos uma equipe dedicada ao Campus, empenhada em criar uma comunidade startup de muito sucesso.",
+  "locationAddress": "Rua Coronel Oscar Porto, 70 - Paraíso - São Paulo",
+  "organizerTitle": "Organizadores",
+  "aboutOrganizers": "<a href='https://www.meetup.com/pt-BR/GDG-SP/' target='_blank'>GDG São Paulo</a> é o Organizador do DevFest São Paulo 17",
+  "openTeamPage": "Conheça os organizadores",
+  "whatIsGdg": "O que é GDG?",
+  "aboutGdg": "Google Developers Group (GDG) - é uma comunidade voluntária e aberta que compartilha e discute conteúdos e conhecimentos sobre tecnologias Google",
+  "readMore": "Ler mais",
+  "copyLink": "Copiar link",
   "filteredBy": "filtered by",
   "clearAll": "Clear all",
   "filter": "Filter",
-  "latestNews": "Latest news",
+  "latestNews": "Ultimas Noticias",
   "continueReading": "Continue reading",
   "viewPresentation": "View presentation",
   "viewVideo": "View video",
   "skills": "Skills",
-  "share": "Share",
-  "shareWith": "Share with",
+  "share": "Compartilhar",
+  "shareWith": "Compartilhar com",
   "signIn": "Sign in",
   "signOut": "Sign out",
-  "mySchedule": "My Schedule",
-  "browseMore": "Browse more events",
+  "mySchedule": "Minha Agenda",
+  "browseMore": "Ver mais eventos",
   "youShouldSignInSessions": "Sign in to save sessions",
   "youShouldSignInRating": "Sign in to rate sessions",
-  "offlineMessage": "You are offline",
+  "offlineMessage": "Você esta offline",
   "removedFromSchedule": "Removed from My Schedule",
   "addedToSchedule": "Added to My Schedule",
   "rateSession": "Rate session",
   "footerBlocks": [
     {
-      "title": "For visitors",
+      "title": "Visitantes",
       "links": [
         {
-          "text": "Team",
+          "text": "Organização",
           "url": "/team/",
           "newTab": false
         },
         {
-          "text": "Code of Conduct",
+          "text": "Codigo de Conduta",
           "url": "/cod/",
           "newTab": false
         },
@@ -76,29 +76,15 @@
           "text": "Google Developers",
           "url": "https://developers.google.com/",
           "newTab": true
-        },
-        {
-          "text": "GDG DevFest Ukraine 2013",
-          "url": "http://gdg-devfest-ua.appspot.com/",
-          "newTab": true
-        },
-        {
-          "text": "GDG DevFest Ukraine 2014",
-          "url": "http://devfest.gdg.org.ua/2014/",
-          "newTab": true
-        },
-        {
-          "text": "GDG DevFest Ukraine 2015",
-          "url": "http://devfest.gdg.org.ua/2015/",
-          "newTab": true
         }
+      
       ]
     },
     {
-      "title": "For Partners",
+      "title": "Patrocinadores",
       "links": [
         {
-          "text": "Partnership Proposition",
+          "text": "Proposta de Patrocinio",
           "url": "http://bit.ly/df16-sponsor",
           "newTab": true
         },
@@ -113,33 +99,33 @@
   "contactBlock": {
     "links": [
       {
-        "text": "devfest@google.com",
-        "url": "mailto:devfest@google.com"
+        "text": "organizers@gdgsp.org",
+        "url": "mailto:organizers@gdgsp.org"
       }
     ]
   },
-  "teamPageTitle": "Team",
-  "teamPageText": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT.",
+  "teamPageTitle": "Organização",
+  "teamPageText": "O Google é conhecido em todo o mundo. Todos estão 'pesquisando', verificando 'mapas' e se comunicando pelo 'gmail'. Para usuários simples, eles são serviços que apenas funcionam, mas não para nós. Os desenvolvedores vêem muito mais: APIs, problemas de escalabilidade, pilhas complexas de tecnologia. E isso é o que é o GDG. <br> <br> [Google Developers Group (GDG) São Paulo] (http://gdgsp.org/) - é uma comunidade geek voluntária que cria projetos excitantes e compartilha Experiencias e conhecimento sobre as tecnologias do Google com paixão. <br> <br> Nosso objetivo é organizar espaço para conectar os melhores especialistas do setor com o público das comunidades para impulsionar o desenvolvimento de TI.",
   "statistics": [
     {
-      "counter": 600,
-      "caption": "Attendees"
+      "counter": 200,
+      "caption": "Participantes"
     },
     {
-      "counter": 2,
-      "caption": "Days"
+      "counter": 1,
+      "caption": "Dia"
     },
     {
-      "counter": 30,
-      "caption": "Sessions"
+      "counter": 25,
+      "caption": "Palestras"
     },
     {
       "counter": 3,
-      "caption": "Tracks"
+      "caption": "Trilhas"
     }
   ],
   "callToAction": {
-    "videoTitle": "GDG DevFest 2015",
-    "videoId": "DfMnJAzOFng"
+    "videoTitle": "GDG DevFest SP 2016",
+    "videoId": "_qK6q2qOyiI"
   }
 }
