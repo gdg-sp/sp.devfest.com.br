@@ -3,8 +3,8 @@
   "startDate": "2017-12-02T09:00:00+03:00",
   "endDate": "2016-12-02T19:00:00+03:00",
   "analytics": {
-    "prod": "",
-    "dev": ""
+    "prod": "UA-54291559-1",
+    "dev": "UA-54291559-1"
   },
   "organizer": {
     "name": "GDG São Paulo",
