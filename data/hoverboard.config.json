@@ -114,6 +114,15 @@
         "tabBarColor": "#fff"
       }
     },
+    "schedule": {
+      "title": "Agenda",
+      "headerSettings": {
+        "backgroundColor": "#673ab7",
+        "backgroundImage": "/images/backgrounds/home.png",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
     "team": {
       "title": "Organização",
       "headerSettings": {
