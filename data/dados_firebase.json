@@ -1454,30 +1454,23 @@
   } ],
   "tickets" : {
     "elements" : [ {
-      "currency" : "₴",
-      "ends" : "Sep 8",
-      "info" : "Requires valid student ID",
-      "name" : "Student",
-      "price" : 500,
-      "soldOut" : false,
-      "starts" : "May 1"
-    }, {
-      "currency" : "₴",
-      "ends" : "July 1",
-      "info" : "Or first 100 tickets",
+      "currency" : "R$",
+      "ends" : "08/Dez",
+      "info" : "Primeiras 100 tickets",
       "name" : "Early Bird",
-      "price" : 750,
-      "soldOut" : true,
-      "starts" : "May 1"
-    }, {
-      "currency" : "₴",
-      "ends" : "Sep 8",
-      "name" : "Lazy Bird",
-      "price" : 1000,
+      "price" : 110,
       "soldOut" : false,
-      "starts" : "July 1"
+      "starts" : "01/Nov"
+    }, {
+      "currency" : "R$",
+      "ends" : "14/Dez",
+      "info" : "Requires valid student ID",
+      "name" : "Ingresso",
+      "price" : 132,
+      "soldOut" : false,
+      "starts" : "09/Dez"
     } ],
-    "url" : "http://2event.com/events/630032"
+    "url" : "https://www.sympla.com.br/devfest-sp-2017__215542"
   },
   "videos" : [ {
     "speakers" : "Jakub Škvára",

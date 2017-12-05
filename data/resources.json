@@ -90,7 +90,7 @@
         },
         {
           "text": "Media Kit",
-          "url": "http://bit.ly/df16-media",
+          "url": "#",
           "newTab": true
         }
       ]
@@ -108,7 +108,7 @@
   "teamPageText": "O Google é conhecido em todo o mundo. Todos estão 'pesquisando', verificando 'mapas' e se comunicando pelo 'gmail'. Para usuários simples, eles são serviços que apenas funcionam, mas não para nós. Os desenvolvedores vêem muito mais: APIs, problemas de escalabilidade, pilhas complexas de tecnologia. E isso é o que é o GDG. <br> <br> [Google Developers Group (GDG) São Paulo] (http://gdgsp.org/) - é uma comunidade geek voluntária que cria projetos excitantes e compartilha Experiencias e conhecimento sobre as tecnologias do Google com paixão. <br> <br> Nosso objetivo é organizar espaço para conectar os melhores especialistas do setor com o público das comunidades para impulsionar o desenvolvimento de TI.",
   "statistics": [
     {
-      "counter": 200,
+      "counter": 150,
       "caption": "Participantes"
     },
     {
@@ -116,11 +116,11 @@
       "caption": "Dia"
     },
     {
-      "counter": 25,
+      "counter": 16,
       "caption": "Palestras"
     },
     {
-      "counter": 3,
+      "counter": 2,
       "caption": "Trilhas"
     }
   ],
