@@ -1,0 +1,214 @@
+[  
+    {
+    "bio" : "Daniel is a Computer Science PhD Student at University of São Paulo – IME-USP. His PhD research in on Software Startups and Entrepreneurship. He Mastered in Computer Science in University of São Paulo in 2009, with the Thesis Patterns for Introducing New Ideas in the Software Industry",
+    "company" : "Playax",
+    "companyLogo" : "/images/logos/playax.png",
+    "country" : "São Paulo, Brasil",
+    "featured" : true,
+    "id" : 1,
+    "name" : "Daniel Cukier",
+    "photoUrl" : "/images/people/daniel-cukier.jpeg",
+    "shortBio" : "Daniel Cukier é CTO na Playax, startup focada em soluções para a indústria musical",
+    "socials" : [ {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/danielcukier/",
+      "name" : "LinkedIn"
+    }, {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/danicuki/",
+      "name" : "Twitter"
+    }, {
+      "icon" : "github",
+      "link" : "https://github.com/danicuki/",
+      "name" : "GitHub"
+    } ],
+    "tags" : [ "Cloud", "GCP" ],
+    "title" : "Google Developer Expert"
+  },
+  {
+    "bio" : "Uma das poucas mulheres no mundo certificada como Google Developer Expert, devido a seu trabalho em Cloud Computing. Já desenvolveu para Nike, Citibank, Qualcomm, Departamento de Defesa Americano, Universidade da Califórnia, TAM, Anatel e Serpro. Hoje é a CTO da fintech Crebit.",
+    "company" : "Crebit",
+    "companyLogo" : "/images/logos/gde.png",
+    "country" : "São Paulo, Brasil",
+    "featured" : true,
+    "id" : 2,
+    "name" : "Alline Oliveira",
+    "photoUrl" : "/images/people/alline-oliveira.png",
+    "shortBio" : "Uma das poucas mulheres no mundo certificada como Google Developer Expert, devido a seu trabalho em Cloud Computing.",
+    "socials" : [ {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/allineo/",
+      "name" : "LinkedIn"
+    }],
+    "tags" : [ "Cloud", "GCP" ],
+    "title" : "Google Developer Expert"
+  },
+  {
+    "bio" : "Fernando é um artesão de software apaixonado que trabalhou para uma ampla gama de indústrias e projetos. Ele é um desenvolvedor de código open source, escritor técnico e palestrante. Na Dextra, ele mistura suas habilidades técnicas e de gerenciamento para liderar e ajudar as equipes que estão criando produtos de software incríveis para startups, empresas de tecnologia, mídia, fabricação, financeiras e outros tipos de empresas. Ele é o criador do YAWP! Framework, um framework Java/Javascript que ajuda os desenvolvedores a criarem facilmente APIs REST escaláveis sobre a plataforma Google Cloud. Ele mora no Brasil e estudou ciência da computação na Universidade de Campinas. Ele adora o interior onde ele gosta de montar cavalos e tocar sua guitarra alto.",
+    "company" : "Dextra",
+    "companyLogo" : "/images/logos/dextra.jpg",
+    "country" : "Campinas, Brasil",
+    "featured" : true,
+    "id" : 3,
+    "name" : "Fernando Ultremare",
+    "photoUrl" : "/images/people/fernando-ultra.png",
+    "shortBio" : "Fernando é um artesão de software apaixonado que trabalhou para uma ampla gama de indústrias e projetos",
+    "socials" : [ {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/fernando-ultremare-7850459/",
+      "name" : "LinkedIn"
+    } ],
+    "tags" : [ "Cloud", "GCP" ],
+    "title" : "Google Developer Expert"
+  },
+  {
+    "bio" : "Nelson has been working with design for over 10 years in a broad range of digital projects such as Websites, Rich Internet Applications, Games and Mobile Apps, from startups to big companies. His skills and focus are from obsessing with crafting simple, intuitive, and delightful user experiences and designs, to creating beautiful pixel-perfect designs and icons. He is proficient with Sketch, Photoshop and Interaction Design tools such as Pixate and Origami, Android’s Material Design and extensive experience on responsive HTML5/CSS3 and JS, and currently focused on creating prototypes and A/B tests. Nelson is currently focused on creating Prototypes and A/B Tests, working with data analysis and data-led goals, user interviewing, and information architecture skills such as Wireframing, User Flows, User Journeys and Persona",
+    "company" : "Mokriya",
+    "companyLogo" : "/images/logos/mokriya.png",
+    "country" : "São Paulo, Brasil",
+    "featured" : true,
+    "id" : 4,
+    "name" : "Daniel Cukier",
+    "photoUrl" : "/images/people/nelson-vasconcelos.jpg",
+    "shortBio" : "Nelson has been working with design for over 10 years in a broad range of digital projects",
+    "socials" : [ {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/nelsonvasconcelos/",
+      "name" : "LinkedIn"
+    }],
+    "tags" : [ "UI/UX", "Product Design" ],
+    "title" : "Google Developer Expert"
+  },
+  {
+    "bio" : "Desenvolvedor de software de origem em Brasília mas atualmente morando em São Paulo, trabalha como desenvolvedor Android há mais de 7 anos. Já trabalhou em projetos de diversos tamanhos para empresas como CI&T, Hotel Urbano e Cielo, e atualmente trabalha como desenvolvedor Android na 99. No seu tempo livre, adora estar perto da comunidade Android em geral. É um dos ex-organizadores do GDG Rio de Janeiro, organizador e administrador do Android Meetup Rio de Janeiro, Kotlin Meetup São Paulo, Android Dev BR (a maior comunidade brasileira de profissionais Android no Slack, com mais de 3500 membros) e, recentemente, foi nomeado como Google Developer Expert de Android no Brasil.",
+    "company" : "99",
+    "companyLogo" : "/images/logos/99.png",
+    "country" : "São Paulo, Brasil",
+    "featured" : true,
+    "id" : 5,
+    "name" : "Walmyr Carvalho",
+    "photoUrl" : "/images/people/walmyr-carvalho.jpg",
+    "shortBio" : "Desenvolvedor de software de origem em Brasília mas atualmente morando em São Paulo, trabalha como desenvolvedor Android há mais de 7 anos",
+    "socials" : [ {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/walmyrcarvalho/",
+      "name" : "LinkedIn"
+    }, {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/walmyrcarvalho/",
+      "name" : "Twitter"
+    }, {
+      "icon" : "github",
+      "link" : "https://github.com/walmyrcarvalho/",
+      "name" : "GitHub"
+    } ],
+    "tags" : [ "Android", "Flutter" ],
+    "title" : "Google Developer Expert"
+  },
+  {
+    "bio" : "Rafael Toledo é Head de Android na Concrete",
+    "company" : "Concrete",
+    "companyLogo" : "/images/logos/cs.png",
+    "country" : "São Paulo, Brasil",
+    "featured" : true,
+    "id" : 6,
+    "name" : "Rafael Toledo",
+    "photoUrl" : "/images/people/rafael-toledo.jpg",
+    "shortBio" : "Rafael Toledo é Head de Android na Concrete",
+    "socials" : [ {
+      "icon" : "linkedin",
+      "link" : "https://www.linkedin.com/in/rafaeldtoledo/",
+      "name" : "LinkedIn"
+    }, {
+      "icon" : "twitter",
+      "link" : "https://twitter.com/_rafaeltoledo",
+      "name" : "Twitter"
+    }],
+    "tags" : [ "Android" ],
+    "title" : "Software Engineer"
+  },
+  {
+    "bio" : "Suzzyane Oliveira é analista de negócios na Thoughtworks",
+    "company" : "Thoughtworks",
+    "companyLogo" : "/images/logos/tw.png",
+    "country" : "São Paulo, Brasil",
+    "featured" : true,
+    "id" : 7,
+    "name" : "Suzzyane Oliveira",
+    "photoUrl" : "/images/people/suzy.png",
+    "shortBio" : "Suzzyane Oliveira é analista de negócios na Thoughtworks",
+    "socials" : [ ],
+    "tags" : [ "UI/UX", "Product Design" ],
+    "title" : "Bussiness Analyst"
+  },
+  {
+    "bio" : "Rodrigo Sicarelli é lead engineer de Android na 99",
+    "company" : "Thoughtworks",
+    "companyLogo" : "/images/logos/99.png",
+    "country" : "São Paulo, Brasil",
+    "featured" : true,
+    "id" : 8,
+    "name" : "Rodrigo Sicarelli",
+    "photoUrl" : "/images/people/rodrigo-sicarelli.jpg",
+    "shortBio" : "Rodrigo Sicarelli é lead engineer de Android na 99",
+    "socials" : [ ],
+    "tags" : [ "Android", "Firebase" ],
+    "title" : "Software Engineer"
+  },
+  {
+    "bio" : "Thales Machado é engenheiro de software no Nubank",
+    "company" : "Nubank",
+    "companyLogo" : "/images/logos/nubank.png",
+    "country" : "São Paulo, Brasil",
+    "featured" : true,
+    "id" : 9,
+    "name" : "Thales Machado",
+    "photoUrl" : "/images/people/thales-machado.png",
+    "shortBio" : "Thales Machado é engenheiro de software no Nubank",
+    "socials" : [ ],
+    "tags" : [ "Android" ],
+    "title" : "Software Engineer"
+  },
+  {
+    "bio" : "Ygor Barboza é engenheiro de software no Nubank",
+    "company" : "Nubank",
+    "companyLogo" : "/images/logos/nubank.png",
+    "country" : "São Paulo, Brasil",
+    "featured" : true,
+    "id" : 10,
+    "name" : "Ygor Barboza",
+    "photoUrl" : "/images/people/ygor-barbosa.jpg",
+    "shortBio" : "Ygor Barboza é engenheiro de software no Nubank",
+    "socials" : [ ],
+    "tags" : [ "Android" ],
+    "title" : "Software Engineer"
+  },
+  {
+    "bio" : "Pedro Kayatt é CEO na VR Monkey",
+    "company" : "VR Monkey",
+    "companyLogo" : "/images/logos/vrmonkey.jpg",
+    "country" : "São Paulo, Brasil",
+    "featured" : true,
+    "id" : 11,
+    "name" : "Ygor Barboza",
+    "photoUrl" : "/images/people/pedro-kayatt.jpg",
+    "shortBio" : "Pedro Kayatt é CEO na VR Monkey",
+    "socials" : [ ],
+    "tags" : [ "VR" ],
+    "title" : "VR Expert"
+  },
+  {
+    "bio" : "Luis Leão é Course Manager da Udacity e co-organiza o GDG-SP",
+    "company" : "Udacity",
+    "companyLogo" : "/images/logos/leao.jpg",
+    "country" : "São Paulo, Brasil",
+    "featured" : true,
+    "id" : 12,
+    "name" : "Luís Leão",
+    "photoUrl" : "/images/people/leao.jpg",
+    "shortBio" : "Luis Leão é Course Manager da Udacity e co-organiza o GDG-SP",
+    "socials" : [ ],
+    "tags" : [ "VR" ],
+    "title" : "VR Expert"
+  }
+]

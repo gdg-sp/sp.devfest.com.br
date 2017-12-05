@@ -105,6 +105,15 @@
         "minHeight": "360px"
       }
     },
+    "speakers": {
+      "title": "Palestrantes",
+      "headerSettings": {
+        "backgroundColor": "#3f51b5",
+        "backgroundImage": "/images/backgrounds/home.png",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff"
+      }
+    },
     "team": {
       "title": "Organização",
       "headerSettings": {
